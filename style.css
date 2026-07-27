@@ -1,207 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Ramabhadra&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: #0b0e14 url('https://images.unsplash.com/photo-1507692049790-de58290a4334?q=80&w=2000&auto=format&fit=crop') no-repeat center center fixed;
-    background-size: cover;
-    color: #ffffff;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Poppins', 'Ramabhadra', sans-serif;
+    background: linear-gradient(180deg, rgba(7, 15, 26, 0.78) 0%, rgba(4, 8, 15, 0.90) 100%),
+                url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=2000&auto=format&fit=crop") center/cover no-repeat fixed;
     min-height: 100vh;
-    padding: 20px;
+    padding: 20px 15px;
+    color: white;
 }
 
-/* ================= HEADER STYLES ================= */
-.main-header {
+/* ================= HEADER ================= */
+header {
+    max-width: 1100px;
+    margin: 0 auto 30px;
     text-align: center;
-    margin-bottom: 30px;
 }
 
-.header-tagline {
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    max-width: 320px;
-    margin: 0 auto 2px auto;
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.main-title {
-    font-size: 38px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.1;
-    margin-top: 0;
-    color: #ffffff;
-}
-
-.sub-title {
-    font-size: 18px;
-    font-weight: 500;
+.tagline {
     color: rgba(255, 255, 255, 0.85);
-    margin-bottom: 12px;
-}
-
-.retreat-title {
-    font-size: 22px;
-    color: #ffd700;
+    font-size: 13px;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
 }
 
-.retreat-subtitle {
-    font-size: 16px;
-    color: #e2e8f0;
-    margin-top: 4px;
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-/* ================= MAIN CONTAINER ================= */
-.container {
-    max-width: 680px;
+.logo-wrapper {
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5), 
+                0 0 15px rgba(255, 215, 0, 0.25);
+    border: 1.5px solid rgba(255, 215, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 215, 0, 0.45);
+}
+
+.hero-text {
+    flex-grow: 1;
+}
+
+.hero-text h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    line-height: 1.1;
+}
+
+.hero-text h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #f0f0f0;
+    margin-top: 2px;
+}
+
+.gold-heading {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffd700;
+    background: linear-gradient(180deg, #fff3a1 0%, #ffd700 50%, #cca010 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 15px rgba(255, 215, 0, 0.3);
+    margin: 4px 0;
+}
+
+.hero-text h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+}
+
+.gold-divider {
+    width: 100%;
+    max-width: 380px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.8), transparent);
+    margin: 8px auto;
+}
+
+.gold-divider.small {
+    max-width: 220px;
+}
+
+/* ================= CONTENT & SEARCH ================= */
+.content {
+    max-width: 780px;
     margin: 0 auto;
 }
 
-.song-list-container {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 25px;
+.search-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 22px;
 }
 
+.search-icon {
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+#search {
+    width: 100%;
+    padding: 14px 20px 14px 55px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(10, 18, 30, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+#search::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#search:focus {
+    border-color: #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.25), inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    background: rgba(10, 18, 30, 0.8);
+}
+
+/* ================= SONG CARDS ================= */
 .song {
-    background: rgba(22, 28, 45, 0.75);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 16px 20px;
-    border-radius: 14px;
+    position: relative;
+    overflow: hidden;
+    margin: 12px 0;
+    padding: 14px 22px;
+    border-radius: 30px;
+    background: rgba(15, 23, 38, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
 }
 
 .song:hover {
-    background: rgba(30, 38, 60, 0.9);
-    border-color: rgba(255, 215, 0, 0.4);
+    background: rgba(22, 36, 58, 0.85);
+    border-color: rgba(255, 215, 0, 0.5);
     transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255, 215, 0, 0.15);
 }
 
 .song-left {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
 }
 
 .song-badge {
-    background: #ffd700;
-    color: #000000;
-    font-weight: 800;
+    background: linear-gradient(135deg, #ffd700, #c8960c);
+    color: #0b2545;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
-    padding: 4px 10px;
-    border-radius: 8px;
+    font-weight: 700;
+    padding: 4px 11px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
 }
 
 .song-title {
-    font-size: 18px;
-    font-weight: 600;
+    font-family: 'Ramabhadra', sans-serif;
 }
 
 .song-arrow {
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0.8;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
-/* ================= PREMIUM GLASS LYRICS BOX ================= */
+.song:hover .song-arrow {
+    transform: translateX(5px);
+    color: #ffd700;
+    opacity: 1;
+}
+
+/* ================= LYRICS CARD & CONTROLS ================= */
 #lyrics-box {
-    background: rgba(15, 20, 32, 0.88) !important;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 215, 0, 0.25);
-    border-radius: 20px !important;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 
-                0 0 25px rgba(255, 215, 0, 0.08);
-    padding: 28px 32px !important;
-    color: #ffffff !important;
-    margin-top: 20px;
-    transition: all 0.3s ease;
+    position: relative;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 24px;
+    background: #f8f6f0;
+    color: #0d2137;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    animation: slideUp 0.35s ease;
 }
 
 .lyrics-header-controls {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 20px;
+    border-bottom: 1px solid rgba(11, 37, 69, 0.1);
+    padding-bottom: 12px;
 }
 
-.font-controls, .action-buttons {
+.font-controls {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    background: rgba(11, 37, 69, 0.08);
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.font-btn {
+    background: #0b2545;
+    color: #ffffff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+
+.font-btn:hover {
+    background: #ffd700;
+    color: #0b2545;
 }
 
 #font-size-indicator {
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.font-btn, .action-btn, .close-btn {
-    background: rgba(255, 255, 255, 0.08) !important;
-    border: 1px solid rgba(255, 255, 255, 0.15) !important;
-    color: #ffffff !important;
-    width: 36px;
-    height: 36px;
-    border-radius: 50% !important;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease !important;
-}
-
-.font-btn:hover, .action-btn:hover, .close-btn:hover {
-    background: #ffd700 !important;
-    color: #000000 !important;
-    border-color: #ffd700 !important;
-    box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
-}
-
-.lyrics-song-badge {
-    background: linear-gradient(135deg, #ffd700, #ffa500);
-    color: #0b0e14;
-    font-weight: 700;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 13px;
-    display: inline-block;
-}
-
-.lyrics-title-wrapper h2 {
-    color: #ffffff;
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 8px;
-}
-
-.lyrics-divider {
-    color: #ffd700;
-    opacity: 0.5;
-    margin: 15px 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0b2545;
+    min-width: 35px;
     text-align: center;
 }
 
-#lyrics-text {
-    color: #f1f5f9 !important;
-    font-family: inherit;
-    line-height: 1.85 !important;
-    white-space: pre-wrap;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-/* ================= PRESENTATION MODE ================= */
-#presentation-overlay {
+.present-btn {
+    background: #ffd700;
+    color: #0b2545;
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.present-btn:hover {
+    background: #e6c200;
+    transform: scale(1.1);
+}
+
+.close-btn {
+    background: #102a45;
+    color: #ffffff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.close-btn:hover {
+    background: #d93838;
+}
+
+.lyrics-title-wrapper {
+    text-align: center;
+}
+
+.lyrics-song-badge {
+    display: inline-block;
+    background: #0b2545;
+    color: #ffd700;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+}
+
+#lyrics-box h2 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 32px;
+    color: #0b2545;
+    font-weight: 700;
+}
+
+.lyrics-divider {
+    text-align: center;
+    color: #cca010;
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 21px;
+    line-height: 2.1;
+    color: #1a1a1a;
+}
+
+/* ================= PRESENTATION OVERLAY ================= */
+.pres-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -212,59 +368,234 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
 
-.pres-header, .pres-footer {
+.pres-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
-}
-
-.pres-controls button {
-    background: transparent;
-    border: none;
-    color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;
-    margin-left: 15px;
-    opacity: 0.7;
-    transition: opacity 0.2s;
-}
-
-.pres-controls button:hover {
-    opacity: 1;
-}
-
-#pres-content {
-    text-align: center;
-    margin: auto;
     width: 100%;
-    max-width: 1000px;
 }
 
-.pres-telugu {
-    font-size: 42px;
-    font-weight: 700;
-    color: #ffffff;
-    line-height: 1.5;
-    margin-bottom: 20px;
+.pres-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-.pres-english-trans {
-    font-size: 28px;
-    color: #ffd700;
-    line-height: 1.4;
-    font-weight: 500;
+.pres-icon-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.pres-icon-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.05);
+}
+
+.close-pres-btn {
+    background: rgba(217, 56, 56, 0.8);
+}
+
+.close-pres-btn:hover {
+    background: #d93838;
+}
+
+.pres-slide-body {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.pres-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: opacity 0.3s ease;
 }
 
 .slide-fade-in {
-    animation: fadeIn 0.3s ease-in-out;
+    animation: fadeTransition 0.45s ease-out forwards;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(6px); }
-    to { opacity: 1; transform: translateY(0); }
+.pres-telugu {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+}
+
+.pres-english-trans {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffd700;
+    margin-top: 20px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
+}
+
+.pres-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 12px 25px;
+    border-radius: 35px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pres-nav-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pres-nav-btn:hover {
+    background: #ffd700;
+    color: #0b2545;
+}
+
+.pres-info {
+    text-align: center;
+}
+
+.pres-song-title {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.pres-upnext {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 2px;
+}
+
+.pres-counter {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    max-width: 780px;
+    margin: 40px auto 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer small {
+    display: block;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ================= ANIMATIONS & RESPONSIVE ================= */
+@keyframes fadeTransition {
+    0% {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text h2 {
+        font-size: 18px;
+    }
+
+    .gold-heading {
+        font-size: 28px;
+    }
+
+    .hero-text h4 {
+        font-size: 20px;
+    }
+
+    .song {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+
+    #lyrics-box {
+        padding: 20px 16px;
+    }
+
+    pre {
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+    .pres-overlay {
+        padding: 15px;
+    }
+
+    .pres-telugu {
+        font-size: 28px;
+    }
+
+    .pres-english-trans {
+        font-size: 20px;
+    }
 }
