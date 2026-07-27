@@ -34,12 +34,6 @@
     </header>
 
     <main class="content">
-        <!-- Search Bar -->
-        <div class="search-container">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="search" placeholder="Search by song name or number (e.g. 1, #02)...">
-        </div>
-
         <!-- Song List -->
         <div id="song-list"></div>
 
@@ -47,75 +41,38 @@
         <div id="lyrics-box" style="display: none;"></div>
     </main>
 
-    <!-- FULL SCREEN PRESENTATION OVERLAY -->
-   <!-- PRESENTATION OVERLAY -->
-<div id="presentation-overlay" class="pres-overlay" style="display: none;">
-    <div class="pres-header">
-        <div class="pres-controls">
-            <!-- Transliteration Eye Toggle -->
-            <button id="pres-eye-btn" class="pres-icon-btn" onclick="toggleTransliteration()" title="Toggle English Transliteration">👁️</button>
-            
-            <!-- Play/Pause Blank Screen Toggle -->
-         <button id="pres-play-btn" class="pres-icon-btn" onclick="togglePlayPause()" title="Pause (Blank Screen)">⏸️</button>
-            
-            <!-- Fullscreen Toggle -->
-            <button id="pres-fullscreen-btn" class="pres-icon-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen">⛶</button>
-        </div>
-        <button class="pres-icon-btn close-pres-btn" onclick="exitPresentation()" title="Close Presentation">✕</button>
-    </div>
-
-    <div class="pres-slide-body" onclick="nextSlide(event)">
-        <div id="pres-content" class="pres-content slide-fade-in">
-            <!-- Lyrics will render here -->
-        </div>
-    </div>
-
-    <div class="pres-footer">
-        <button class="pres-nav-btn" onclick="prevSlide(event)">❮</button>
-        <div class="pres-info">
-            <div id="pres-title" class="pres-song-title">Song Title</div>
-            <div id="pres-upnext" class="pres-upnext">Up next: verse 2</div>
-        </div>
-        <span id="pres-counter" class="pres-counter">1 / 1</span>
-        <button class="pres-nav-btn" onclick="nextSlide(event)">❯</button>
-    </div>
-</div>
-
-        <!-- Tapping on this central area displays the next verse -->
-        <div class="pres-slide-body" onclick="nextSlide()">
-            <div id="pres-content" class="pres-content"></div>
+    <!-- PRESENTATION OVERLAY -->
+    <div id="presentation-overlay" class="pres-overlay" style="display: none;">
+        <div class="pres-header">
+            <div class="pres-controls">
+                <!-- Transliteration Eye Toggle -->
+                <button id="pres-eye-btn" class="pres-icon-btn" onclick="toggleTransliteration()" title="Toggle English Transliteration">👁️</button>
+                
+                <!-- Play/Pause Blank Screen Toggle -->
+                <button id="pres-play-btn" class="pres-icon-btn" onclick="togglePlayPause()" title="Pause (Blank Screen)">⏸️</button>
+                
+                <!-- Fullscreen Toggle -->
+                <button id="pres-fullscreen-btn" class="pres-icon-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen">⛶</button>
+            </div>
+            <button class="pres-icon-btn close-pres-btn" onclick="exitPresentation()" title="Close Presentation">✕</button>
         </div>
 
-       <!-- PRESENTATION OVERLAY -->
-<div id="presentation-overlay" class="pres-overlay" style="display: none;">
-    
-    <div class="pres-header">
-        <div class="pres-controls">
-            <button id="pres-eye-btn" class="pres-icon-btn" onclick="toggleTransliteration()" title="Toggle Transliteration">👁️</button>
-            <button id="pres-play-btn" class="pres-icon-btn" onclick="togglePlayPause()" title="Pause (Blank Screen)">⏸️</button>
-            <button id="pres-fullscreen-btn" class="pres-icon-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen">⛶</button>
+        <div class="pres-slide-body" onclick="nextSlide(event)">
+            <div id="pres-content" class="pres-content slide-fade-in">
+                <!-- Lyrics will render here -->
+            </div>
         </div>
-        <button class="pres-icon-btn close-pres-btn" onclick="exitPresentation()" title="Close Presentation">✕</button>
-    </div>
 
-    <div class="pres-slide-body" onclick="nextSlide(event)">
-        <div id="pres-content" class="pres-content slide-fade-in">
-            <!-- Slide Lyrics -->
+        <div class="pres-footer">
+            <button class="pres-nav-btn" onclick="prevSlide(event)">❮</button>
+            <div class="pres-info">
+                <div id="pres-title" class="pres-song-title">Song Title</div>
+                <div id="pres-upnext" class="pres-upnext">Up next: verse 2</div>
+            </div>
+            <span id="pres-counter" class="pres-counter">1 / 1</span>
+            <button class="pres-nav-btn" onclick="nextSlide(event)">❯</button>
         </div>
     </div>
-
-    <!-- The footer MUST be inside presentation-overlay -->
-    <div class="pres-footer">
-        <button class="pres-nav-btn" onclick="prevSlide(event)">❮</button>
-        <div class="pres-info">
-            <div id="pres-title" class="pres-song-title">Song Title</div>
-            <div id="pres-upnext" class="pres-upnext">Up next: verse 2</div>
-        </div>
-        <span id="pres-counter" class="pres-counter">1 / 1</span>
-        <button class="pres-nav-btn" onclick="nextSlide(event)">❯</button>
-    </div>
-
-</div>
 
     <!-- Transparent Footer -->
     <footer>
