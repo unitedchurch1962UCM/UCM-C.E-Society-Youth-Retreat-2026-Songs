@@ -38,12 +38,51 @@ Hallelujah hallelujah`
     },
     {
         number: 2,
-        title: "మహిమ ఘనత",
-        lyrics: `మహిమ ఘనత నీకే చెల్లును దేవా...
-హల్లెలూయా హల్లెలూయా
+        title: "నన్నెంతగానో నీవు",
+        lyrics: `నన్నెంతగానో నీవు కోరావుగా
+బ్రతుకంత నాకు తోడై ఉన్నావుగా
+రచించావు నన్ను నీవు
+క్షమించావు నన్ను నీవు
+నీ ప్రేమ చాలు నాకు నా యేసయ్య
 
-మహా మహిమతో రారాజుగా
-త్వరలోనే యేసు వచ్చును`
+1. ఏముంది ఈ జగాన - ఎదురీత సాగరాన  
+నా జీవ నావ నీవే నా యేసయ్య
+తీరాలే దూరమైన - కనుమేర చీకటైన
+ఏ భయము లేదు నాకు నీవుండగా
+అలజడులే రేగినా - అధికారం నీదనీ 
+అనుదినము నీ కృపా  - స్తుతియించి పాడనీ 
+ప్రియమైన యేసయ్య - నడిపించు నన్నిలా
+
+2. ఊహించలేను దేవ నీవు లేని జీవితాన్ని  
+ఓ నిమిషమైన నేను మనలేనుగా 
+నాలోని ఆశ నీవే - ఎదలోని ధ్యాస నీవే
+నీ పాదసేవకేగ ఈ జీవితం
+ఆణువణువు నీవనీ- ఇహమందు పాడనీ 
+కడవరకు సాక్షిగా - కలకాలం సాగనీ 
+ప్రియమైన యేసయ్య - కరుణించు నన్నిలా
+
+
+Nannenthagano Neevu Koraavuga
+Brathukantha Naaku Thodai Unnaavuga
+Rachinchaavu Nannu Neevu
+Kshaminchaavu Nannu Neevu
+Nee Prema Chaalu Naaku Naa Yesayya
+
+1. Emundhi Ee Jagaana - Yedhureetha Saagaraana 
+Naa Jeeva Naava Neeve Naa Yesayya
+Theerale Dooramaina - Kanumera Cheekataina 
+Ye Bhayamu Ledhu Naaku Neevundaga
+Alajadule Reginaa - Adhikaaram Needani
+Anudhinamu Nee Krupa - Stuthiyinchi Paadani
+Priyamaina Yesayya - Nadipinchu Nannila
+
+2. Oohinchalenu Deva - Neevu Leni Jeevithaanni
+O Nimushamiana Nenu Manalenugaa
+Naaloni Aasa Neeve - Yedhaloni Dhyaasa Neeve
+Nee Paadhasevakega - Ee Jeevitham
+Anuvanuvu Neevani - Ihamandhu Paadani
+Kadavaraku Saakshigaa - Kalakaalam Saagani
+Priyamaina Yesayya - Karuninchu Nannila`
     },
     {
         number: 3,
