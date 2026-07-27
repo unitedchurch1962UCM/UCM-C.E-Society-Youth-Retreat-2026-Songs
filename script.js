@@ -216,10 +216,11 @@ function closeLyrics() {
 function startPresentation() {
     if (!currentSong) return;
 
+    // Filter out slides that do not contain Telugu characters
     presentationSlides = currentSong.lyrics
         .split(/\n\s*\n/)
         .map(slide => slide.trim())
-        .filter(slide => slide.length > 0);
+        .filter(slide => slide.length > 0 && /[\u0C00-\u0C7F]/.test(slide));
 
     currentSlideIndex = 0;
     isPresentationPlaying = true;
