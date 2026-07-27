@@ -177,50 +177,41 @@ function showLyrics(song) {
                 <button class="font-btn" onclick="changeFontSize(2)">A+</button>
             </div>
             
-         function updateSlide() {
-    const presContent = document.getElementById("pres-content");
-    
-    if (!isPresentationPlaying) {
-        presContent.style.opacity = "0";
-        return;
-    }
+            <div class="action-buttons">
+                <button class="action-btn present-btn" onclick="startPresentation()" title="Present Mode">🖥️</button>
+                <button class="close-btn" onclick="closeLyrics()">✕</button>
+            </div>
+        </div>
 
-    presContent.style.opacity = "1";
-    const totalSlides = presentationSlides.length;
-    const currentVerseText = presentationSlides[currentSlideIndex];
-
-    // Check if the current verse contains Telugu characters
-    const hasTelugu = /[\u0C00-\u0C7F]/.test(currentVerseText);
-
-    // Fade animation trigger
-    presContent.classList.remove("slide-fade-in");
-    void presContent.offsetWidth; 
-    presContent.classList.add("slide-fade-in");
-
-    if (hasTelugu) {
-        // Transliterate Telugu text to English phonetics
-        const transliteratedText = transliterateTelugu(currentVerseText);
+        <div class="lyrics-title-wrapper">
+            <span class="lyrics-song-badge">Song #${formatSongNumber(song.number)}</span>
+            <h2>${song.title}</h2>
+        </div>
         
-        let contentHTML = `<div class="pres-telugu">${currentVerseText}</div>`;
-        if (showEnglishTransliteration) {
-            contentHTML += `<div class="pres-english-trans">${transliteratedText}</div>`;
+        <div class="lyrics-divider">― ✦ ―</div>
+        <pre id="lyrics-text" style="font-size: ${currentFontSize}px;">${song.lyrics}</pre>
+    `;
+
+    lyricsBox.scrollIntoView({ behavior: 'smooth' });
+}
+
+function changeFontSize(delta) {
+    const lyricsText = document.getElementById("lyrics-text");
+    const indicator = document.getElementById("font-size-indicator");
+    if (lyricsText) {
+        let newSize = currentFontSize + delta;
+        if (newSize >= 15 && newSize <= 35) {
+            currentFontSize = newSize;
+            lyricsText.style.fontSize = `${currentFontSize}px`;
+            if (indicator) indicator.textContent = `${currentFontSize}px`;
         }
-        presContent.innerHTML = contentHTML;
-    } else {
-        // Hide English-only slides from presentation screen
-        presContent.innerHTML = "";
-    }
-
-    document.getElementById("pres-title").textContent = currentSong.title;
-    document.getElementById("pres-counter").textContent = `${currentSlideIndex + 1} / ${totalSlides}`;
-
-    const upNextElem = document.getElementById("pres-upnext");
-    if (currentSlideIndex < totalSlides - 1) {
-        upNextElem.textContent = `Up next: verse ${currentSlideIndex + 2}`;
-    } else {
-        upNextElem.textContent = "End of Song";
     }
 }
+
+function closeLyrics() {
+    lyricsBox.style.display = "none";
+}
+
 /* ================= PRESENTATION CONTROLS ================= */
 function startPresentation() {
     if (!currentSong) return;
