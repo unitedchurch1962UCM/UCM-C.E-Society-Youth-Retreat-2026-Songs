@@ -39,11 +39,9 @@ Hallelujah hallelujah`
     {
         number: 2,
         title: "నన్నెంతగానో నీవు",
-        lyrics: `నన్నెంతగానో నీవు కోరావుగా
-బ్రతుకంత నాకు తోడై ఉన్నావుగా
-రచించావు నన్ను నీవు
-క్షమించావు నన్ను నీవు
-నీ ప్రేమ చాలు నాకు నా యేసయ్య
+        lyrics: `నన్నెంతగానో నీవు కోరావుగా - బ్రతుకంత నాకు తోడై ఉన్నావుగా
+రచించావు నన్ను నీవు - క్షమించావు నన్ను నీవు
+నీ ప్రేమ చాలు నాకు...నా యేసయ్య...
 
 1. ఏముంది ఈ జగాన - ఎదురీత సాగరాన  
 నా జీవ నావ నీవే నా యేసయ్య
@@ -62,11 +60,9 @@ Hallelujah hallelujah`
 ప్రియమైన యేసయ్య - కరుణించు నన్నిలా
 
 
-Nannenthagano Neevu Koraavuga
-Brathukantha Naaku Thodai Unnaavuga
-Rachinchaavu Nannu Neevu
-Kshaminchaavu Nannu Neevu
-Nee Prema Chaalu Naaku Naa Yesayya
+Nannenthagano Neevu Koraavuga - Brathukantha Naaku Thodai Unnaavuga
+Rachinchaavu Nannu Neevu - Kshaminchaavu Nannu Neevu
+Nee Prema Chaalu Naaku... Naa Yesayya...
 
 1. Emundhi Ee Jagaana - Yedhureetha Saagaraana 
 Naa Jeeva Naava Neeve Naa Yesayya
