@@ -5,23 +5,36 @@ const songs = [
         lyrics: `నిన్నే ఆరాధింతును(4)
 మహా మంచివాడు చాలా గొప్పవాడు
 నిన్ను పోలిన వారెవరు(2)
-
-Halleluah halleluah
+హల్లెలూయ  హల్లెలూయ
 
 1. పాపినైనా నన్ను నీవు నీ బిడ్డగా మార్చావే
 మహా మంచివారు చాలా గొప్పవారు నిన్ను పోలిన వారెవరు
-
-Halleluah halleluah
+హల్లెలూయ  హల్లెలూయ
 
 2. నన్ను పిలిచిన దేవా నా నమ్మదగిన దేవా
 మహా మంచివారు చాలా గొప్పవారు నిన్ను పోలిన వారెవరు
-
-Halleluah halleluah
+హల్లెలూయ  హల్లెలూయ
 
 3. నీ పరిశుధ ఆత్మతో నన్ను నింపుమా(2)
 మహా మంచివారు చాలా గొప్పవారు నిన్ను పోలిన వారెవరు
+హల్లెలూయ  హల్లెలూయ
 
-Halleluah halleluah`
+ninne aaradhintunu(4) 
+maha manchivadu chala goppavadu 
+ninnu polina varevaru(2) 
+Hallelujah hallelujah
+
+1. papinainaa nannu neevu nee biddagaa marchave 
+maha manchivaaru chala goppavaaru ninnu polina varevaru 
+Hallelujah hallelujah
+
+2. nannu pilichina deva naa nammadagina devaa 
+maha manchivaaru chala goppavaaru ninnu polina varevaru 
+Hallelujah hallelujah
+
+3. nee parishudha aatmato nannu nimpuma(2) 
+maha manchivaaru chala goppavaaru ninnu polina varevaru 
+Hallelujah hallelujah`
     },
     {
         number: 2,
