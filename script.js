@@ -248,16 +248,19 @@ function updateSlide() {
     }
 
     presContent.style.opacity = "1";
-    const totalSlides = presentationSlides.length;
+   const totalSlides = presentationSlides.length;
     const currentVerseText = presentationSlides[currentSlideIndex];
     const transliteratedText = transliterateTelugu(currentVerseText);
 
-    // Fade animation trigger
     presContent.classList.remove("slide-fade-in");
     void presContent.offsetWidth; 
     presContent.classList.add("slide-fade-in");
 
-    let contentHTML = `<div class="pres-telugu">${currentVerseText}</div>`;
+    // Strictly display Telugu text on top + English transliteration below
+    presContent.innerHTML = `
+        <div class="pres-telugu">${currentVerseText}</div>
+        <div class="pres-english-trans">${transliteratedText}</div>
+    `;
     
     if (showEnglishTransliteration) {
         contentHTML += `<div class="pres-english-trans">${transliteratedText}</div>`;
