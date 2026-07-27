@@ -58,7 +58,6 @@ Hallelujah hallelujah`
 
 const list = document.getElementById("song-list");
 const lyricsBox = document.getElementById("lyrics-box");
-const searchInput = document.getElementById("search");
 const presOverlay = document.getElementById("presentation-overlay");
 
 let currentSong = null;
@@ -216,7 +215,6 @@ function closeLyrics() {
 function startPresentation() {
     if (!currentSong) return;
 
-    // Filter out slides that do not contain Telugu characters
     presentationSlides = currentSong.lyrics
         .split(/\n\s*\n/)
         .map(slide => slide.trim())
@@ -225,7 +223,6 @@ function startPresentation() {
     currentSlideIndex = 0;
     isPresentationPlaying = true;
     
-    // Reset buttons state
     const playBtn = document.getElementById("pres-play-btn");
     if (playBtn) playBtn.textContent = "⏸️";
 
@@ -253,7 +250,6 @@ function updateSlide() {
     const currentVerseText = presentationSlides[currentSlideIndex];
     const transliteratedText = transliterateTelugu(currentVerseText);
 
-    // Fade animation trigger
     presContent.classList.remove("slide-fade-in");
     void presContent.offsetWidth; 
     presContent.classList.add("slide-fade-in");
@@ -277,7 +273,6 @@ function updateSlide() {
     }
 }
 
-// 1. FULLSCREEN TOGGLE
 function toggleFullscreen() {
     if (!document.fullscreenElement) {
         presOverlay.requestFullscreen().catch(err => console.log(err));
@@ -286,7 +281,6 @@ function toggleFullscreen() {
     }
 }
 
-// 2. PLAY / PAUSE (BLANK SCREEN TOGGLE)
 function togglePlayPause() {
     isPresentationPlaying = !isPresentationPlaying;
     const playBtn = document.getElementById("pres-play-btn");
@@ -302,7 +296,6 @@ function togglePlayPause() {
     updateSlide();
 }
 
-// 3. EYE ICON (TRANSLITERATION TOGGLE)
 function toggleTransliteration() {
     showEnglishTransliteration = !showEnglishTransliteration;
     const eyeBtn = document.getElementById("pres-eye-btn");
@@ -311,7 +304,7 @@ function toggleTransliteration() {
         eyeBtn.textContent = "👁️";
         eyeBtn.title = "Hide English Transliteration";
     } else {
-        eyeBtn.textContent = "🙈"; // Eye closed / disabled state
+        eyeBtn.textContent = "🙈";
         eyeBtn.title = "Show English Transliteration";
     }
 
@@ -341,22 +334,10 @@ document.addEventListener('keydown', (e) => {
     if (presOverlay.style.display === "flex") {
         if (e.key === "ArrowRight" || e.key === " ") nextSlide();
         if (e.key === "ArrowLeft") prevSlide();
-        if (e.key === "b" || e.key === "B") togglePlayPause(); // 'B' for Blank screen toggle
-        if (e.key === "f" || e.key === "F") toggleFullscreen(); // 'F' for Fullscreen
+        if (e.key === "b" || e.key === "B") togglePlayPause();
+        if (e.key === "f" || e.key === "F") toggleFullscreen();
         if (e.key === "Escape" && !document.fullscreenElement) exitPresentation();
     }
-});
-
-// Search Filter
-searchInput.addEventListener("input", (e) => {
-    const query = e.target.value.toLowerCase().trim().replace('#', '');
-    const filtered = songs.filter(song =>
-        song.title.toLowerCase().includes(query) ||
-        song.lyrics.toLowerCase().includes(query) ||
-        song.number.toString() === query ||
-        formatSongNumber(song.number) === query
-    );
-    renderSongs(filtered);
 });
 
 // Initial Render
