@@ -58,7 +58,6 @@ Hallelujah hallelujah`
 
 const list = document.getElementById("song-list");
 const lyricsBox = document.getElementById("lyrics-box");
-const searchInput = document.getElementById("search");
 const presOverlay = document.getElementById("presentation-overlay");
 
 let currentSong = null;
@@ -225,7 +224,6 @@ function startPresentation() {
     currentSlideIndex = 0;
     isPresentationPlaying = true;
     
-    // Reset buttons state
     const playBtn = document.getElementById("pres-play-btn");
     if (playBtn) playBtn.textContent = "⏸️";
 
@@ -253,7 +251,6 @@ function updateSlide() {
     const currentVerseText = presentationSlides[currentSlideIndex];
     const transliteratedText = transliterateTelugu(currentVerseText);
 
-    // Fade animation trigger
     presContent.classList.remove("slide-fade-in");
     void presContent.offsetWidth; 
     presContent.classList.add("slide-fade-in");
@@ -286,7 +283,7 @@ function toggleFullscreen() {
     }
 }
 
-// 2. PLAY / PAUSE (BLANK SCREEN TOGGLE)
+// 2. PLAY / PAUSE
 function togglePlayPause() {
     isPresentationPlaying = !isPresentationPlaying;
     const playBtn = document.getElementById("pres-play-btn");
@@ -311,7 +308,7 @@ function toggleTransliteration() {
         eyeBtn.textContent = "👁️";
         eyeBtn.title = "Hide English Transliteration";
     } else {
-        eyeBtn.textContent = "🙈"; // Eye closed / disabled state
+        eyeBtn.textContent = "🙈";
         eyeBtn.title = "Show English Transliteration";
     }
 
@@ -341,22 +338,10 @@ document.addEventListener('keydown', (e) => {
     if (presOverlay.style.display === "flex") {
         if (e.key === "ArrowRight" || e.key === " ") nextSlide();
         if (e.key === "ArrowLeft") prevSlide();
-        if (e.key === "b" || e.key === "B") togglePlayPause(); // 'B' for Blank screen toggle
-        if (e.key === "f" || e.key === "F") toggleFullscreen(); // 'F' for Fullscreen
+        if (e.key === "b" || e.key === "B") togglePlayPause();
+        if (e.key === "f" || e.key === "F") toggleFullscreen();
         if (e.key === "Escape" && !document.fullscreenElement) exitPresentation();
     }
-});
-
-// Search Filter
-searchInput.addEventListener("input", (e) => {
-    const query = e.target.value.toLowerCase().trim().replace('#', '');
-    const filtered = songs.filter(song =>
-        song.title.toLowerCase().includes(query) ||
-        song.lyrics.toLowerCase().includes(query) ||
-        song.number.toString() === query ||
-        formatSongNumber(song.number) === query
-    );
-    renderSongs(filtered);
 });
 
 // Initial Render
