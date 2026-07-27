@@ -1,130 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UCM Digital Songbook</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <p class="tagline">W e &nbsp; P r e a c h &nbsp; J e s u s &nbsp; T h e &nbsp; L i v i n g &nbsp; S a v i o u r</p>
-
-        <div class="hero">
-            <div class="logo-wrapper">
-                <img src="ChurchPNG.png" class="logo left-logo" alt="Church Logo">
-            </div>
-
-            <div class="hero-text">
-                <h1>UNITED CHURCH</h1>
-                <h2>Malkapuram</h2>
-                <div class="gold-divider"></div>
-                <h3 class="gold-heading">Christian Endeavour Society</h3>
-                <div class="gold-divider small"></div>
-                <h4>Youth Retreat 2026</h4>
-            </div>
-
-            <div class="logo-wrapper">
-                <img src="ce-logo.png" class="logo right-logo" alt="CE Logo">
-            </div>
-        </div>
+    <header class="main-header">
+        <p class="header-tagline">We Preach Jesus The Living Saviour</p>
+        <h1 class="main-title">UNITED CHURCH</h1>
+        <h3 class="sub-title">Malkapuram</h3>
+        <h2 class="retreat-title">CHRISTIAN ENDEAVOUR SOCIETY</h2>
+        <p class="retreat-subtitle">Youth Retreat 2026</p>
     </header>
 
-    <main class="content">
-        <!-- Search Bar -->
-        <div class="search-container">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="search" placeholder="Search by song name or number (e.g. 1, #02)...">
-        </div>
+    <main class="container">
+        <!-- Song List Container -->
+        <div id="song-list" class="song-list-container"></div>
 
-        <!-- Song List -->
-        <div id="song-list"></div>
-
-        <!-- Lyrics Box -->
+        <!-- Lyrics Viewing Box -->
         <div id="lyrics-box" style="display: none;"></div>
     </main>
 
-    <!-- FULL SCREEN PRESENTATION OVERLAY -->
-   <!-- PRESENTATION OVERLAY -->
-<div id="presentation-overlay" class="pres-overlay" style="display: none;">
-    <div class="pres-header">
-        <div class="pres-controls">
-            <!-- Transliteration Eye Toggle -->
-            <button id="pres-eye-btn" class="pres-icon-btn" onclick="toggleTransliteration()" title="Toggle English Transliteration">👁️</button>
-            
-            <!-- Play/Pause Blank Screen Toggle -->
-         <button id="pres-play-btn" class="pres-icon-btn" onclick="togglePlayPause()" title="Pause (Blank Screen)">⏸️</button>
-            
-            <!-- Fullscreen Toggle -->
-            <button id="pres-fullscreen-btn" class="pres-icon-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen">⛶</button>
+    <!-- Presentation Overlay -->
+    <div id="presentation-overlay" style="display: none;">
+        <div class="pres-header">
+            <span id="pres-title"></span>
+            <div class="pres-controls">
+                <button id="pres-play-btn" onclick="togglePlayPause()" title="Pause/Blank Screen">⏸️</button>
+                <button id="pres-eye-btn" onclick="toggleTransliteration()" title="Hide English Transliteration">👁️</button>
+                <button onclick="toggleFullscreen()" title="Toggle Fullscreen">⛶</button>
+                <button onclick="exitPresentation()" title="Exit Presentation">✕</button>
+            </div>
         </div>
-        <button class="pres-icon-btn close-pres-btn" onclick="exitPresentation()" title="Close Presentation">✕</button>
-    </div>
 
-    <div class="pres-slide-body" onclick="nextSlide(event)">
-        <div id="pres-content" class="pres-content slide-fade-in">
-            <!-- Lyrics will render here -->
+        <div id="pres-content"></div>
+
+        <div class="pres-footer">
+            <span id="pres-counter"></span>
+            <span id="pres-upnext"></span>
         </div>
     </div>
-
-    <div class="pres-footer">
-        <button class="pres-nav-btn" onclick="prevSlide(event)">❮</button>
-        <div class="pres-info">
-            <div id="pres-title" class="pres-song-title">Song Title</div>
-            <div id="pres-upnext" class="pres-upnext">Up next: verse 2</div>
-        </div>
-        <span id="pres-counter" class="pres-counter">1 / 1</span>
-        <button class="pres-nav-btn" onclick="nextSlide(event)">❯</button>
-    </div>
-</div>
-
-        <!-- Tapping on this central area displays the next verse -->
-        <div class="pres-slide-body" onclick="nextSlide()">
-            <div id="pres-content" class="pres-content"></div>
-        </div>
-
-       <!-- PRESENTATION OVERLAY -->
-<div id="presentation-overlay" class="pres-overlay" style="display: none;">
-    
-    <div class="pres-header">
-        <div class="pres-controls">
-            <button id="pres-eye-btn" class="pres-icon-btn" onclick="toggleTransliteration()" title="Toggle Transliteration">👁️</button>
-            <button id="pres-play-btn" class="pres-icon-btn" onclick="togglePlayPause()" title="Pause (Blank Screen)">⏸️</button>
-            <button id="pres-fullscreen-btn" class="pres-icon-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen">⛶</button>
-        </div>
-        <button class="pres-icon-btn close-pres-btn" onclick="exitPresentation()" title="Close Presentation">✕</button>
-    </div>
-
-    <div class="pres-slide-body" onclick="nextSlide(event)">
-        <div id="pres-content" class="pres-content slide-fade-in">
-            <!-- Slide Lyrics -->
-        </div>
-    </div>
-
-    <!-- The footer MUST be inside presentation-overlay -->
-    <div class="pres-footer">
-        <button class="pres-nav-btn" onclick="prevSlide(event)">❮</button>
-        <div class="pres-info">
-            <div id="pres-title" class="pres-song-title">Song Title</div>
-            <div id="pres-upnext" class="pres-upnext">Up next: verse 2</div>
-        </div>
-        <span id="pres-counter" class="pres-counter">1 / 1</span>
-        <button class="pres-nav-btn" onclick="nextSlide(event)">❯</button>
-    </div>
-
-</div>
-
-    <!-- Transparent Footer -->
-    <footer>
-        <p>United Church Malkapuram</p>
-        <p>Christian Endeavour Society — Youth Retreat 2026</p>
-        <small>Made with ❤️ for God's Glory</small>
-    </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
