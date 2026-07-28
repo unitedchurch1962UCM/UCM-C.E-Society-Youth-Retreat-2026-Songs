@@ -1,7 +1,7 @@
 const songs = [
     {
         number: 1,
-        title: "నిన్నే ఆరాధింతును",
+        title: "నిన్నే ఆరాధింతును   Ninne Aaradhintunu",
         lyrics: `నిన్నే ఆరాధింతును(4)
 మహా మంచివాడు చాలా గొప్పవాడు
 నిన్ను పోలిన వారెవరు(2)
@@ -38,7 +38,7 @@ Hallelujah hallelujah`
     },
     {
         number: 2,
-        title: "నన్నెంతగానో నీవు",
+        title: "నన్నెంతగానో నీవు   Nannenthagano Neevu ",
         lyrics: `నన్నెంతగానో నీవు కోరావుగా - బ్రతుకంత నాకు తోడై ఉన్నావుగా
 రచించావు నన్ను నీవు - క్షమించావు నన్ను నీవు
 నీ ప్రేమ చాలు నాకు...నా యేసయ్య...
@@ -82,12 +82,31 @@ Priyamaina Yesayya - Karuninchu Nannila`
     },
     {
         number: 3,
-        title: "యేసయ్యా నీవే",
-        lyrics: `యేసయ్యా నీవే నా ఆశ్రయము
-నీవే నా దుర్గము దేవా
+        title: "యూదుల రాజ    Yudhula Raaja",
+        lyrics: `యూదుల రాజ శరోను రోజా - నీ నామము గొప్పది
+సరిపోల్చ లేని దైవము నీవు - నీ నామము ఉన్నతం                   ||2||
 
-నన్నెంతో ప్రేమించి కాపాడితివి
-నీకే నా స్తుతులు సమర్పింతును`
+పాడెదన్... నా యేసుకై... నే జీవించు చివరి శ్వాస వరకు
+చాటేదన్... నీ సత్యమును...నే బ్రతుకు దియనముల్ ముగిసే వరకు    ||2||
+
+1. సైన్యముల అధిపతి - బలమైన నామము - పాడెదన్ పరిశుద్ధూని
+    అగ్ని గుండము కాల్చలేదు - యేసు నాకుండగా                    ||పాడెదన్||
+
+2. నీ ప్రసన్నతతో నన్ను నడిపి - నీ మార్గము చూపుము
+   నీ మహిమ నాకు కనపరాచి - నీ విజయము నిమ్ముు             ||4|| ||పాడెదన్||
+   
+   
+Yudhula Raja Sharonu Roja - Nee Naamamu Gopadhi  
+Saripolcha leni dhaivamu neevu - Nee naamamu Unnatham                  ||2||
+
+Paadedhan... Na Yesukai  - Ney jeevinchu chivari svasa varakku
+Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
+
+1. Sainyamula adhipathi - Balamaina naamamu - Paadedhan Parishudhuni 
+   Agni Gundamu kaalchaledhu - Yesu nakundaga                        ||పాడెదన్||
+
+2. Nee prasannathatho nanny nadipi  - Nee margamu choopumu
+   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu            ||4|| ||పాడెదన్||`
     }
 ];
 
