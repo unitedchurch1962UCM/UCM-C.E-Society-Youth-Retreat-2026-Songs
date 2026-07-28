@@ -120,23 +120,55 @@ Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
   రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
 
 2. నాలో ఉన్న ఆశలను నెరవేర్చితివే 
-   నా ఆలోచన సఫలపరచితివే                      (2)
+   నా ఆలోచన సఫల...పరచితివే                      (2)
    నీ సేవకై నా జీవితం నేను అర్పింతును
    నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
 
-naa paadamulaku deepam - naa trovalaku velugu       (2)
-na pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
+Naa paadamulaku deepam - naa trovalaku velugu       (2)
+Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
 
-1. bhumikante aakasam - entho vunnatham 
+1. Bhumikante aakasam - entho vunnatham 
    naa dhoshamulanu antha duu..raparachithivey               (2)
    neevicchina rakshana korakai neynemii chellinthunu 
    rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
 
-2. naalo unna aasalanu neraverchithivey
-   naa aalochana saphalaparachithive               (2)
+2. Naalo unna aasalanu neraverchithivey
+   naa aalochana saphala...parachithive               (2)
    nee sevakai naa jeevitham nenu arpinthunu
    naa pranatma dehamunu neekai arpinthunu     ||na pada||`
-    }
+    },
+    {
+         number: 5,
+         title: " నిను పోలిన వారెవరూ     Ninu Polinavarevaru",
+         lyrics: `నిను పోలిన వారెవరూ మేలు చేయు దేవుడవు
+నిన్నే నే నమ్మితిన్ నా దేవా     (2)
+నిన్నే నా జీవితమునకు ఆధారము చేసికొంటిని
+నీవు లేని జీవితమంతా వ్యర్ధముగా పోవునయ్య     (2)
+
+ఎల్ షద్దాయ్  ఆరాధన - ఏలోహిమ్  ఆరాధన
+అడోనాయి  ఆరాధన - యేషువా ఆరాధన        (2)
+
+1. క్రుంగియున్న నన్ను చూచి కన్నీటిని తుడిచితివయ్య
+   కంటి పాప వలే కాచి కరుణతో నడిపితివయ్య       (2) ||ఎల్ షద్దాయ్||
+
+2. మరణపు మార్గమందు నడిచిన వేళయందు
+   వైద్యునిగా వచ్చి నాకు మరో జన్మనిచ్చితివయ్య     (2) ||ఎల్ షద్దాయ్||
+
+Ninu polina vaarevaruu melu cheyu devudavu
+ninne ne nammithin naa deva     (2)
+ninne naa jeevithamunaku aadhaaramu chesikontini
+neevu leni jeevithamanta vyardhamuga povunayya     (2)
+
+El shaddaai aradhana - Elohim aaradhana
+Adonai aradhana - Yeshua aradhana        (2)
+
+1. Krungiyunna nannu chuchi kanneetini thudichithivayya
+   kanti papa vale kachi karunato nadipithivayya       (2) ||El Shaddai||
+
+2. Maranapu margamandu nadichina velayandu
+   vaidyuniga vachchi naaku maro janmanicchithivayya     (2) ||El Shaddai||`
+
+   
 ];
 
 const list = document.getElementById("song-list");
