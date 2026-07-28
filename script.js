@@ -84,7 +84,7 @@ Priyamaina Yesayya - Karuninchu Nannila`
         number: 3,
         title: "యూదుల రాజ    Yudhula Raaja",
         lyrics: `యూదుల రాజ శరోను రోజా - నీ నామము గొప్పది
-సరిపోల్చ లేని దైవము నీవు - నీ నామము ఉన్నతం                   ||2||
+                 సరిపోల్చ లేని దైవము నీవు - నీ నామము ఉన్నతం                   ||2||
 
 పాడెదన్... నా యేసుకై... నే జీవించు చివరి శ్వాస వరకు
 చాటేదన్... నీ సత్యమును...నే బ్రతుకు దియనముల్ ముగిసే వరకు    ||2||
@@ -103,10 +103,10 @@ Paadedhan... Na Yesukai  - Ney jeevinchu chivari svasa varakku
 Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
 
 1. Sainyamula adhipathi - Balamaina naamamu - Paadedhan Parishudhuni 
-   Agni Gundamu kaalchaledhu - Yesu nakundaga                        ||పాడెదన్||
+   Agni Gundamu kaalchaledhu - Yesu nakundaga                        ||Paadedhan||
 
 2. Nee prasannathatho nanny nadipi  - Nee margamu choopumu
-   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu            ||4|| ||పాడెదన్||`
+   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu            ||4|| ||Paadedhan||`
     }
 ];
 
