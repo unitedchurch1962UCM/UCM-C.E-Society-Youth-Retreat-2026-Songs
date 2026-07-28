@@ -167,7 +167,56 @@ Adonai aradhana - Yeshua aradhana        (2)
 
 2. Maranapu margamandu nadichina velayandu
    vaidyuniga vachchi naaku maro janmanicchithivayya     (2) ||El Shaddai||`
-    }
+     },
+    {
+         number: 6,
+         title: " యెహోవా రూహ్    Yehova Ruah",
+         lyrics: `యెహోవా రాఫా సౌఖ్యమిచ్చువాడు - వ్యాధులింక నాకు లేదే 
+యెహోవా రాఫా నా బలమాయెను - తెగులు రోగము నాకు లేదే 
+
+సిలువలో నాకై ప్రాణమునిచ్చెను 
+ఐగుప్తు రోగము నాకు లేదే 
+మరణము జయించి జీవంతో లేచెను
+మరణ భయము నాకు లేదే 
+
+నిన్ను నమ్మువారికి భయము లేదే
+నిన్ను వెదకు వారికి కొరత లేదే    (2)
+
+1. యెహోవా షాలోం సమాధానమిచ్చువాడు
+   చేయి పట్టి నన్ను నడిపించును
+   యెహోవా రూహ్ నా మంచి కాపరి
+   శాంతి జలముల చెంత నడిపించును 
+   యెహోవా యిరే అన్నియు ఇచ్చువాడు 
+   పొషించుటకు శక్తుడాయనే 
+   ఇస్సాకు పంటను ఆశీర్వదించువాడు  
+   నూరంతలుగా నింపి వేయునే       ||నిన్ను నమ్ము||
+
+   యేసయ్యా నా నమ్మకము నీవే
+   యేసయ్యా నా ఆశ్రయము నీవే     (2)   ||సిలువలో నాకై||
+
+Yehova rapha soukhyamicchuvadu - Vyadhul Inka Naku ledhe
+Yehova rapha na balamayenu - Thegulu rogamu Naku ledhe
+
+Siluvalo nakai pranamu icchenu
+Aigupthu rogamu Naku ledhe
+Maranamun jayinchi jeevamutho lechenu
+Marana bhayamu Naku ledhe
+
+Ninnu nammuvariki bhayame ledhe
+Ninnu vedhaku variki koratha ledhe  (2)
+
+1. Yehova shalom samadhanamicchuvadu
+   Cheyi Patti nannu nadipinchunu
+   Yehova ruah na manchi kapari
+   Shanthi jalamula chentha nadipinchunh
+   Yehova yireh anniyu icchuvadu
+   poshinchutaku shakthudayane
+   Issaaku pantanu ashirvadinchinavadu 
+   Nooranthaluga nimpi veyune           ||Ninnu||  
+
+   Yesayya na nammakamu neeve
+   Yesayya na ashrayamu neeve        (2) ||Siluvalo||`
+    }            
 ];
 
 const list = document.getElementById("song-list");
