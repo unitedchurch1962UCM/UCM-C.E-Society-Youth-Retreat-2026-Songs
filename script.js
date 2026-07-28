@@ -167,7 +167,6 @@ Adonai aradhana - Yeshua aradhana        (2)
 
 2. Maranapu margamandu nadichina velayandu
    vaidyuniga vachchi naaku maro janmanicchithivayya     (2) ||El Shaddai||`
-
    
 ];
 
