@@ -107,6 +107,35 @@ Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
 
 2. Nee prasannathatho nanny nadipi  - Nee margamu choopumu
    Nee mahima naaku kanaparachi  - Nee vijayamu nimmu            ||4|| ||Paadedhan||`
+    },
+    {
+        number: 4,
+        title: "నా పాదములకు దీపం     Naa Paadamulaku Deepam",
+        lyrics: `నా పాదములకు దీపం - నా త్రోవలకు వెలుగు   (2)
+నా ప్రాణమునకు జీవం - నా యేసయ్య నీ వాక్యం                 (2) ||నా పాద||
+
+1. భూమికంటే ఆకాశం - ఎంతో ఉన్నతం 
+   నా ధోషములను అంత దూ..రపరచితివే           (2)
+  నీవిచ్చిన రక్షణ కొరకై నేనేమీ చెల్లింతును 
+  రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
+
+2. నాలో ఉన్న ఆశలను నెరవేర్చితివే 
+   నా ఆలోచన సఫలపరచితివే                      (2)
+   నీ సేవకై నా జీవితం నేను అర్పింతును
+   నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
+
+naa paadamulaku deepam - naa trovalaku velugu       (2)
+na pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
+
+1. bhumikante aakasam - entho vunnatham 
+   naa dhoshamulanu antha duu..raparachithivey               (2)
+   neevicchina rakshana korakai neynemii chellinthunu 
+   rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
+
+2. naalo unna aasalanu neraverchithivey
+   naa aalochana saphalaparachithive               (2)
+   nee sevakai naa jeevitham nenu arpinthunu
+   naa pranatma dehamunu neekai arpinthunu     ||na pada||`
     }
 ];
 
