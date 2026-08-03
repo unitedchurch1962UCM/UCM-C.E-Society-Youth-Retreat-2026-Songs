@@ -232,6 +232,47 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
    naa neeriksana nive yesayya
    naa aaraadhanaa nike esayya  (2)    ||sthotralaku||`
       },
+    {
+         number: 8,
+         title: "హల్లెలూయ ఆరాధన    Hallelujah Aaradhana",
+         lyrics: `హల్లెలూయా - ఆరాధన - రాజాధి రాజు యేసునకే
+మహిమయు ఘనతయు - సర్వాధికారి క్రీస్తునకే (2)
+చప్పట్లు కొట్టుచూ – పాటలు పాడుచూ - ఆ ప్రభుని కీర్తించెదం
+నాట్యము చేయుచు – ఉత్సాహ ధ్వనులతో - స్తోత్రార్పణ చేసెదం    ||హల్లెలూయా||
+
+1. రూపింప బడక ముందే - నన్ను ఎరిగితివి
+   నా పాదములు జారకుండా - రక్షించి నడిపితివి       (2)        ||చప్పట్లు||
+
+2. అభిషేక వస్త్రము నిచ్చి - వీరులుగా చేసితివి
+   అపవాది క్రియలను జయించే - ప్రార్థన శక్తినిచ్చితివి   (2)        ||చప్పట్లు||
+
+3. నీ సోతైన జనముగా -ప్రత్యేక పరచితివి
+   యుగ యుగములు నీతో నివసించె - భాగ్యము నిచ్చితివి (2)       ||చప్పట్లు||
+
+Hallelujah Aaradhana
+Raajaadhi Raaju Yesunake
+Mahimayu Ghanathayu
+Sarvaadhikaari Kreesthunake (2)
+Chappatlu Kottuchu – Paatalu Paaduchu
+Aa Prabhuni Keerthinchedam
+Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
+Sthothraarpana Chesedam           || Hallelujah ||
+
+Roopimpa Badaka Munde
+Nannu Erigithivi
+Naa Paadamulu Jaarakundaa
+Rakshinchi Nadipithivi (2)        ||Chappatlu||
+
+Abhisheka Vasthramu Nichchi
+Veerulugaa Chesithivi
+Apavaadi Kriyalanu Jayinche
+Praarthana Shakthinichchithivi (2)        ||Chappatlu||
+
+Nee sothaina janamuga
+prathyeka parachitivi
+yuga yugamulu neetho nivasinche
+Bhagyamu nichitivi (2)
+||Chappatlu||
 ];
 
 const list = document.getElementById("song-list");
