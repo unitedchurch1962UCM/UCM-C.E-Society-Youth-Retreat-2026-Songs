@@ -249,30 +249,22 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
 3. నీ సోతైన జనముగా -ప్రత్యేక పరచితివి
    యుగ యుగములు నీతో నివసించె - భాగ్యము నిచ్చితివి (2)       ||చప్పట్లు||
 
-Hallelujah Aaradhana
-Raajaadhi Raaju Yesunake
-Mahimayu Ghanathayu
-Sarvaadhikaari Kreesthunake (2)
+Hallelujah Aaradhana - Raajaadhi Raaju Yesunake
+Mahimayu Ghanathayu - Sarvaadhikaari Kreesthunake (2)
 Chappatlu Kottuchu – Paatalu Paaduchu
 Aa Prabhuni Keerthinchedam
 Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
-Sthothraarpana Chesedam           || Hallelujah ||
+Sthothraarpana Chesedam                           || Hallelujah ||
 
-Roopimpa Badaka Munde
-Nannu Erigithivi
-Naa Paadamulu Jaarakundaa
-Rakshinchi Nadipithivi (2)        ||Chappatlu||
+1. Roopimpa Badaka Munde - Nannu Erigithivi
+Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                   ||Chappatlu||
 
-Abhisheka Vasthramu Nichchi
-Veerulugaa Chesithivi
-Apavaadi Kriyalanu Jayinche
-Praarthana Shakthinichchithivi (2)        ||Chappatlu||
+2. Abhisheka Vasthramu Nichchi - Veerulugaa Chesithivi
+Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)         ||Chappatlu||
 
-Nee sothaina janamuga
-prathyeka parachitivi
-yuga yugamulu neetho nivasinche
-Bhagyamu nichitivi (2)
-||Chappatlu||
+3. Nee sothaina janamuga - prathyeka parachitivi
+yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                 ||Chappatlu||`
+    },
 ];
 
 const list = document.getElementById("song-list");
