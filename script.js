@@ -204,7 +204,34 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
    Nooranthaluga nimpi veyune           ||Ninnu||  
 
    Yesayya na nammakamu neeve - Yesayya na ashrayamu neeve   (2) ||Siluvalo||`
-    }            
+    },
+    {
+         number: 7,
+         title: "స్తోత్రాలకు స్తుతి స్తోత్రాలకు    Sthothralaku Stuthi Sthothralaku",
+         lyrics: `స్తోత్రాలకు స్తుతి స్తోత్రాలకు  (2)
+        అర్హుడా నా యేసయ్య - పూజ్యనీయుడా నా యేసయ్య   (2) ||స్తోత్రాలకు||
+
+1. వేవేల దూతలతో - నాలుగు జీవులతో - కొనియాడబడుతున్నవాడ (2)
+   పరిశుద్ధుడు..పరిశుద్ధుడు.. పరలోకపు ప్రియపుత్రుడు 
+   నా రక్షణ కారకుడు యేసయ్య    (2)  ||స్తోత్రాలకు||
+
+   అర్హుడవు నీవే... యోగ్యుడవు నీవే...
+   పూజ్యుడవు నీవే నా యేసయ్య..(2)
+   నా నీరీక్షణ నివే యేసయ్య
+   నా ఆరాధనా నీకే ఏసయ్య  (2)    ||స్తోత్రాలకు||
+
+   sthotralaku stuti sthotralaku  (2)
+   arhuda naa yesayya - pujyaniyuda naa yesayya   (2) ||sthotralaku||
+
+1. vevela doothalato - nalugu jeevulatho - koniyaada badutunnavada (2)
+   parisudhudu..parisudhudu.. paralookapu priyaputhrudu 
+   naa rakshana kaarakudu yesayya    (2)  ||sthotralaku||
+
+   arhoodavu neeve... yogyudavu neeve...
+   pujyudavu neeve naa yesayya..(2)
+   naa neeriksana nive yesayya
+   naa aaraadhanaa nike esayya  (2)    ||sthotralaku||`
+      },
 ];
 
 const list = document.getElementById("song-list");
