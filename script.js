@@ -1,7 +1,10 @@
+// ==========================================
+// SONG DATABASE (11 Songs)
+// ==========================================
 const songs = [
     {
         number: 1,
-        title: "నిన్నే ఆరాధింతును   Ninne Aaradhintunu",
+        title: "నిన్నే ఆరాధింతును    Ninne Aaradhintunu",
         lyrics: `నిన్నే ఆరాధింతును యేసయ్య నిన్నే ఆరాధింతును (2)
 మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు        (2)
 హల్లెలూయ... హల్లెలూయ...  (4)
@@ -36,26 +39,26 @@ Hallelujah... hallelujah...   (4)
     },
     {
         number: 2,
-        title: "నన్నెంతగానో నీవు   Nannenthagano Neevu ",
+        title: "నన్నెంతగానో నీవు    Nannenthagano Neevu ",
         lyrics: `నన్నెంతగానో నీవు కోరావుగా - బ్రతుకంత నాకు తోడై ఉన్నావుగా
 రచించావు నన్ను నీవు - క్షమించావు నన్ను నీవు
 నీ ప్రేమ చాలు నాకు...నా యేసయ్య...    (2)
 
-1. ఏముంది ఈ జగాన - ఎదురీత సాగరాన  
+1. ఏముంది ఈ జగాన - ఎదురీత సాగరాన  
    నా జీవ నావ నీవే నా యేసయ్య
    తీరాలే దూరమైన - కనుమేర చీకటైన
    ఏ భయము లేదు నాకు నీవుండగా
-   అలజడులే రేగినా - అధికారం నీదనీ 
-   అనుదినము నీ కృపా  - స్తుతియించి పాడనీ 
+   అలజడులే రేగినా - అధికారం నీదనీ 
+   అనుదినము నీ కృపా  - స్తుతియించి పాడనీ 
    ప్రియమైన యేసయ్య - నడిపించు నన్నిలా    ||నన్నెంతగానో||
 
-2. ఊహించలేను దేవ నీవు లేని జీవితాన్ని  
-   ఓ నిమిషమైన నేను మనలేనుగా 
+2. ఊహించలేను దేవ నీవు లేని జీవితాన్ని  
+   ఓ నిమిషమైన నేను మనలేనుగా 
    నాలోని ఆశ నీవే - ఎదలోని ధ్యాస నీవే
    నీ పాదసేవకేగ ఈ జీవితం
-   ఆణువణువు నీవనీ- ఇహమందు పాడనీ 
-   కడవరకు సాక్షిగా - కలకాలం సాగనీ 
-   ప్రియమైన యేసయ్య - కరుణించు నన్నిలా   ||నన్నెంతగానో||
+   ఆణువణువు నీవనీ- ఇహమందు పాడనీ 
+   కడవరకు సాక్షిగా - కలకాలం సాగనీ 
+   ప్రియమైన యేసయ్య - కరుణించు నన్నిలా    ||నన్నెంతగానో||
 
 
 Nannenthagano Neevu Koraavuga 
@@ -93,7 +96,7 @@ Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
     అగ్ని గుండము కాల్చలేదు - యేసు నాకుండగా                    ||పాడెదన్||
 
 2. నీ ప్రసన్నతతో నన్ను నడిపి - నీ మార్గము చూపుము
-   నీ మహిమ నాకు కనపరాచి - నీ విజయము నిమ్ముు             ||4|| ||పాడెదన్||
+   నీ మహిమ నాకు కనపరాచి - నీ విజయము నిమ్ము               ||4|| ||పాడెదన్||
    
    
 Yudhula Raja Sharonu Roja - Nee Naamamu Gopadhi  
@@ -103,10 +106,10 @@ Paadedhan... Na Yesukai  - Ney jeevinchu chivari svasa varakku
 Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
 
 1. Sainyamula adhipathi - Balamaina naamamu - Paadedhan Parishudhuni 
-   Agni Gundamu kaalchaledhu - Yesu nakundaga                        ||Paadedhan||
+   Agni Gundamu kaalchaledhu - Yesu nakundaga                         ||Paadedhan||
 
 2. Nee prasannathatho nanny nadipi  - Nee margamu choopumu
-   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu            ||4|| ||Paadedhan||`
+   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu             ||4|| ||Paadedhan||`
     },
     {
         number: 4,
@@ -116,11 +119,11 @@ Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
 
 1. భూమికంటే ఆకాశం - ఎంతో ఉన్నతం 
    నా ధోషములను అంత దూ..రపరచితివే           (2)
-  నీవిచ్చిన రక్షణ కొరకై నేనేమీ చెల్లింతును 
-  రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
+ నీవిచ్చిన రక్షణ కొరకై నేనేమీ చెల్లింతును 
+ రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
 
 2. నాలో ఉన్న ఆశలను నెరవేర్చితివే 
-   నా ఆలోచన సఫల...పరచితివే                      (2)
+   నా ఆలోచన సఫల...పరచితివే                     (2)
    నీ సేవకై నా జీవితం నేను అర్పింతును
    నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
 
@@ -133,14 +136,14 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
    rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
 
 2. Naalo unna aasalanu neraverchithivey
-   naa aalochana saphala...parachithive               (2)
+   naa aalochana saphala...parachithive                (2)
    nee sevakai naa jeevitham nenu arpinthunu
    naa pranatma dehamunu neekai arpinthunu     ||na pada||`
     },
     {
-         number: 5,
-         title: " నిను పోలిన వారెవరూ     Ninu Polinavarevaru",
-         lyrics: `నిను పోలిన వారెవరూ మేలు చేయు దేవుడవు
+        number: 5,
+        title: " నిను పోలిన వారెవరూ     Ninu Polinavarevaru",
+        lyrics: `నిను పోలిన వారెవరూ మేలు చేయు దేవుడవు
 నిన్నే నే నమ్మితిన్ నా దేవా     (2)
 నిన్నే నా జీవితమునకు ఆధారము చేసికొంటిని
 నీవు లేని జీవితమంతా వ్యర్ధముగా పోవునయ్య     (2)
@@ -167,11 +170,11 @@ Adonai aradhana - Yeshua aradhana        (2)
 
 2. Maranapu margamandu nadichina velayandu
    vaidyuniga vachchi naaku maro janmanicchithivayya     (2) ||El Shaddai||`
-     },
+    },
     {
-         number: 6,
-         title: " యెహోవా రూహ్    Yehova Ruah",
-         lyrics: `యెహోవా రాఫా సౌఖ్యమిచ్చువాడు - వ్యాధులింక నాకు లేదే 
+        number: 6,
+        title: " యెహోవా రూహ్    Yehova Ruah",
+        lyrics: `యెహోవా రాఫా సౌఖ్యమిచ్చువాడు - వ్యాధులింక నాకు లేదే 
 యెహోవా రాఫా నా బలమాయెను - తెగులు రోగము నాకు లేదే 
 
 సిలువలో నాకై ప్రాణమునిచ్చెను - ఐగుప్తు రోగము నాకు లేదే 
@@ -182,7 +185,7 @@ Adonai aradhana - Yeshua aradhana        (2)
 1. యెహోవా షాలోం సమాధానమిచ్చువాడు - చేయి పట్టి నన్ను నడిపించును
    యెహోవా రూహ్ నా మంచి కాపరి - శాంతి జలముల చెంత నడిపించును 
    యెహోవా యిరే అన్నియు ఇచ్చువాడు - పొషించుటకు శక్తుడాయనే 
-   ఇస్సాకు పంటను ఆశీర్వదించువాడు - నూరంతలుగా నింపి వేయునే       ||నిన్ను నమ్ము||
+   ఇస్సాకు పంటను ఆశీర్వదించువాడు - నూరంతలుగా నింపి వేయునే        ||నిన్ను నమ్ము||
 
    యేసయ్యా నా నమ్మకము నీవే -  యేసయ్యా నా ఆశ్రయము నీవే  (2)   ||సిలువలో నాకై||
 
@@ -201,14 +204,14 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
    Yehova yireh anniyu icchuvadu
    poshinchutaku shakthudayane
    Issaaku pantanu ashirvadinchinavadu 
-   Nooranthaluga nimpi veyune           ||Ninnu||  
+   Nooranthaluga nimpi veyune            ||Ninnu||  
 
    Yesayya na nammakamu neeve - Yesayya na ashrayamu neeve   (2) ||Siluvalo||`
     },
     {
-         number: 7,
-         title: "స్తోత్రాలకు స్తుతి స్తోత్రాలకు    Sthothralaku Stuthi Sthothralaku",
-         lyrics: `స్తోత్రాలకు స్తుతి స్తోత్రాలకు  (2)
+        number: 7,
+        title: "స్తోత్రాలకు స్తుతి స్తోత్రాలకు    Sthothralaku Stuthi Sthothralaku",
+        lyrics: `స్తోత్రాలకు స్తుతి స్తోత్రాలకు  (2)
 అర్హుడా నా యేసయ్య - పూజ్యనీయుడా నా యేసయ్య   (2) ||స్తోత్రాలకు||
 
 1. వేవేల దూతలతో - నాలుగు జీవులతో - కొనియాడబడుతున్నవాడ (2)
@@ -231,17 +234,17 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
    pujyudavu neeve naa yesayya..(2)
    naa neeriksana nive yesayya
    naa aaraadhanaa nike esayya  (2)    ||sthotralaku||`
-      },
+    },
     {
-         number: 8,
-         title: "హల్లెలూయ ఆరాధన    Hallelujah Aaradhana",
-         lyrics: `హల్లెలూయా - ఆరాధన - రాజాధి రాజు యేసునకే
+        number: 8,
+        title: "హల్లెలూయ ఆరాధన    Hallelujah Aaradhana",
+        lyrics: `హల్లెలూయా - ఆరాధన - రాజాధి రాజు యేసునకే
 మహిమయు ఘనతయు - సర్వాధికారి క్రీస్తునకే (2)
-చప్పట్లు కొట్టుచూ – పాటలు పాడుచూ - ఆ ప్రభుని కీర్తించెదం
+చప్పట్లు కొట్టుచూ – పాటలు పాడుచూ - ఆ प्रभुని కీర్తించెదం
 నాట్యము చేయుచు – ఉత్సాహ ధ్వనులతో - స్తోత్రార్పణ చేసెదం    ||హల్లెలూయా||
 
 1. రూపింప బడక ముందే - నన్ను ఎరిగితివి
-   నా పాదములు జారకుండా - రక్షించి నడిపితివి       (2)        ||చప్పట్లు||
+   నా పాదములు జారకుండా - రక్షించి నడిపితివి        (2)        ||చప్పట్లు||
 
 2. అభిషేక వస్త్రము నిచ్చి - వీరులుగా చేసితివి
    అపవాది క్రియలను జయించే - ప్రార్థన శక్తినిచ్చితివి   (2)        ||చప్పట్లు||
@@ -257,25 +260,25 @@ Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
 Sthothraarpana Chesedam                           || Hallelujah ||
 
 1. Roopimpa Badaka Munde - Nannu Erigithivi
-   Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                   ||Chappatlu||
+   Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                    ||Chappatlu||
 
 2. Abhisheka Vasthramu Nichchi - Veerulugaa Chesithivi
    Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)         ||Chappatlu||
 
 3. Nee sothaina janamuga - prathyeka parachitivi
-   yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                 ||Chappatlu||`
+   yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                  ||Chappatlu||`
     },
-      {
-         number: 9,
-         title: "నా జీవం నీవే    Naa Jeevam Neeve",
-         lyrics: `నా జీవం నీవె - నా ప్రాణం నీవె దేవ - నా సర్వం నీవె యేసు
+    {
+        number: 9,
+        title: "నా జీవం నీవే    Naa Jeevam Neeve",
+        lyrics: `నా జీవం నీవె - నా ప్రాణం నీవె దేవ - నా సర్వం నీవె యేసు
 నా ధ్యానం నీవె - నా స్నేహం నీవె దేవ - నా దైవం నీవె యేసు 
 
 నన్ను నడిపించె మంచి కాపరవి
-నాకై మరణించినా రక్షకుడా                  (2)
+నాకై మరణించినా రక్షకుడా                 (2)
 
 1. నా బలము నీవె - నా గానం నీవె దేవ - నా గమ్యం నీవె యేసు
-   నా కోట నీవె - నా దుర్గం నీవె దేవ - నా ఆశ నీవె యేసు                        
+   నా కోట నీవె - నా దుర్గం నీవె దేవ - నా ఆశ నీవె యేసు                         
    నన్ను నడిపించె మంచి కాపరవి
    నాకై మరణించినా రక్షకుడా               (2)
 
@@ -311,9 +314,9 @@ NAAKAI MARANINCHINA RAKSHAKUDA             (2)
    NAAKAI MARANINCHINA RAKSHAKUDA          (2)`
     },
     {
-         number: 10,
-         title: "విడువని నేస్తమా     Viduvani Nesthama",
-         lyrics: `విడువని నేస్తమా - చెరగని భాష్యామా
+        number: 10,
+        title: "విడువని నేస్తమా     Viduvani Nesthama",
+        lyrics: `విడువని నేస్తమా - చెరగని భాష్యామా
 శాశ్వత స్నేహమా - మారువని బంధమా
 మనసూ మనసు మిళితమై - కుదిరిన భావమా
 చేయి చేయి పట్టినదై చెరగని వాస్తవమా                    ||విడువని||
@@ -322,7 +325,7 @@ NAAKAI MARANINCHINA RAKSHAKUDA             (2)
    నిజ స్నేహం - కలకాలం ఉంటేనే మాధుర్యం 
    తొడుగాను నీడగాను ఉండాలన్నదే ధ్యేయం !
    నీతోనే ఉంటానని నీవెంటే వస్తానని - (2)
-   నా ఆశే నీ ఆశయము మిత్రమా...                     ||విడువని||
+   నా ఆశే నీ ఆశయము మిత్రమా...                    ||విడువని||
 
 2. ప్రాణ స్నేహమే - సిలువ త్యాగమై 
    ప్రాణ స్నేహమే - సిలువ త్యాగమై నీవే నను కన్నావు 
@@ -348,9 +351,9 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
    Nee chelime naa kalimiye - Yesuvaa…!!              ||Viduvani||`
     },
     {
-         number: 11,
-         title: "ఏల్‌ ఎలోహే     El-Elohe",
-         lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
+        number: 11,
+        title: "ఏల్‌ ఎలోహే     El-Elohe",
+        lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
 నీ దయ నన్ను చేయి విడువ లేదు (2)
 కాలి చేతితో వచ్చితిని
 రెండు పరివారాలనిచ్చితివే (2)
@@ -385,9 +388,12 @@ ninne sthuthinthun (2)
    priyamaina vanni naakicchithive  (2)
    paradeshiga neenunna chote
    swaasthyamugaa naaku marchithive (2) ||El||`
-   },
+    }
 ];
 
+// ==========================================
+// DOM ELEMENTS & GLOBAL VARIABLES
+// ==========================================
 const list = document.getElementById("song-list");
 const lyricsBox = document.getElementById("lyrics-box");
 const presOverlay = document.getElementById("presentation-overlay");
@@ -395,13 +401,15 @@ const presOverlay = document.getElementById("presentation-overlay");
 let currentSong = null;
 let presentationSlides = [];
 let currentSlideIndex = 0;
-let currentFontSize = 21;
+let currentFontSize = window.innerWidth <= 768 ? 15 : 21;
 
 // Control States
 let showEnglishTransliteration = true;
 let isPresentationPlaying = true;
 
-// Telugu to Roman Transliteration Engine
+// ==========================================
+// TELUGU TRANSLITERATION ENGINE
+// ==========================================
 function transliterateTelugu(text) {
     if (!text) return "";
 
@@ -473,7 +481,11 @@ function formatSongNumber(num) {
     return num < 10 ? `0${num}` : `${num}`;
 }
 
+// ==========================================
+// RENDER & SEARCH SONGS
+// ==========================================
 function renderSongs(songsToDisplay) {
+    if (!list) return;
     list.innerHTML = "";
     if (songsToDisplay.length === 0) {
         list.innerHTML = `<p style="text-align: center; color: rgba(255,255,255,0.7); font-size: 18px; margin-top: 25px;">No songs found</p>`;
@@ -483,6 +495,7 @@ function renderSongs(songsToDisplay) {
     songsToDisplay.forEach(song => {
         const div = document.createElement("div");
         div.className = "song";
+        div.setAttribute("data-title", song.title);
         div.innerHTML = `
             <div class="song-left">
                 <span class="song-badge">#${formatSongNumber(song.number)}</span>
@@ -495,10 +508,21 @@ function renderSongs(songsToDisplay) {
     });
 }
 
+function filterSongs() {
+    const input = document.getElementById("search") ? document.getElementById("search").value.toLowerCase().trim() : "";
+    const filtered = songs.filter(song => song.title.toLowerCase().includes(input));
+    renderSongs(filtered);
+}
+
+// ==========================================
+// DISPLAY LYRICS & FONT RESIZING
+// ==========================================
 function showLyrics(song) {
     currentSong = song;
+    if (!lyricsBox) return;
+
     lyricsBox.style.display = "block";
-    currentFontSize = 21;
+    currentFontSize = window.innerWidth <= 768 ? 15 : 21;
 
     lyricsBox.innerHTML = `
         <div class="lyrics-header-controls">
@@ -515,8 +539,8 @@ function showLyrics(song) {
         </div>
 
         <div class="lyrics-title-wrapper">
-            <span class="lyrics-song-badge">Song #${formatSongNumber(song.number)}</span>
-            <h2>${song.title}</h2>
+            <span class="lyrics-song-badge" id="lyrics-song-badge">Song #${formatSongNumber(song.number)}</span>
+            <h2 id="lyrics-title">${song.title}</h2>
         </div>
         
         <div class="lyrics-divider">― ✦ ―</div>
@@ -527,11 +551,14 @@ function showLyrics(song) {
 }
 
 function changeFontSize(delta) {
+    const minSize = window.innerWidth <= 768 ? 12 : 14;
+    const maxSize = window.innerWidth <= 768 ? 24 : 35;
     const lyricsText = document.getElementById("lyrics-text");
     const indicator = document.getElementById("font-size-indicator");
+
     if (lyricsText) {
         let newSize = currentFontSize + delta;
-        if (newSize >= 15 && newSize <= 35) {
+        if (newSize >= minSize && newSize <= maxSize) {
             currentFontSize = newSize;
             lyricsText.style.fontSize = `${currentFontSize}px`;
             if (indicator) indicator.textContent = `${currentFontSize}px`;
@@ -540,12 +567,14 @@ function changeFontSize(delta) {
 }
 
 function closeLyrics() {
-    lyricsBox.style.display = "none";
+    if (lyricsBox) lyricsBox.style.display = "none";
 }
 
-/* ================= PRESENTATION CONTROLS ================= */
+// ==========================================
+// PRESENTATION OVERLAY MODE
+// ==========================================
 function startPresentation() {
-    if (!currentSong) return;
+    if (!currentSong || !presOverlay) return;
 
     presentationSlides = currentSong.lyrics
         .split(/\n\s*\n/)
@@ -566,11 +595,12 @@ function exitPresentation() {
     if (document.fullscreenElement) {
         document.exitFullscreen().catch(() => {});
     }
-    presOverlay.style.display = "none";
+    if (presOverlay) presOverlay.style.display = "none";
 }
 
 function updateSlide() {
     const presContent = document.getElementById("pres-content");
+    if (!presContent) return;
     
     if (!isPresentationPlaying) {
         presContent.style.opacity = "0";
@@ -594,14 +624,19 @@ function updateSlide() {
 
     presContent.innerHTML = contentHTML;
 
-    document.getElementById("pres-title").textContent = currentSong.title;
-    document.getElementById("pres-counter").textContent = `${currentSlideIndex + 1} / ${totalSlides}`;
-
+    const titleEl = document.getElementById("pres-title");
+    const counterEl = document.getElementById("pres-counter");
     const upNextElem = document.getElementById("pres-upnext");
-    if (currentSlideIndex < totalSlides - 1) {
-        upNextElem.textContent = `Up next: verse ${currentSlideIndex + 2}`;
-    } else {
-        upNextElem.textContent = "End of Song";
+
+    if (titleEl) titleEl.textContent = currentSong.title;
+    if (counterEl) counterEl.textContent = `${currentSlideIndex + 1} / ${totalSlides}`;
+
+    if (upNextElem) {
+        if (currentSlideIndex < totalSlides - 1) {
+            upNextElem.textContent = `Up next: verse ${currentSlideIndex + 2}`;
+        } else {
+            upNextElem.textContent = "End of Song";
+        }
     }
 }
 
@@ -617,12 +652,14 @@ function togglePlayPause() {
     isPresentationPlaying = !isPresentationPlaying;
     const playBtn = document.getElementById("pres-play-btn");
 
-    if (isPresentationPlaying) {
-        playBtn.textContent = "⏸️";
-        playBtn.title = "Pause/Blank Screen";
-    } else {
-        playBtn.textContent = "▶️";
-        playBtn.title = "Play Presentation";
+    if (playBtn) {
+        if (isPresentationPlaying) {
+            playBtn.textContent = "⏸️";
+            playBtn.title = "Pause/Blank Screen";
+        } else {
+            playBtn.textContent = "▶️";
+            playBtn.title = "Play Presentation";
+        }
     }
 
     updateSlide();
@@ -632,12 +669,14 @@ function toggleTransliteration() {
     showEnglishTransliteration = !showEnglishTransliteration;
     const eyeBtn = document.getElementById("pres-eye-btn");
 
-    if (showEnglishTransliteration) {
-        eyeBtn.textContent = "👁️";
-        eyeBtn.title = "Hide English Transliteration";
-    } else {
-        eyeBtn.textContent = "🙈";
-        eyeBtn.title = "Show English Transliteration";
+    if (eyeBtn) {
+        if (showEnglishTransliteration) {
+            eyeBtn.textContent = "👁️";
+            eyeBtn.title = "Hide English Transliteration";
+        } else {
+            eyeBtn.textContent = "🙈";
+            eyeBtn.title = "Show English Transliteration";
+        }
     }
 
     updateSlide();
@@ -661,16 +700,27 @@ function prevSlide(e) {
     }
 }
 
-// Keyboard Hotkeys
-document.addEventListener('keydown', (e) => {
-    if (presOverlay.style.display === "flex") {
-        if (e.key === "ArrowRight" || e.key === " ") nextSlide();
-        if (e.key === "ArrowLeft") prevSlide();
-        if (e.key === "b" || e.key === "B") togglePlayPause();
-        if (e.key === "f" || e.key === "F") toggleFullscreen();
-        if (e.key === "Escape" && !document.fullscreenElement) exitPresentation();
-    }
-});
+// ==========================================
+// INITIALIZATION & EVENT LISTENERS
+// ==========================================
+document.addEventListener("DOMContentLoaded", () => {
+    // Initial Render
+    renderSongs(songs);
 
-// Initial Render
-renderSongs(songs);
+    // Search Input Event Listener
+    const searchInput = document.getElementById("search");
+    if (searchInput) {
+        searchInput.addEventListener("input", filterSongs);
+    }
+
+    // Keyboard Shortcuts for Presentation
+    document.addEventListener('keydown', (e) => {
+        if (presOverlay && presOverlay.style.display === "flex") {
+            if (e.key === "ArrowRight" || e.key === " ") nextSlide(e);
+            if (e.key === "ArrowLeft") prevSlide(e);
+            if (e.key === "b" || e.key === "B") togglePlayPause();
+            if (e.key === "f" || e.key === "F") toggleFullscreen();
+            if (e.key === "Escape" && !document.fullscreenElement) exitPresentation();
+        }
+    });
+});
