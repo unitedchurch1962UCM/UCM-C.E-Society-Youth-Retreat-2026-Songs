@@ -24,11 +24,12 @@ header {
 
 .tagline {
     color: rgba(255, 255, 255, 0.85);
-    font-size: 13px;
+    font-size: 11px;                   /* Slightly reduced to keep line compact */
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 25px;
-    letter-spacing: 3px;
+    letter-spacing: 1.2px;             /* Reduced letter-spacing so width is shorter than UNITED CHURCH */
+    margin-bottom: 8px;                /* Reduced vertical gap between tagline and UNITED CHURCH */
+    display: inline-block;             /* Constrains width tightly around text */
 }
 
 .hero {
@@ -66,10 +67,11 @@ header {
     font-family: 'Cinzel', serif;
     font-size: 46px;
     font-weight: 800;
-    letter-spacing: 2.5px;
+    letter-spacing: 3.5px;             /* Increased to keep UNITED CHURCH visibly wider */
     color: #ffffff;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
-    line-height: 1.1;
+    line-height: 1.0;                  /* Tightened line height */
+    margin-top: 0;
 }
 
 .hero-text h2 {
@@ -356,7 +358,7 @@ pre {
     color: #1a1a1a;
 }
 
-/* ================= PRESENTATION OVERLAY (UPDATED FOR SCROLLING & FITTING) ================= */
+/* ================= PRESENTATION OVERLAY ================= */
 .pres-overlay {
     position: fixed;
     top: 0;
@@ -370,7 +372,6 @@ pre {
     justify-content: space-between;
     padding: 20px 30px;
     box-sizing: border-box;
-    /* Enables vertical scrolling when text overflows screen height */
     overflow-y: auto; 
 }
 
@@ -559,6 +560,12 @@ footer small {
 }
 
 @media (max-width: 768px) {
+    .tagline {
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        margin-bottom: 5px;
+    }
+
     .hero {
         flex-direction: column;
         gap: 15px;
@@ -571,6 +578,7 @@ footer small {
 
     .hero-text h1 {
         font-size: 32px;
+        letter-spacing: 2px;
     }
 
     .hero-text h2 {
