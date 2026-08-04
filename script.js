@@ -347,6 +347,45 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
    Naatho ne undaalani neekosame brathakaalani  - (2)
    Nee chelime naa kalimiye - Yesuvaa…!!              ||Viduvani||`
     },
+    {
+         number: 11,
+         title: "ఏల్‌ ఎలోహే     El-Elohe",
+         lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
+నీ దయ నన్ను చేయి విడువ లేదు (2)
+కాలి చేతితో వచ్చితిని
+రెండు పరివారాలనిచ్చితివే (2)
+
+ఏల్‌-ఎలోహే ఏల్‌-ఎలోహే ఏల్‌-ఎలోహే
+నిన్నే స్తుతింతున్ (2)
+
+1. గాయపడ్డాను - కన్నీళ్లు కార్చాను
+   కలతచెందిన నాకై దిగివచ్చావు (2)
+   నిబంధనను నాతో చేసితివే
+   కోల్పోయినవన్నీ  ఇచ్చితివే.   (2)  ||ఎల్||
+
+2. ప్రియులందరు విడిచి పోయినా
+   ప్రియమైన వన్నీ నాకిచ్చితివే   (2)
+   పరదేశిగా  నేనున్న చోటే
+   స్వాస్థ్యముగా నాకు మార్చితివే   (2) ||ఎల్||
+
+Ninnu nammi vachchi - ne sigguchendaledu 
+nee daya nannu cheyi viduva ledu (2)
+kali chetito vacchithini
+rendu parivaralanicchithive (2)
+
+El-Elohe El-Elohe El-Elohe
+ninne sthuthinthun (2)
+
+1. Gaayapaddanu - kanneellu karchanu
+   kalathachendina naakai digivacchavu (2)
+   nibandhananu natho chesithive
+   kolpoyinavanni  icchithive  (2)  ||El||
+
+2. Priyulandaru vidichi poyinaa
+   priyamaina vanni naakicchithive  (2)
+   paradeshiga neenunna chote
+   swaasthyamugaa naaku marchithive (2) ||El||`
+   },
 ];
 
 const list = document.getElementById("song-list");
