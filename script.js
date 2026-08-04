@@ -274,10 +274,8 @@ Sthothraarpana Chesedam                           || Hallelujah ||
 నన్ను నడిపించె మంచి కాపరవి
 నాకై మరణించినా రక్షకుడా                  (2)
 
-1. నా బలము నీవె - నా గానం నీవె దేవ
-   నా గమ్యం నీవె యేసు
-   నా కోట నీవె - నా దుర్గం నీవె దేవ
-   నా ఆశ నీవె యేసు                        
+1. నా బలము నీవె - నా గానం నీవె దేవ - నా గమ్యం నీవె యేసు
+   నా కోట నీవె - నా దుర్గం నీవె దేవ - నా ఆశ నీవె యేసు                        
    నన్ను నడిపించె మంచి కాపరవి
    నాకై మరణించినా రక్షకుడా               (2)
 
@@ -289,8 +287,10 @@ Sthothraarpana Chesedam                           || Hallelujah ||
    నన్ను నడిపించె మంచి కాపరవి
    నాకై మరణించినా రక్షకుడా               (2)
 
-NA JEEVAM NEEVE - NA PRANAM NEEVE DEVA - NA SARVAM NEEVE YESU
-NA DHYANAM NEEVE - NA SNEHAM NEEVE DEVA - NA DAIVAM NEEVE YESU
+NA JEEVAM NEEVE - NA PRANAM NEEVE DEVA 
+NA SARVAM NEEVE YESU
+NA DHYANAM NEEVE - NA SNEHAM NEEVE DEVA
+NA DAIVAM NEEVE YESU
 
 NANNU NADIPINCHE MANCHI KAAPARIVI
 NAAKAI MARANINCHINA RAKSHAKUDA             (2)
