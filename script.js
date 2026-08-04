@@ -257,13 +257,58 @@ Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
 Sthothraarpana Chesedam                           || Hallelujah ||
 
 1. Roopimpa Badaka Munde - Nannu Erigithivi
-Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                   ||Chappatlu||
+   Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                   ||Chappatlu||
 
 2. Abhisheka Vasthramu Nichchi - Veerulugaa Chesithivi
-Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)         ||Chappatlu||
+   Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)         ||Chappatlu||
 
 3. Nee sothaina janamuga - prathyeka parachitivi
-yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                 ||Chappatlu||`
+   yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                 ||Chappatlu||`
+    },
+      {
+         number: 9,
+         title: "నా జీవం నీవే    Naa Jeevam Neeve",
+         lyrics: `నా జీవం నీవె - నా ప్రాణం నీవె దేవ - నా సర్వం నీవె యేసు
+నా ధ్యానం నీవె - నా స్నేహం నీవె దేవ - నా దైవం నీవె యేసు 
+
+నన్ను నడిపించె మంచి కాపరవి
+నాకై మరణించినా రక్షకుడా                  (2)
+
+1. నా బలము నీవె - నా గానం నీవె దేవ
+   నా గమ్యం నీవె యేసు
+   నా కోట నీవె - నా దుర్గం నీవె దేవ
+   నా ఆశ నీవె యేసు                        
+   నన్ను నడిపించె మంచి కాపరవి
+   నాకై మరణించినా రక్షకుడా               (2)
+
+   కన్న తల్లివై నను హత్తు కున్నావు
+   కన్న తండ్రివై నను ఎత్తు కున్నావు 
+   మంచి స్నెహితుడై నా తోడు ఉన్నావు
+   ప్రాణ ప్రియుడై నను విడువ నన్నావు
+
+   నన్ను నడిపించె మంచి కాపరవి
+   నాకై మరణించినా రక్షకుడా               (2)
+
+NA JEEVAM NEEVE - NA PRANAM NEEVE DEVA - NA SARVAM NEEVE YESU
+NA DHYANAM NEEVE - NA SNEHAM NEEVE DEVA - NA DAIVAM NEEVE YESU
+
+NANNU NADIPINCHE MANCHI KAAPARIVI
+NAAKAI MARANINCHINA RAKSHAKUDA             (2)
+
+1. NA BALAMU NEEVE - NA GANAM NEEVE DEVA
+   NA GAMYAM NEEVE YESU
+   NA KOTA NEEVE - NA DURGAM NEEVE DEVA
+   NA ASHA NEEVE YESU
+   NANNU NADIPINCHE MANCHI KAAPARIVI
+   NAAKAI MARANINCHINA RAKSHAKUDA          (2)
+
+   KANNA THALLIVAI NANU HATHU KUNNAVU
+   KANNA THANDRIVAI NANU YETHU KUNNAVU
+   MANCHI SNEHITHUDAI NA THODU UNNAVU
+   PRANA PRIYUDAI NANU VIDUVA NANNAVU
+
+   NANNU NADIPINCHE MANCHI KAAPARIVI
+   NAAKAI MARANINCHINA RAKSHAKUDA          (2)`
     },
 ];
 
