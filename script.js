@@ -310,6 +310,43 @@ NAAKAI MARANINCHINA RAKSHAKUDA             (2)
    NANNU NADIPINCHE MANCHI KAAPARIVI
    NAAKAI MARANINCHINA RAKSHAKUDA          (2)`
     },
+    {
+         number: 10,
+         title: "విడువని నేస్తమా     Viduvani Nesthama",
+         lyrics: `విడువని నేస్తమా - చెరగని భాష్యామా
+శాశ్వత స్నేహమా - మారువని బంధమా
+మనసూ మనసు మిళితమై - కుదిరిన భావమా
+చేయి చేయి పట్టినదై చెరగని వాస్తవమా                    ||విడువని||
+
+1. నిజ స్నేహం - కలకాలం
+   నిజ స్నేహం - కలకాలం ఉంటేనే మాధుర్యం 
+   తొడుగాను నీడగాను ఉండాలన్నదే ధ్యేయం !
+   నీతోనే ఉంటానని నీవెంటే వస్తానని - (2)
+   నా ఆశే నీ ఆశయము మిత్రమా...                     ||విడువని||
+
+2. ప్రాణ స్నేహమే - సిలువ త్యాగమై 
+   ప్రాణ స్నేహమే - సిలువ త్యాగమై నీవే నను కన్నావు 
+   రక్తమిచ్చి రక్షణిచ్చి నీకై నను కొన్నావు 
+   నాతోనే ఉండాలని నీకోసమే బ్రతకాలని - (2)
+   నీ చెలిమే నా కలిమియే -  యేసువా...                ||విడువని||     
+                
+Viduvani Nesthama - cheragani bhashyama
+Sashwatha snehama - maruvani bandhama
+Manasu manasu milithamai - kudirina bhavama
+Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
+
+1. Nija sneham - kalakaalam
+   Nija sneham kalakaalam unte ney madhuryam
+   Thoduganu needaganu undaalannade dhyeyam
+   Neethone untaanani neevente vasthaanani   - (2)
+   Naa aashe nee ashayamu mitramaa…                  ||Viduvani||    
+
+2. Prana snehame - Siluva tyaagamai
+   Praana shename Siluva tyaagamai neeve nanu kannavu
+   Rakthamicchi Rakshanicchi neekai nanu konnavu
+   Naatho ne undaalani neekosame brathakaalani  - (2)
+   Nee chelime naa kalimiye - Yesuvaa…!!              ||Viduvani||`
+    },
 ];
 
 const list = document.getElementById("song-list");
