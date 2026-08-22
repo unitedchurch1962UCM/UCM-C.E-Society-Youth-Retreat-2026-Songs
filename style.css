@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', 'Ramabhadra', sans-serif;
     background: linear-gradient(180deg, rgba(7, 15, 26, 0.78) 0%, rgba(4, 8, 15, 0.90) 100%),
-                url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=2000&auto=format&fit=crop") center/cover no-repeat fixed;
+                url("bg.png") center/cover no-repeat fixed;
     min-height: 100vh;
     padding: 20px 15px;
     color: white;
