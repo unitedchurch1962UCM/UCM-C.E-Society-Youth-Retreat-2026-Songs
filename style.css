@@ -1,3 +1,4 @@
+```css
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Ramabhadra&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -47,7 +48,7 @@ header {
     height: 115px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5), 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5),
                 0 0 15px rgba(255, 215, 0, 0.25);
     border: 1.5px solid rgba(255, 215, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -55,7 +56,8 @@ header {
 
 .logo:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 215, 0, 0.45);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6),
+                0 0 25px rgba(255, 215, 0, 0.45);
 }
 
 .hero-text {
@@ -156,7 +158,8 @@ header {
 
 #search:focus {
     border-color: #ffd700;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.25), inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.25),
+                inset 0 1px 3px rgba(0, 0, 0, 0.5);
     background: rgba(10, 18, 30, 0.8);
 }
 
@@ -402,7 +405,7 @@ pre {
     justify-content: space-between;
     padding: 20px 30px;
     box-sizing: border-box;
-    overflow-y: auto; 
+    overflow-y: auto;
 }
 
 .pres-header {
@@ -550,6 +553,51 @@ pre {
     font-weight: 600;
 }
 
+/* ================= FEEDBACK BUTTON ================= */
+
+.feedback-section {
+    display: flex;
+    justify-content: center;
+    margin: 35px auto 20px;
+}
+
+.feedback-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 14px 28px;
+    border-radius: 50px;
+
+    background: linear-gradient(135deg, #1684ff, #625cff);
+    color: #ffffff;
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    box-shadow:
+        0 0 15px rgba(22, 132, 255, 0.45),
+        0 8px 25px rgba(0, 0, 0, 0.25);
+
+    transition: all 0.3s ease;
+}
+
+.feedback-btn:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 0 25px rgba(22, 132, 255, 0.7),
+        0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.feedback-btn:active {
+    transform: translateY(0);
+}
+
 /* ================= FOOTER ================= */
 footer {
     max-width: 780px;
@@ -615,6 +663,7 @@ footer small {
         opacity: 0;
         transform: scale(0.98);
     }
+
     100% {
         opacity: 1;
         transform: scale(1);
@@ -626,6 +675,7 @@ footer small {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -634,6 +684,7 @@ footer small {
 
 /* ================= MOBILE OPTIMIZATIONS ================= */
 @media (max-width: 768px) {
+
     .tagline {
         font-size: 10px;
         letter-spacing: 0.8px;
@@ -730,4 +781,17 @@ footer small {
     .pres-english-trans {
         font-size: 16px;
     }
+
+    /* Feedback button on mobile */
+    .feedback-section {
+        margin: 28px auto 15px;
+    }
+
+    .feedback-btn {
+        width: 90%;
+        max-width: 330px;
+        padding: 13px 20px;
+        font-size: 14px;
+    }
 }
+```
