@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youth Retreat 2026 | Feedback</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
+*{box-sizing:border-box}
+body{
+  margin:0; font-family:Montserrat,Arial,sans-serif; color:#fff;
+  min-height:100vh; background:
+  linear-gradient(rgba(0,8,35,.78),rgba(0,8,35,.9)),
+  radial-gradient(circle at 50% 30%,#1257b8 0,#061238 45%,#020617 100%);
+}
+.container{max-width:760px;margin:auto;padding:28px 16px 50px}
+.header{text-align:center;margin-bottom:24px}
+.badge{letter-spacing:4px;font-size:12px;color:#8ecbff}
+h1{font-size:clamp(30px,7vw,52px);margin:8px 0 4px;font-weight:800}
+h1 span{color:#9bc8ff}
+.subtitle{font-size:14px;letter-spacing:2px;color:#d7e7ff}
+.card{
+  background:rgba(5,18,55,.78); border:1px solid rgba(84,178,255,.45);
+  border-radius:22px; padding:24px; box-shadow:0 15px 50px rgba(0,0,0,.35);
+  backdrop-filter:blur(12px);
+}
+label{display:block;font-weight:600;font-size:14px;margin:18px 0 8px}
+input,textarea,select{
+  width:100%; padding:13px 14px; border-radius:12px;
+  border:1px solid rgba(130,200,255,.35); background:rgba(255,255,255,.08);
+  color:#fff; outline:none; font:inherit;
+}
+input::placeholder,textarea::placeholder{color:#aebed8}
+select option{color:#111}
+textarea{min-height:110px;resize:vertical}
+.rating{display:flex;gap:9px;flex-wrap:wrap}
+.rating input{display:none}
+.rating label{
+  margin:0; width:48px;height:48px;border-radius:50%;display:flex;align-items:center;
+  justify-content:center;border:1px solid #4d91cf;background:rgba(255,255,255,.06);
+  cursor:pointer;color:#cfe7ff
+}
+.rating input:checked+label{background:#1677e8;border-color:#73c5ff;box-shadow:0 0 18px rgba(40,150,255,.55)}
+button{
+  width:100%;margin-top:24px;padding:15px;border:0;border-radius:14px;
+  background:linear-gradient(90deg,#1684ff,#6b5cff);color:white;font:800 15px Montserrat;
+  cursor:pointer;letter-spacing:1px
+}
+button:hover{filter:brightness(1.1)}
+.note{text-align:center;font-size:11px;color:#9fb5d2;margin-top:15px}
+.success{
+  display:none;margin-top:18px;padding:14px;border-radius:12px;
+  background:rgba(20,160,90,.18);border:1px solid rgba(80,230,150,.45);
+  text-align:center;color:#caffdf;font-weight:600
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="badge">UNITED CHURCH • MALKAPURAM</div>
+    <h1>YOUTH <span>RETREAT</span></h1>
+    <div class="subtitle">2026 • FEEDBACK FORM</div>
+  </div>
+
+  <div class="card">
+    <!-- Replace the action URL after deploying Google Apps Script -->
+    <form id="feedbackForm"
+          action="PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE"
+          method="POST" target="submitFrame"
+          onsubmit="submitted()">
+
+      <label for="name">Name (Optional)</label>
+      <input id="name" name="name" type="text" placeholder="Enter your name">
+
+      <label>How would you rate the retreat overall?</label>
+      <div class="rating">
+        <input id="r1" type="radio" name="rating" value="1" required><label for="r1">1</label>
+        <input id="r2" type="radio" name="rating" value="2"><label for="r2">2</label>
+        <input id="r3" type="radio" name="rating" value="3"><label for="r3">3</label>
+        <input id="r4" type="radio" name="rating" value="4"><label for="r4">4</label>
+        <input id="r5" type="radio" name="rating" value="5"><label for="r5">5</label>
+      </div>
+
+      <label for="worship">How was the worship?</label>
+      <select id="worship" name="worship" required>
+        <option value="">Select</option><option>Excellent</option><option>Very Good</option>
+        <option>Good</option><option>Average</option><option>Needs Improvement</option>
+      </select>
+
+      <label for="word">How was the Word of God / message?</label>
+      <select id="word" name="word" required>
+        <option value="">Select</option><option>Excellent</option><option>Very Good</option>
+        <option>Good</option><option>Average</option><option>Needs Improvement</option>
+      </select>
+
+      <label for="program">How was the overall program?</label>
+      <select id="program" name="program" required>
+        <option value="">Select</option><option>Excellent</option><option>Very Good</option>
+        <option>Good</option><option>Average</option><option>Needs Improvement</option>
+      </select>
+
+      <label for="favorite">What was your favourite part of the retreat?</label>
+      <textarea id="favorite" name="favorite" placeholder="Your answer..."></textarea>
+
+      <label for="takeaway">What did you learn or take away from this retreat?</label>
+      <textarea id="takeaway" name="takeaway" placeholder="Share your experience..."></textarea>
+
+      <label for="improve">What could we improve?</label>
+      <textarea id="improve" name="improve" placeholder="Your suggestions..."></textarea>
+
+      <label for="again">Would you attend another Youth Retreat?</label>
+      <select id="again" name="again" required>
+        <option value="">Select</option><option>Definitely</option><option>Probably</option>
+        <option>Not Sure</option><option>No</option>
+      </select>
+
+      <label for="additional">Any additional feedback?</label>
+      <textarea id="additional" name="additional" placeholder="Anything else you would like to tell us..."></textarea>
+
+      <button type="submit">SUBMIT FEEDBACK</button>
+      <div id="success" class="success">Thank you! Your feedback has been submitted successfully.</div>
+      <div class="note">Your feedback will be received by United Church.</div>
+    </form>
+    <iframe name="submitFrame" id="submitFrame" style="display:none"></iframe>
+  </div>
+</div>
+
+<script>
+function submitted(){
+  setTimeout(function(){
+    document.getElementById('success').style.display='block';
+    document.getElementById('feedbackForm').reset();
+    window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
+  },500);
+}
+</script>
+</body>
+</html>
