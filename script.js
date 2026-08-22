@@ -4,7 +4,8 @@
 const songs = [
     {
         number: 1,
-        title: "నిన్నే ఆరాధింతును    Ninne Aaradhintunu",
+        teluguTitle: "నిన్నే ఆరాధింతును",
+        englishTitle: "Ninne Aaradhintunu",
         lyrics: `నిన్నే ఆరాధింతును యేసయ్య నిన్నే ఆరాధింతును (2)
 మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు        (2)
 హల్లెలూయ... హల్లెలూయ...  (4)
@@ -39,7 +40,8 @@ Hallelujah... hallelujah...   (4)
     },
     {
         number: 2,
-        title: "నన్నెంతగానో నీవు    Nannenthagano Neevu ",
+        teluguTitle: "నన్నెంతగానో నీవు",
+        englishTitle: "Nannenthagano Neevu",
         lyrics: `నన్నెంతగానో నీవు కోరావుగా - బ్రతుకంత నాకు తోడై ఉన్నావుగా
 రచించావు నన్ను నీవు - క్షమించావు నన్ను నీవు
 నీ ప్రేమ చాలు నాకు...నా యేసయ్య...    (2)
@@ -85,7 +87,8 @@ Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
     },
     {
         number: 3,
-        title: "యూదుల రాజ    Yudhula Raaja",
+        teluguTitle: "యూదుల రాజ",
+        englishTitle: "Yudhula Raaja",
         lyrics: `యూదుల రాజ శరోను రోజా - నీ నామము గొప్పది
 సరిపోల్చ లేని దైవము నీవు - నీ నామము ఉన్నతం                   ||2||
 
@@ -93,27 +96,28 @@ Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
 చాటేదన్... నీ సత్యమును...నే బ్రతుకు దియనముల్ ముగిసే వరకు    ||2||
 
 1. సైన్యముల అధిపతి - బలమైన నామము - పాడెదన్ పరిశుద్ధూని
-    అగ్ని గుండము కాల్చలేదు - యేసు నాకుండగా                    ||పాడెదన్||
+   అగ్ని గుండము కాల్చలేదు - యేసు నాకుండగా                    ||పాడెదన్||
 
 2. నీ ప్రసన్నతతో నన్ను నడిపి - నీ మార్గము చూపుము
    నీ మహిమ నాకు కనపరాచి - నీ విజయము నిమ్ము               ||4|| ||పాడెదన్||
    
    
 Yudhula Raja Sharonu Roja - Nee Naamamu Gopadhi  
-Saripolcha leni dhaivamu neevu - Nee naamamu Unnatham                  ||2||
+Saripolcha leni dhaivamu neevu - Nee naamamu Unnatham                   ||2||
 
 Paadedhan... Na Yesukai  - Ney jeevinchu chivari svasa varakku
 Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
 
 1. Sainyamula adhipathi - Balamaina naamamu - Paadedhan Parishudhuni 
-   Agni Gundamu kaalchaledhu - Yesu nakundaga                         ||Paadedhan||
+   Agni Gundamu kaalchaledhu - Yesu nakundaga                          ||Paadedhan||
 
 2. Nee prasannathatho nanny nadipi  - Nee margamu choopumu
-   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu             ||4|| ||Paadedhan||`
+   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu              ||4|| ||Paadedhan||`
     },
     {
         number: 4,
-        title: "నా పాదములకు దీపం     Naa Paadamulaku Deepam",
+        teluguTitle: "నా పాదములకు దీపం",
+        englishTitle: "Naa Paadamulaku Deepam",
         lyrics: `నా పాదములకు దీపం - నా త్రోవలకు వెలుగు   (2)
 నా ప్రాణమునకు జీవం - నా యేసయ్య నీ వాక్యం                 (2) ||నా పాద||
 
@@ -136,13 +140,14 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
    rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
 
 2. Naalo unna aasalanu neraverchithivey
-   naa aalochana saphala...parachithive                (2)
+   naa aalochana saphala...parachithive                 (2)
    nee sevakai naa jeevitham nenu arpinthunu
    naa pranatma dehamunu neekai arpinthunu     ||na pada||`
     },
     {
         number: 5,
-        title: " నిను పోలిన వారెవరూ     Ninu Polinavarevaru",
+        teluguTitle: "నిను పోలిన వారెవరూ",
+        englishTitle: "Ninu Polinavarevaru",
         lyrics: `నిను పోలిన వారెవరూ మేలు చేయు దేవుడవు
 నిన్నే నే నమ్మితిన్ నా దేవా     (2)
 నిన్నే నా జీవితమునకు ఆధారము చేసికొంటిని
@@ -152,7 +157,7 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
 అడోనాయి  ఆరాధన - యేషువా ఆరాధన        (2)
 
 1. క్రుంగియున్న నన్ను చూచి కన్నీటిని తుడిచితివయ్య
-   కంటి పాప వలే కాచి కరుణతో నడిపితివయ్య       (2) ||ఎల్ షద్దాయ్||
+   కంటి పాప వలే కాచి కరుణతో నడిపితివయ్య        (2) ||ఎల్ షద్దాయ్||
 
 2. మరణపు మార్గమందు నడిచిన వేళయందు
    వైద్యునిగా వచ్చి నాకు మరో జన్మనిచ్చితివయ్య     (2) ||ఎల్ షద్దాయ్||
@@ -166,14 +171,15 @@ El shaddaai aradhana - Elohim aaradhana
 Adonai aradhana - Yeshua aradhana        (2)
 
 1. Krungiyunna nannu chuchi kanneetini thudichithivayya
-   kanti papa vale kachi karunato nadipithivayya       (2) ||El Shaddai||
+   kanti papa vale kachi karunato nadipithivayya        (2) ||El Shaddai||
 
 2. Maranapu margamandu nadichina velayandu
    vaidyuniga vachchi naaku maro janmanicchithivayya     (2) ||El Shaddai||`
     },
     {
         number: 6,
-        title: " యెహోవా రూహ్    Yehova Ruah",
+        teluguTitle: "యెహోవా రూహ్",
+        englishTitle: "Yehova Ruah",
         lyrics: `యెహోవా రాఫా సౌఖ్యమిచ్చువాడు - వ్యాధులింక నాకు లేదే 
 యెహోవా రాఫా నా బలమాయెను - తెగులు రోగము నాకు లేదే 
 
@@ -204,13 +210,14 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
    Yehova yireh anniyu icchuvadu
    poshinchutaku shakthudayane
    Issaaku pantanu ashirvadinchinavadu 
-   Nooranthaluga nimpi veyune            ||Ninnu||  
+   Nooranthaluga nimpi veyune             ||Ninnu||  
 
    Yesayya na nammakamu neeve - Yesayya na ashrayamu neeve   (2) ||Siluvalo||`
     },
     {
         number: 7,
-        title: "స్తోత్రాలకు స్తుతి స్తోత్రాలకు    Sthothralaku Stuthi Sthothralaku",
+        teluguTitle: "స్తోత్రాలకు స్తుతి స్తోత్రాలకు",
+        englishTitle: "Sthothralaku Stuthi Sthothralaku",
         lyrics: `స్తోత్రాలకు స్తుతి స్తోత్రాలకు  (2)
 అర్హుడా నా యేసయ్య - పూజ్యనీయుడా నా యేసయ్య   (2) ||స్తోత్రాలకు||
 
@@ -237,7 +244,8 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
     },
     {
         number: 8,
-        title: "హల్లెలూయ ఆరాధన    Hallelujah Aaradhana",
+        teluguTitle: "హల్లెలూయ ఆరాధన",
+        englishTitle: "Hallelujah Aaradhana",
         lyrics: `హల్లెలూయా - ఆరాధన - రాజాధి రాజు యేసునకే
 మహిమయు ఘనతయు - సర్వాధికారి క్రీస్తునకే (2)
 చప్పట్లు కొట్టుచూ – పాటలు పాడుచూ - ఆ ప్రభుని కీర్తించెదం
@@ -250,27 +258,28 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
    అపవాది క్రియలను జయించే - ప్రార్థన శక్తినిచ్చితివి   (2)        ||చప్పట్లు||
 
 3. నీ సోతైన జనముగా -ప్రత్యేక పరచితివి
-   యుగ యుగములు నీతో నివసించె - భాగ్యము నిచ్చితివి (2)       ||చప్పట్లు||
+   యుగ యుగములు నీతో నివసించె - భాగ్యము నిచ్చితివి (2)        ||చప్పట్లు||
 
 Hallelujah Aaradhana - Raajaadhi Raaju Yesunake
 Mahimayu Ghanathayu - Sarvaadhikaari Kreesthunake (2)
 Chappatlu Kottuchu – Paatalu Paaduchu
 Aa Prabhuni Keerthinchedam
 Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
-Sthothraarpana Chesedam                           || Hallelujah ||
+Sthothraarpana Chesedam                            || Hallelujah ||
 
 1. Roopimpa Badaka Munde - Nannu Erigithivi
-   Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                    ||Chappatlu||
+   Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                     ||Chappatlu||
 
 2. Abhisheka Vasthramu Nichchi - Veerulugaa Chesithivi
-   Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)         ||Chappatlu||
+   Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)          ||Chappatlu||
 
 3. Nee sothaina janamuga - prathyeka parachitivi
-   yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                  ||Chappatlu||`
+   yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
     },
     {
         number: 9,
-        title: "నా జీవం నీవే    Naa Jeevam Neeve",
+        teluguTitle: "నా జీవం నీవే",
+        englishTitle: "Naa Jeevam Neeve",
         lyrics: `నా జీవం నీవె - నా ప్రాణం నీవె దేవ - నా సర్వం నీవె యేసు
 నా ధ్యానం నీవె - నా స్నేహం నీవె దేవ - నా దైవం నీవె యేసు 
 
@@ -315,7 +324,8 @@ NAAKAI MARANINCHINA RAKSHAKUDA             (2)
     },
     {
         number: 10,
-        title: "విడువని నేస్తమా     Viduvani Nesthama",
+        teluguTitle: "విడువని నేస్తమా",
+        englishTitle: "Viduvani Nesthama",
         lyrics: `విడువని నేస్తమా - చెరగని భాష్యామా
 శాశ్వత స్నేహమా - మారువని బంధమా
 మనసూ మనసు మిళితమై - కుదిరిన భావమా
@@ -348,11 +358,12 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
    Praana shename Siluva tyaagamai neeve nanu kannavu
    Rakthamicchi Rakshanicchi neekai nanu konnavu
    Naatho ne undaalani neekosame brathakaalani  - (2)
-   Nee chelime naa kalimiye - Yesuvaa…!!              ||Viduvani||`
+   Nee chelime naa kalimiye - Yesuvaa…!!               ||Viduvani||`
     },
     {
         number: 11,
-        title: "ఏల్‌ ఎలోహే     El-Elohe",
+        teluguTitle: "ఏల్‌ ఎలోహే",
+        englishTitle: "El-Elohe",
         lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
 నీ దయ నన్ను చేయి విడువ లేదు (2)
 కాలి చేతితో వచ్చితిని
@@ -495,11 +506,14 @@ function renderSongs(songsToDisplay) {
     songsToDisplay.forEach(song => {
         const div = document.createElement("div");
         div.className = "song";
-        div.setAttribute("data-title", song.title);
+        div.setAttribute("data-title", `${song.teluguTitle} ${song.englishTitle}`);
         div.innerHTML = `
             <div class="song-left">
                 <span class="song-badge">#${formatSongNumber(song.number)}</span>
-                <span class="song-title">${song.title}</span>
+                <div class="song-titles">
+                    <span class="song-title-telugu">${song.teluguTitle}</span>
+                    <span class="song-title-english">${song.englishTitle}</span>
+                </div>
             </div>
             <span class="song-arrow">❯</span>
         `;
@@ -510,7 +524,10 @@ function renderSongs(songsToDisplay) {
 
 function filterSongs() {
     const input = document.getElementById("search") ? document.getElementById("search").value.toLowerCase().trim() : "";
-    const filtered = songs.filter(song => song.title.toLowerCase().includes(input));
+    const filtered = songs.filter(song => 
+        song.teluguTitle.toLowerCase().includes(input) || 
+        song.englishTitle.toLowerCase().includes(input)
+    );
     renderSongs(filtered);
 }
 
@@ -540,7 +557,8 @@ function showLyrics(song) {
 
         <div class="lyrics-title-wrapper">
             <span class="lyrics-song-badge" id="lyrics-song-badge">Song #${formatSongNumber(song.number)}</span>
-            <h2 id="lyrics-title">${song.title}</h2>
+            <h2 id="lyrics-title">${song.teluguTitle}</h2>
+            <h3 id="lyrics-subtitle">${song.englishTitle}</h3>
         </div>
         
         <div class="lyrics-divider">― ✦ ―</div>
@@ -628,7 +646,7 @@ function updateSlide() {
     const counterEl = document.getElementById("pres-counter");
     const upNextElem = document.getElementById("pres-upnext");
 
-    if (titleEl) titleEl.textContent = currentSong.title;
+    if (titleEl) titleEl.textContent = `${currentSong.teluguTitle} (${currentSong.englishTitle})`;
     if (counterEl) counterEl.textContent = `${currentSlideIndex + 1} / ${totalSlides}`;
 
     if (upNextElem) {
