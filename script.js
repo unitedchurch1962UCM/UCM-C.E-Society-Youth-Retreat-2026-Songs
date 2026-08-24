@@ -446,8 +446,121 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
    Sajivudaavai Adhikasthotramu Ponduchunnavada... Ghanaparathunu Ninne …..
    Preminche Yesayyaa – Neevunte Chalunayya
    Nadipinche Najareyuda – Kapade Kaparivi      || Naa Neethi ||`
-     }
+     },
+{
+        number: 13,
+        teluguTitle: "పరిశుద్దుడ నీ సన్నిధిలో",
+        englishTitle: "Parishudhuda Nee Sannidhilo",
+        lyrics: `పరిశుద్దుడ నీ సన్నిధిలో - పరిపూర్ణుడ నీ గుడారములో (2)
+నీ అతిధిగా నన్ను నిలవని - నీ అతిధిగా దేవా నీలో నన్ను నిలవని
+నీ నీడలో నన్ను నివసించని
 
+1.  కపటము లేని హృదయమును - కాళ్ళలాడని నాలుక నిమ్ము (2)
+    చెలికానికి కీడెంచను - పొరుగువారిని నిందించను (2)   ||పరిశుద్దుడ||
+    
+2.  సన్మానింతును భక్తులను - నిచులను సహించను (2)
+    వాగ్ధానమిచ్చి వెనుకాడను - నష్టమైన మాట తప్పను   (2) ||పరిశుద్దుడ||
+
+
+Parisudduda nee sannidhilo - paripurnuda nee gudaramulo (2)
+Ni atidhiga nannu nilavani - nee atidhiga deva neelo nannu nilavani
+Ni needalo nannu nivasinchani
+
+1.  Kapatamu leni hrudayamunu - kallalaadani naaluka nimmu (2)
+    chelikaaniki keedenchanu - poruguvarini nindinchanu (2)   ||parisudduda||   
+2.  Sanmanintunu bhaktulanu - nichulanu sahinchanu (2)
+    vaagdhanamichi venukaadanu - nastamaina maata tappanu   (2) ||parisudduda||`
+    },
+{
+        number: 14,
+        teluguTitle: "అంత్యకాల అభిషేకం",
+        englishTitle: "Anthyakala Abhishekam",
+        lyrics: `అంత్యకాల అభిషేకం - సర్వ జనుల కోసం 
+కోతకాల దినములివి తండ్రి నీ ఆత్మతో నింపుమా (2) 
+మండే అగ్నల్లే రా దేవా- అన్య భాషలతో అభిషేకించు 
+ఎగసే గాలల్లే నను తాకుమా - జీవనది వలెనే ప్రవహించుమా (2) 
+
+1. ఎముకల లోయలోన గొప్ప సైన్యము నే చూడగా
+   నీ అధికారం దయచేయుమా – జీవమా రమ్మని ప్రవచించేదా (2) ||మండే||
+
+2. కర్మెలు కొండా పైన గొప్ప మేఘమై ఆవరించగా
+   ఆహబు భయపడిన - అగ్ని వర్షము కుమ్మరించుమా (2) ||మండే||
+
+3. సీనాయి పర్వతమందు అగ్ని పొద వలె నిను చూడగా
+   ఓ ఇశ్రాయేలు దైవమా - మాతో కూడా ఉన్నవడా (2) ||మండే||
+
+
+Antyakaala Abhishekam Sarva Janula Kosam 
+Kotakaala Dinamulivi Thandri Nee Aatmatho Ninpumaa (2)
+Mande Agnalle raa Deva - Anya Bhaashalatho Abhishekinchu 
+Yegase Gaalalle Nanu Taakumaa
+Jeevanadi Valene Pravahinchumaa (2)
+
+1. Yemukala Loyalona - Goppa Sainyamu Ne Choodagaa 
+   Nee Adhikaaram Dayacheyumaa 
+   Jeevamaa Rammani Pravachchinchedaa (2) ||Mande||
+
+2. Karmelu Konda Paina - Goppa Meghamai Aavarinchagaa 
+   Aahabu Bhayapadina - Agni Varshamu Kummarinchumaa (2) 
+
+3. Sinaayi Parvatamandu Agni Poda Vale Ninu Choodagaa 
+   O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
+       },
+{
+        number: 15,
+        englishTitle: "Aashiq tera",
+        lyrics: `Arey Aaya hu... mai yahaan YESHU tere darbar me 
+Aaya hu mai yahaan YESHU tere darbar me
+Darbar me ho teri stuthi
+Darbar me ho aaradhana    (2)
+Arey Aaya hu mai yahaan
+Mai aashiq tera YESHU Mai aashiq tera 
+Mai aashiq tera YESHU Mai aashiq tera
+
+1. Arey Aashiq hu mai tera Mai naa sharmaaoonga 
+   Aashiq hu mai tera Mai naa ghabraaoonga
+   Aashiq hu mai tera Mai naa sharmaaoonga
+   Aashiq hu mai tera - Mai naa ghabraaoonga
+   Arey YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
+   YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
+   "Arey daud ki tarah"
+   Mai nachoonga YESHU Mai nachoonga (2)
+   
+2. Arey Aaj to mai YESHU Kuch aisa gaoonga 
+   Aaj to mai YESHU Kuch aisa nachoonga
+   Aaj to mai YESHU Kuch aisa gaaoonga
+   Aaj to mai YESHU Kuch aisa nachoonga
+   Arey Shaanti ka raja thu badhshaah - Maut ko tune hara diya 
+   Shaanti ka raja thu badhshaah - Mout ko tune hara diya
+   "Arey Tu jo zinda hai"
+   Mai jhoomoonga YESHU Mai jhoomoonga (2)    ||Arey Aaya hu||`
+    },
+{
+        number: 16,
+        teluguTitle: "మంచివాడు గొప్పవాడు",
+        englishTitle: "Manchivaadu Goppa vaadu",
+        lyrics: `మంచివాడు గొప్పవాడు నా యేసు పరిశుద్ధుడు 
+మేలులెన్నో చేయువాడు నా యేసు అందరికి (2) 
+ఆదరణ ఆశ్రయము నీవేగా నాకిలలో (2) ||మంచివాడు || 
+
+1. ఒంటరి వారిని వ్యవస్థగా వృద్ధి చేసే దేవుడవు
+   దీనులను పైకి లేవనెత్తి సింహాసనమెక్కించును (2) ||ఆదరణ||
+
+2. ఆహా ఆహా ఆనందమే యేసయ్యతో జీవితం 
+   సంతోషమే సమాధానమే ఎల్లప్పుడు ఆయనలో (2) ||ఆదరణ||
+
+
+Manchivaadu goppavaadu naa yesu parishuddhudu
+Melulenno cheyuvaadu naa yesu andariki (2) 
+Aadarana aashrayamu neevegaa naakilalo (2) ||manchivaadull 
+
+1. Ontari vaarini vyavasthagaa vruddhi chese devudavu
+   Deenulanu paiki levanetthi simhaasanamekkinchunu (2) ||Aadarana||
+
+2. Aahaa aahaa aanandame yesayyatho jeevitham 
+   Santhoshame samaadhaaname ellappudu aayanalo (2) ||Aadarana||`
+    
+ }
 
 ];
 
