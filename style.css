@@ -53,12 +53,13 @@ header {
     transition: transform 0.3s ease;
 }
 
-/* Left logo sizing bump + Oval clip-path to trim white box */
+/* Left logo: Configured for transparent church-logo-bg.png */
 .left-logo {
     width: 140px;
     height: 140px;
-    clip-path: ellipse(34% 45% at 50% 50%);
-    object-fit: cover;
+    object-fit: contain;
+    clip-path: none;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.6));
 }
 
 .logo:hover {
@@ -81,7 +82,6 @@ header {
     margin-top: 0;
 }
 
-/* Pulled close to UNITED CHURCH */
 .hero-text h2 {
     font-size: 14px;
     font-weight: 500;
@@ -104,7 +104,6 @@ header {
     margin: 2px 0 0px 0;
 }
 
-/* Pulled close to Christian Endeavour Society & increased to medium-big */
 .hero-text h4 {
     font-size: 28px;
     font-weight: 700;
@@ -576,32 +575,22 @@ pre {
     align-items: center;
     justify-content: center;
     gap: 8px;
-
     padding: 14px 28px;
     border-radius: 50px;
-
     background: linear-gradient(135deg, #1684ff, #625cff);
     color: #ffffff;
-
     text-decoration: none;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.5px;
-
     border: 1px solid rgba(255, 255, 255, 0.25);
-
-    box-shadow:
-        0 0 15px rgba(22, 132, 255, 0.45),
-        0 8px 25px rgba(0, 0, 0, 0.25);
-
+    box-shadow: 0 0 15px rgba(22, 132, 255, 0.45), 0 8px 25px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease;
 }
 
 .feedback-btn:hover {
     transform: translateY(-3px);
-    box-shadow:
-        0 0 25px rgba(22, 132, 255, 0.7),
-        0 10px 30px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 25px rgba(22, 132, 255, 0.7), 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 .feedback-btn:active {
@@ -673,7 +662,6 @@ footer small {
         opacity: 0;
         transform: scale(0.98);
     }
-
     100% {
         opacity: 1;
         transform: scale(1);
@@ -685,7 +673,6 @@ footer small {
         opacity: 0;
         transform: translateY(20px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
@@ -714,8 +701,8 @@ footer small {
     .left-logo {
         width: 110px;
         height: 110px;
-        clip-path: ellipse(34% 45% at 50% 50%);
-        object-fit: cover;
+        object-fit: contain;
+        clip-path: none;
     }
 
     .hero-text h1 {
@@ -802,7 +789,6 @@ footer small {
         font-size: 16px;
     }
 
-    /* Feedback button on mobile */
     .feedback-section {
         margin: 28px auto 15px;
     }
