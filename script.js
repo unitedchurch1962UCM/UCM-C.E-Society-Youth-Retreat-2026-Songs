@@ -411,7 +411,7 @@ ninne sthuthinthun (2)
      {
         number: 12,
         teluguTitle: "నా నీతి సూర్యుడా",
-        englishTitle: "El-Elohe",
+        englishTitle: "Naa Neethi Suryuda",
         lyrics: `నా నీతి సూర్యుడా – భూవినేలు యేసయ్యా - (2)
 సరిపోల్చలేను నీతో – ఘనులైన వారిని  (2)
 రాజులకే మహారాజువు – కృప చూపే దేవుడవు
