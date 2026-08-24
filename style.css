@@ -42,7 +42,7 @@ header {
     flex-shrink: 0;
 }
 
-/* Updated logo styling: Circles around left/right logos removed */
+/* Base logo styling */
 .logo {
     width: 115px;
     height: 115px;
@@ -51,6 +51,12 @@ header {
     box-shadow: none;
     border: none;
     transition: transform 0.3s ease;
+}
+
+/* Left logo sizing bump to match right logo visually */
+.left-logo {
+    width: 140px;
+    height: 140px;
 }
 
 .logo:hover {
@@ -701,6 +707,11 @@ footer small {
     .logo {
         width: 90px;
         height: 90px;
+    }
+
+    .left-logo {
+        width: 110px;
+        height: 110px;
     }
 
     .hero-text h1 {
