@@ -53,12 +53,13 @@ header {
     transition: transform 0.3s ease;
 }
 
-/* Left logo sizing bump + Oval clip-path to trim white box */
+/* Left logo: Size bump + Clean display for transparent PNG */
 .left-logo {
     width: 140px;
     height: 140px;
-    clip-path: ellipse(34% 45% at 50% 50%);
-    object-fit: cover;
+    object-fit: contain;
+    clip-path: none;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
 }
 
 .logo:hover {
@@ -714,8 +715,8 @@ footer small {
     .left-logo {
         width: 110px;
         height: 110px;
-        clip-path: ellipse(34% 45% at 50% 50%);
-        object-fit: cover;
+        object-fit: contain;
+        clip-path: none;
     }
 
     .hero-text h1 {
