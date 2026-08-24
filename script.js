@@ -87,32 +87,40 @@ Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
     },
     {
         number: 3,
-        teluguTitle: "యూదుల రాజ",
-        englishTitle: "Yudhula Raaja",
-        lyrics: `యూదుల రాజ శరోను రోజా - నీ నామము గొప్పది
-సరిపోల్చ లేని దైవము నీవు - నీ నామము ఉన్నతం                   ||2||
+        teluguTitle: "నీవంటి వారు లేరయ్యా త్రియేకదేవా ",
+        englishTitle: "Neevanti vaaru Lerayya Triyekadeva",
+        lyrics: `నీవంటి వారు లేరయ్యా త్రియేకదేవా
+నీకెవరు సమాము లేరయ్యా త్రియేకదేవా
+నీకెవరు సమాము లేరయ్యా (2)
+ప్రేమాస్వరూపుడవు… దీర్ఘశాంతుడవు (2)
+సత్యస్వరూపుడవు… తరతరములకు నీవు (2)   ||నీవంటి||
 
-పాడెదన్... నా యేసుకై... నే జీవించు చివరి శ్వాస వరకు
-చాటేదన్... నీ సత్యమును...నే బ్రతుకు దియనముల్ ముగిసే వరకు    ||2||
+1. నీ వాక్యం సత్యం నిత్యము శ్రీ యేసు నాథా
+   నీ నామము మహిమాన్వితము (2)
+   సర్వశక్తిమంతుడవు…  సర్వజ్ఞానుడవు (2)
+   కాలములన్నిటినీ ఏలుచున్నవాడవు నీవే (2)  ||నీవంటి||
 
-1. సైన్యముల అధిపతి - బలమైన నామము - పాడెదన్ పరిశుద్ధూని
-   అగ్ని గుండము కాల్చలేదు - యేసు నాకుండగా                    ||పాడెదన్||
+2. నీ సింహాసనము స్థిరము - ఓ యేసు దేవా... నీ రాజ్యము శాశ్వతమే... (2)
+   పరమపావనుడవు… పరిశుద్ధుడవు నీవు (2)
+   పాపులను ప్రేమించి – ప్రాణమును అర్పించిన దేవా ||నీవంటి||
 
-2. నీ ప్రసన్నతతో నన్ను నడిపి - నీ మార్గము చూపుము
-   నీ మహిమ నాకు కనపరాచి - నీ విజయము నిమ్ము               ||4|| ||పాడెదన్||
    
    
-Yudhula Raja Sharonu Roja - Nee Naamamu Gopadhi  
-Saripolcha leni dhaivamu neevu - Nee naamamu Unnatham                   ||2||
+Neevanti Vaaru Lerayya Triyekadevaa 
+Neekevaru Samamu Lerayya Triyekadevaa
+Neekevaru Samamu Lerayya (2)
+Premaswarupudavu… Dheerghasanthudavu (2)
+Satyaswarupudavu… Tara Taramulaku Neevu (2)   ||Neevanti||
 
-Paadedhan... Na Yesukai  - Ney jeevinchu chivari svasa varakku
-Chaatedhan... nee sathyamunu - Ney brathuku dhianamul mugisey varaku   ||2||
+1. Nee Vaakyam Satyam Nityamu Sri Yesu Nada 
+   Nee Naamamu Mahimanvithamu (2)
+   Sarvasaktimanthudavu…  Sarvagnanudavu (2)
+   Kalamulannitini Yeluchunnavadavu Neeve (2)  ||Neevanti||
 
-1. Sainyamula adhipathi - Balamaina naamamu - Paadedhan Parishudhuni 
-   Agni Gundamu kaalchaledhu - Yesu nakundaga                          ||Paadedhan||
-
-2. Nee prasannathatho nanny nadipi  - Nee margamu choopumu
-   Nee mahima naaku kanaparachi  - Nee vijayamu nimmu              ||4|| ||Paadedhan||`
+2. Nee Simhasanamu Sthiramu - O Yesu Devaa...
+   Nee Rajyamu Saswatame... (2)
+   Paramapaavanudavu… Parisudhudavu Neevu (2)
+   Papulanu Preminchi – Pranamunu Arpinchina Deva ||Neevanti||`
     },
     {
         number: 4,
