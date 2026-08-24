@@ -409,7 +409,7 @@ ninne sthuthinthun (2)
    swaasthyamugaa naaku marchithive (2) ||El||`
     },
      {
-        number: 11,
+        number: 12,
         teluguTitle: "నా నీతి సూర్యుడా",
         englishTitle: "El-Elohe",
         lyrics: `నా నీతి సూర్యుడా – భూవినేలు యేసయ్యా - (2)
