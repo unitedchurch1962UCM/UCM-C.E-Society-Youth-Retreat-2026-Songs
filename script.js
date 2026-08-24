@@ -407,7 +407,48 @@ ninne sthuthinthun (2)
    priyamaina vanni naakicchithive  (2)
    paradeshiga neenunna chote
    swaasthyamugaa naaku marchithive (2) ||El||`
-    }
+    },
+     {
+        number: 11,
+        teluguTitle: "నా నీతి సూర్యుడా",
+        englishTitle: "El-Elohe",
+        lyrics: `నా నీతి సూర్యుడా – భూవినేలు యేసయ్యా - (2)
+సరిపోల్చలేను నీతో – ఘనులైన వారిని  (2)
+రాజులకే మహారాజువు – కృప చూపే దేవుడవు
+నడిపించే నజరేయుడా – కాపాడే కాపరివి  || నా నీతి ||
+
+1. శ్రమలలో బహుశ్రమలలో – ఆదరణ కలిగించేను
+   వాక్యమే కృపావక్యమే – నను వీడని అనుబంధమై  (2)
+   నీ మాటలే జలదారలై – సంతృప్తి నిచ్చెను
+   నీ మాటలే ఔషదమై – గాయములు కట్టెను..  నీ మాటే మధురం … || రాజులకే ||
+
+2. మేలుకై సమస్తమును జరిగించుచున్నావు నీవు
+   ఏదియు కోదువచేయవు – నిన్నాశ్రయించినా వారికి (2)
+   భీకరమైన కార్యములు చేయుచున్నవాడా
+   సజీవుడావై అధికస్తోత్రము పొందుచున్నవాడా... ఘనపరతును నిన్నే …..
+   ప్రేమించే యేసయ్యా – నీవుంటే చాలునయ్యా
+   నడిపించే నజరేయుడా – కాపాడే కాపరివి      || నా నీతి ||
+
+
+Naa Neethi Suryudaa – Bhuvinelu Yesayyaa - (2)
+Saripolchalenu Neetho – Ghanulaina Vaarini  (2)
+Rajulake Maharajuvu – Krupa Chupe Devudavu
+Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
+
+1. Sramalalo Bahusramalalo – Aadarana Kaliginchenu
+   Vaakyame Krupaavakyame – Nanu Viidani Anubandhamai  (2)
+   Ni Maatale Jaladaralai – Santhrupthi Nicchenu
+   Ni Maatale Aushadamai – Gayamulu Kattenu..  Nee Maate Madhuram … || Rajulake ||
+   
+2. Melukai Samastamunu Jariginchuchunnavu Neevu
+   Ediyu Koduvacheyavu – Ninnasrayinchinaa Variki (2)
+   Bhikaramaina Kaaryamulu Cheyuchunnavada
+   Sajivudaavai Adhikasthotramu Ponduchunnavada... Ghanaparathunu Ninne …..
+   Preminche Yesayyaa – Neevunte Chalunayya
+   Nadipinche Najareyuda – Kapade Kaparivi      || Naa Neethi ||`
+     }
+
+
 ];
 
 // ==========================================
