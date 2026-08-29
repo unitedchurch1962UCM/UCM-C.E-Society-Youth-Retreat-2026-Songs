@@ -24,7 +24,7 @@ body::before {
     width: 100%;
     height: 100%;
     background: #04080f url("bg.png") center/cover no-repeat;
-    filter: blur(8px); /* Adjust blur strength here (e.g., 5px to 12px) */
+    filter: blur(5px); /* Adjust blur strength here (e.g., 5px to 12px) */
     transform: scale(1.05); /* Slightly zooms to prevent white edge artifacts from blur */
     z-index: -1; /* Keeps background behind all content */
 }
