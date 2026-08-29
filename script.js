@@ -476,7 +476,7 @@ Jeevanadi Valene Pravahinchumaa (2)
        },
 {
         number: 14,
-        teluguTitle: "ఆషిక్ తెర ",
+        teluguTitle: "ఆషిక్ తేరా ",
         englishTitle: "Aashiq tera",
         lyrics: `Arey Aaya hu... mai yahaan YESHU tere darbar me 
 Aaya hu mai yahaan YESHU tere darbar me
