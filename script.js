@@ -284,19 +284,19 @@ Nannu Nadipinche Manchi Kaaparivi
 Naakai Maraninchina Rakshakuda             (2)
 
 1. Na Balamu Neeve - Na Ganam Neeve Deva
-   Na Gamyam Neeve Yesu
-   Na Kota Neeve - Na Durgam Neeve Deva
-   Na Asha Neeve Yesu
-   Nannu Nadipinche Manchi Kaaparivi
-   Naakai Maraninchina Rakshakuda          (2)
+    Na Gamyam Neeve Yesu
+    Na Kota Neeve - Na Durgam Neeve Deva
+    Na Asha Neeve Yesu
+    Nannu Nadipinche Manchi Kaaparivi
+    Naakai Maraninchina Rakshakuda          (2)
 
-   Kanna Thallivai Nanu Hathu Kunnavu
-   Kanna Thandrivai Nanu Yethu Kunnavu
-   Manchi Snehithudai Na Thodu Unnavu
-   Prana Priyudai Nanu Viduva Nannavu
+    Kanna Thallivai Nanu Hathu Kunnavu
+    Kanna Thandrivai Nanu Yethu Kunnavu
+    Manchi Snehithudai Na Thodu Unnavu
+    Prana Priyudai Nanu Viduva Nannavu
 
-   Nannu Nadipinche Manchi Kaaparivi
-   Naakai Maraninchina Rakshakuda          (2)`
+    Nannu Nadipinche Manchi Kaaparivi
+    Naakai Maraninchina Rakshakuda          (2)`
     },
     {
         number: 9,
@@ -308,16 +308,16 @@ Naakai Maraninchina Rakshakuda             (2)
 చేయి చేయి పట్టినదై చెరగని వాస్తవమా                    ||విడువని||
 
 1. నిజ స్నేహం - కలకాలం
-   నిజ స్నేహం - కలకాలం ఉంటేనే మాధుర్యం 
-   తొడుగాను నీడగాను ఉండాలన్నదే ధ్యేయం !
-   నీతోనే ఉంటానని నీవెంటే వస్తానని - (2)
-   నా ఆశే నీ ఆశయము మిత్రమా...                    ||విడువని||
+    నిజ స్నేహం - కలకాలం ఉంటేనే మాధుర్యం 
+    తొడుగాను నీడగాను ఉండాలన్నదే ధ్యేయం !
+    నీతోనే ఉంటానని నీవెంటే వస్తానని - (2)
+    నా ఆశే నీ ఆశయము మిత్రమా...                    ||విడువని||
 
 2. ప్రాణ స్నేహమే - సిలువ త్యాగమై 
-   ప్రాణ స్నేహమే - సిలువ త్యాగమై నీవే నను కన్నావు 
-   రక్తమిచ్చి రక్షణిచ్చి నీకై నను కొన్నావు 
-   నాతోనే ఉండాలని నీకోసమే బ్రతకాలని - (2)
-   నీ చెలిమే నా కలిమియే -  యేసువా...                ||విడువని||     
+    ప్రాణ స్నేహమే - సిలువ త్యాగమై నీవే నను కన్నావు 
+    రక్తమిచ్చి రక్షణిచ్చి నీకై నను కొన్నావు 
+    నాతోనే ఉండాలని నీకోసమే బ్రతకాలని - (2)
+    నీ చెలిమే నా కలిమియే -  యేసువా...                ||విడువని||     
                 
 Viduvani Nesthama - cheragani bhashyama
 Sashwatha snehama - maruvani bandhama
@@ -325,16 +325,16 @@ Manasu manasu milithamai - kudirina bhavama
 Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
 
 1. Nija sneham - kalakaalam
-   Nija sneham kalakaalam unte ney madhuryam
-   Thoduganu needaganu undaalannade dhyeyam
-   Neethone untaanani neevente vasthaanani   - (2)
-   Naa aashe nee ashayamu mitramaa…                  ||Viduvani||    
+    Nija sneham kalakaalam unte ney madhuryam
+    Thoduganu needaganu undaalannade dhyeyam
+    Neethone untaanani neevente vasthaanani   - (2)
+    Naa aashe nee ashayamu mitramaa…                  ||Viduvani||    
 
 2. Prana snehame - Siluva tyaagamai
-   Praana shename Siluva tyaagamai neeve nanu kannavu
-   Rakthamicchi Rakshanicchi neekai nanu konnavu
-   Naatho ne undaalani neekosame brathakaalani  - (2)
-   Nee chelime naa kalimiye - Yesuvaa…!!               ||Viduvani||`
+    Praana shename Siluva tyaagamai neeve nanu kannavu
+    Rakthamicchi Rakshanicchi neekai nanu konnavu
+    Naatho ne undaalani neekosame brathakaalani  - (2)
+    Nee chelime naa kalimiye - Yesuvaa…!!               ||Viduvani||`
     },
     {
         number: 10,
@@ -349,14 +349,14 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
 నిన్నే స్తుతింతున్ (2)
 
 1. గాయపడ్డాను - కన్నీళ్లు కార్చాను
-   కలతచెందిన నాకై దిగివచ్చావు (2)
-   నిబంధనను నాతో చేసితివే
-   కోల్పోయినవన్నీ  ఇచ్చితివే.   (2)  ||ఎల్||
+    కలతచెందిన నాకై దిగివచ్చావు (2)
+    నిబంధనను నాతో చేసితివే
+    కోల్పోయినవన్నీ  ఇచ్చితివే.   (2)  ||ఎల్||
 
 2. ప్రియులందరు విడిచి పోయినా
-   ప్రియమైన వన్నీ నాకిచ్చితివే   (2)
-   పరదేశిగా  నేనున్న చోటే
-   స్వాస్థ్యముగా నాకు మార్చితివే   (2) ||ఎల్||
+    ప్రియమైన వన్నీ నాకిచ్చితివే   (2)
+    పరదేశిగా  నేనున్న చోటే
+    స్వాస్థ్యముగా నాకు మార్చితివే   (2) ||ఎల్||
 
 Ninnu nammi vachchi - ne sigguchendaledu 
 nee daya nannu cheyi viduva ledu (2)
@@ -367,14 +367,14 @@ El-Elohe El-Elohe El-Elohe
 ninne sthuthinthun (2)
 
 1. Gaayapaddanu - kanneellu karchanu
-   kalathachendina naakai digivacchavu (2)
-   nibandhananu natho chesithive
-   kolpoyinavanni  icchithive  (2)  ||El||
+    Kalathachendina naakai digivacchavu (2)
+    Nibandhananu natho chesithive
+    Kolpoyinavanni  icchithive  (2)  ||El||
 
 2. Priyulandaru vidichi poyinaa
-   priyamaina vanni naakicchithive  (2)
-   paradeshiga neenunna chote
-   swaasthyamugaa naaku marchithive (2) ||El||`
+    Priyamaina vanni naakicchithive  (2)
+    Paradeshiga neenunna chote
+    Swaasthyamugaa naaku marchithive (2) ||El||`
     },
      {
         number: 11,
@@ -386,16 +386,16 @@ ninne sthuthinthun (2)
 నడిపించే నజరేయుడా – కాపాడే కాపరివి  || నా నీతి ||
 
 1. శ్రమలలో బహుశ్రమలలో – ఆదరణ కలిగించేను
-   వాక్యమే కృపావక్యమే – నను వీడని అనుబంధమై  (2)
-   నీ మాటలే జలదారలై – సంతృప్తి నిచ్చెను
-   నీ మాటలే ఔషదమై – గాయములు కట్టెను..  నీ మాటే మధురం … || రాజులకే ||
+    వాక్యమే కృపావక్యమే – నను వీడని అనుబంధమై  (2)
+    నీ మాటలే జలదారలై – సంతృప్తి నిచ్చెను
+    నీ మాటలే ఔషదమై – గాయములు కట్టెను..  నీ మాటే మధురం … || రాజులకే ||
 
 2. మేలుకై సమస్తమును జరిగించుచున్నావు నీవు
-   ఏదియు కోదువచేయవు – నిన్నాశ్రయించినా వారికి (2)
-   భీకరమైన కార్యములు చేయుచున్నవాడా
-   సజీవుడావై అధికస్తోత్రము పొందుచున్నవాడా... ఘనపరతును నిన్నే …..
-   ప్రేమించే యేసయ్యా – నీవుంటే చాలునయ్యా
-   నడిపించే నజరేయుడా – కాపాడే కాపరివి      || నా నీతి ||
+    ఏదియు కోదువచేయవు – నిన్నాశ్రయించినా వారికి (2)
+    భీకరమైన కార్యములు చేయుచున్నవాడా
+    సజీవుడావై అధికస్తోత్రము పొందుచున్నవాడా... ఘనపరతును నిన్నే …..
+    ప్రేమించే యేసయ్యా – నీవుంటే చాలునయ్యా
+    నడిపించే నజరేయుడా – కాపాడే కాపరివి      || నా నీతి ||
 
 
 Naa Neethi Suryudaa – Bhuvinelu Yesayyaa - (2)
@@ -404,16 +404,16 @@ Rajulake Maharajuvu – Krupa Chupe Devudavu
 Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
 
 1. Sramalalo Bahusramalalo – Aadarana Kaliginchenu
-   Vaakyame Krupaavakyame – Nanu Viidani Anubandhamai  (2)
-   Ni Maatale Jaladaralai – Santhrupthi Nicchenu
-   Ni Maatale Aushadamai – Gayamulu Kattenu..  Nee Maate Madhuram … || Rajulake ||
+    Vaakyame Krupaavakyame – Nanu Viidani Anubandhamai  (2)
+    Ni Maatale Jaladaralai – Santhrupthi Nicchenu
+    Ni Maatale Aushadamai – Gayamulu Kattenu..  Nee Maate Madhuram … || Rajulake ||
    
 2. Melukai Samastamunu Jariginchuchunnavu Neevu
-   Ediyu Koduvacheyavu – Ninnasrayinchinaa Variki (2)
-   Bhikaramaina Kaaryamulu Cheyuchunnavada
-   Sajivudaavai Adhikasthotramu Ponduchunnavada... Ghanaparathunu Ninne …..
-   Preminche Yesayyaa – Neevunte Chalunayya
-   Nadipinche Najareyuda – Kapade Kaparivi      || Naa Neethi ||`
+    Yediyu Koduvacheyavu – Ninnasrayinchinaa Variki (2)
+    Bhikaramaina Kaaryamulu Cheyuchunnavada
+    Sajivudaavai Adhikasthotramu Ponduchunnavada... Ghanaparathunu Ninne …..
+    Preminche Yesayyaa – Neevunte Chalunayya
+    Nadipinche Najareyuda – Kapade Kaparivi      || Naa Neethi ||`
      },
 {
         number: 12,
@@ -424,10 +424,10 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
 నీ నీడలో నన్ను నివసించని
 
 1.  కపటము లేని హృదయమును - కాళ్ళలాడని నాలుక నిమ్ము (2)
-    చెలికానికి కీడెంచను - పొరుగువారిని నిందించను (2)   ||పరిశుద్దుడ||
+     చెలికానికి కీడెంచను - పొరుగువారిని నిందించను (2)   ||పరిశుద్దుడ||
     
 2.  సన్మానింతును భక్తులను - నిచులను సహించను (2)
-    వాగ్ధానమిచ్చి వెనుకాడను - నష్టమైన మాట తప్పను   (2) ||పరిశుద్దుడ||
+     వాగ్ధానమిచ్చి వెనుకాడను - నష్టమైన మాట తప్పను   (2) ||పరిశుద్దుడ||
 
 
 Parisudduda nee sannidhilo - paripurnuda nee gudaramulo (2)
@@ -435,9 +435,9 @@ Ni atidhiga nannu nilavani - nee atidhiga deva neelo nannu nilavani
 Ni needalo nannu nivasinchani
 
 1.  Kapatamu leni hrudayamunu - kallalaadani naaluka nimmu (2)
-    chelikaaniki keedenchanu - poruguvarini nindinchanu (2)   ||parisudduda||   
+     Chelikaaniki keedenchanu - poruguvarini nindinchanu (2)   ||parisudduda||   
 2.  Sanmanintunu bhaktulanu - nichulanu sahinchanu (2)
-    vaagdhanamichi venukaadanu - nastamaina maata tappanu   (2) ||parisudduda||`
+     Vaagdhanamichi venukaadanu - nastamaina maata tappanu   (2) ||parisudduda||`
     },
 {
         number: 13,
@@ -449,13 +449,13 @@ Ni needalo nannu nivasinchani
 ఎగసే గాలల్లే నను తాకుమా - జీవనది వలెనే ప్రవహించుమా (2) 
 
 1. ఎముకల లోయలోన గొప్ప సైన్యము నే చూడగా
-   నీ అధికారం దయచేయుమా – జీవమా రమ్మని ప్రవచించేదా (2) ||మండే||
+    నీ అధికారం దయచేయుమా – జీవమా రమ్మని ప్రవచించేదా (2) ||మండే||
 
 2. కర్మెలు కొండా పైన గొప్ప మేఘమై ఆవరించగా
-   ఆహబు భయపడిన - అగ్ని వర్షము కుమ్మరించుమా (2) ||మండే||
+    ఆహబు భయపడిన - అగ్ని వర్షము కుమ్మరించుమా (2) ||మండే||
 
 3. సీనాయి పర్వతమందు అగ్ని పొద వలె నిను చూడగా
-   ఓ ఇశ్రాయేలు దైవమా - మాతో కూడా ఉన్నవడా (2) ||మండే||
+    ఓ ఇశ్రాయేలు దైవమా - మాతో కూడా ఉన్నవడా (2) ||మండే||
 
 
 Antyakaala Abhishekam Sarva Janula Kosam 
@@ -465,14 +465,14 @@ Yegase Gaalalle Nanu Taakumaa
 Jeevanadi Valene Pravahinchumaa (2)
 
 1. Yemukala Loyalona - Goppa Sainyamu Ne Choodagaa 
-   Nee Adhikaaram Dayacheyumaa 
-   Jeevamaa Rammani Pravachchinchedaa (2) ||Mande||
+    Nee Adhikaaram Dayacheyumaa 
+    Jeevamaa Rammani Pravachchinchedaa (2) ||Mande||
 
 2. Karmelu Konda Paina - Goppa Meghamai Aavarinchagaa 
-   Aahabu Bhayapadina - Agni Varshamu Kummarinchumaa (2) 
+    Aahabu Bhayapadina - Agni Varshamu Kummarinchumaa (2) 
 
 3. Sinaayi Parvatamandu Agni Poda Vale Ninu Choodagaa 
-   O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
+    O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
        },
 {
         number: 14,
@@ -487,22 +487,22 @@ Mai aashiq tera YESHU Mai aashiq tera
 Mai aashiq tera YESHU Mai aashiq tera
 
 1. Arey Aashiq hu mai tera Mai naa sharmaaoonga 
-   Aashiq hu mai tera Mai naa ghabraaoonga
-   Aashiq hu mai tera Mai naa sharmaaoonga
-   Aashiq hu mai tera - Mai naa ghabraaoonga
-   Arey YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
-   YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
-   "Arey daud ki tarah"
-   Mai nachoonga YESHU Mai nachoonga (2)
+    Aashiq hu mai tera Mai naa ghabraaoonga
+    Aashiq hu mai tera Mai naa sharmaaoonga
+    Aashiq hu mai tera - Mai naa ghabraaoonga
+    Arey YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
+    YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
+    "Arey daud ki tarah"
+    Mai nachoonga YESHU Mai nachoonga (2)
    
 2. Arey Aaj to mai YESHU Kuch aisa gaoonga 
-   Aaj to mai YESHU Kuch aisa nachoonga
-   Aaj to mai YESHU Kuch aisa gaaoonga
-   Aaj to mai YESHU Kuch aisa nachoonga
-   Arey Shaanti ka raja thu badhshaah - Maut ko tune hara diya 
-   Shaanti ka raja thu badhshaah - Mout ko tune hara diya
-   "Arey Tu jo zinda hai"
-   Mai jhoomoonga YESHU Mai jhoomoonga (2)    ||Arey Aaya hu||`
+    Aaj to mai YESHU Kuch aisa nachoonga
+    Aaj to mai YESHU Kuch aisa gaaoonga
+    Aaj to mai YESHU Kuch aisa nachoonga
+    Arey Shaanti ka raja thu badhshaah - Maut ko tune hara diya 
+    Shaanti ka raja thu badhshaah - Mout ko tune hara diya
+    "Arey Tu jo zinda hai"
+    Mai jhoomoonga YESHU Mai jhoomoonga (2)    ||Arey Aaya hu||`
     },
 {
         number: 15,
@@ -513,10 +513,10 @@ Mai aashiq tera YESHU Mai aashiq tera
 ఆదరణ ఆశ్రయము నీవేగా నాకిలలో (2) ||మంచివాడు || 
 
 1. ఒంటరి వారిని వ్యవస్థగా వృద్ధి చేసే దేవుడవు
-   దీనులను పైకి లేవనెత్తి సింహాసనమెక్కించును (2) ||ఆదరణ||
+    దీనులను పైకి లేవనెత్తి సింహాసనమెక్కించును (2) ||ఆదరణ||
 
 2. ఆహా ఆహా ఆనందమే యేసయ్యతో జీవితం 
-   సంతోషమే సమాధానమే ఎల్లప్పుడు ఆయనలో (2) ||ఆదరణ||
+    సంతోషమే సమాధానమే ఎల్లప్పుడు ఆయనలో (2) ||ఆదరణ||
 
 
 Manchivaadu goppavaadu naa yesu parishuddhudu
@@ -524,10 +524,10 @@ Melulenno cheyuvaadu naa yesu andariki (2)
 Aadarana aashrayamu neevegaa naakilalo (2) ||manchivaadull 
 
 1. Ontari vaarini vyavasthagaa vruddhi chese devudavu
-   Deenulanu paiki levanetthi simhaasanamekkinchunu (2) ||Aadarana||
+    Deenulanu paiki levanetthi simhaasanamekkinchunu (2) ||Aadarana||
 
 2. Aahaa aahaa aanandame yesayyatho jeevitham 
-   Santhoshame samaadhaaname ellappudu aayanalo (2) ||Aadarana||`
+    Santhoshame samaadhaaname ellappudu aayanalo (2) ||Aadarana||`
     
  }
 
