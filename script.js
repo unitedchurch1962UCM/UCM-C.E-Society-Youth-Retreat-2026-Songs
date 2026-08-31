@@ -70,20 +70,20 @@ Kshaminchaavu Nannu Neevu
 Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
 
 1. Emundhi Ee Jagaana - Yedhureetha Saagaraana 
-   Naa Jeeva Naava Neeve Naa Yesayya
-   Theerale Dooramaina - Kanumera Cheekataina 
-   Ye Bhayamu Ledhu Naaku Neevundaga
-   Alajadule Reginaa - Adhikaaram Needani
-   Anudhinamu Nee Krupa - Stuthiyinchi Paadani
-   Priyamaina Yesayya - Nadipinchu Nannila         ||Nannenthagano||
+    Naa Jeeva Naava Neeve Naa Yesayya
+    Theerale Dooramaina - Kanumera Cheekataina 
+    Ye Bhayamu Ledhu Naaku Neevundaga
+    Alajadule Reginaa - Adhikaaram Needani
+    Anudhinamu Nee Krupa - Stuthiyinchi Paadani
+    Priyamaina Yesayya - Nadipinchu Nannila         ||Nannenthagano||
 
 2. Oohinchalenu Deva - Neevu Leni Jeevithaanni
-   O Nimushamiana Nenu Manalenugaa
-   Naaloni Aasa Neeve - Yedhaloni Dhyaasa Neeve
-   Nee Paadhasevakega - Ee Jeevitham
-   Anuvanuvu Neevani - Ihamandhu Paadani
-   Kadavaraku Saakshigaa - Kalakaalam Saagani
-   Priyamaina Yesayya - Karuninchu Nannila         ||Nannenthagano||`
+    O Nimushamiana Nenu Manalenugaa
+    Naaloni Aasa Neeve - Yedhaloni Dhyaasa Neeve
+    Nee Paadhasevakega - Ee Jeevitham
+    Anuvanuvu Neevani - Ihamandhu Paadani
+    Kadavaraku Saakshigaa - Kalakaalam Saagani
+    Priyamaina Yesayya - Karuninchu Nannila         ||Nannenthagano||`
     },
     {
         number: 3,
@@ -96,13 +96,13 @@ Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
 సత్యస్వరూపుడవు… తరతరములకు నీవు (2)   ||నీవంటి||
 
 1. నీ వాక్యం సత్యం నిత్యము శ్రీ యేసు నాథా
-   నీ నామము మహిమాన్వితము (2)
-   సర్వశక్తిమంతుడవు…  సర్వజ్ఞానుడవు (2)
-   కాలములన్నిటినీ ఏలుచున్నవాడవు నీవే (2)  ||నీవంటి||
+    నీ నామము మహిమాన్వితము (2)
+    సర్వశక్తిమంతుడవు…  సర్వజ్ఞానుడవు (2)
+    కాలములన్నిటినీ ఏలుచున్నవాడవు నీవే (2)  ||నీవంటి||
 
 2. నీ సింహాసనము స్థిరము - ఓ యేసు దేవా... నీ రాజ్యము శాశ్వతమే... (2)
-   పరమపావనుడవు… పరిశుద్ధుడవు నీవు (2)
-   పాపులను ప్రేమించి – ప్రాణమును అర్పించిన దేవా ||నీవంటి||
+    పరమపావనుడవు… పరిశుద్ధుడవు నీవు (2)
+    పాపులను ప్రేమించి – ప్రాణమును అర్పించిన దేవా ||నీవంటి||
 
    
    
@@ -113,14 +113,14 @@ Premaswarupudavu… Dheerghasanthudavu (2)
 Satyaswarupudavu… Tara Taramulaku Neevu (2)   ||Neevanti||
 
 1. Nee Vaakyam Satyam Nityamu Sri Yesu Nada 
-   Nee Naamamu Mahimanvithamu (2)
-   Sarvasaktimanthudavu…  Sarvagnanudavu (2)
-   Kalamulannitini Yeluchunnavadavu Neeve (2)  ||Neevanti||
+    Nee Naamamu Mahimanvithamu (2)
+    Sarvasaktimanthudavu…  Sarvagnanudavu (2)
+    Kalamulannitini Yeluchunnavadavu Neeve (2)  ||Neevanti||
 
 2. Nee Simhasanamu Sthiramu - O Yesu Devaa...
-   Nee Rajyamu Saswatame... (2)
-   Paramapaavanudavu… Parisudhudavu Neevu (2)
-   Papulanu Preminchi – Pranamunu Arpinchina Deva ||Neevanti||`
+    Nee Rajyamu Saswatame... (2)
+    Paramapaavanudavu… Parisudhudavu Neevu (2)
+    Papulanu Preminchi – Pranamunu Arpinchina Deva ||Neevanti||`
     },
     {
         number: 4,
@@ -130,32 +130,32 @@ Satyaswarupudavu… Tara Taramulaku Neevu (2)   ||Neevanti||
 నా ప్రాణమునకు జీవం - నా యేసయ్య నీ వాక్యం                 (2) ||నా పాద||
 
 1. భూమికంటే ఆకాశం - ఎంతో ఉన్నతం 
-   నా ధోషములను అంత దూ..రపరచితివే           (2)
- నీవిచ్చిన రక్షణ కొరకై నేనేమీ చెల్లింతును 
- రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
+    నా ధోషములను అంత దూ..రపరచితివే           (2)
+    నీవిచ్చిన రక్షణ కొరకై నేనేమీ చెల్లింతును 
+    రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
 
 2. నాలో ఉన్న ఆశలను నెరవేర్చితివే 
-   నా ఆలోచన సఫల...పరచితివే                     (2)
-   నీ సేవకై నా జీవితం నేను అర్పింతును
-   నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
+    నా ఆలోచన సఫల...పరచితివే                     (2)
+    నీ సేవకై నా జీవితం నేను అర్పింతును
+    నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
 
 Naa paadamulaku deepam - naa trovalaku velugu       (2)
 Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
 
 1. Bhumikante aakasam - entho vunnatham 
-   naa dhoshamulanu antha duu..raparachithivey               (2)
-   neevicchina rakshana korakai neynemii chellinthunu 
-   rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
+    naa dhoshamulanu antha duu..raparachithivey               (2)
+    neevicchina rakshana korakai neynemii chellinthunu 
+    rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
 
 2. Naalo unna aasalanu neraverchithivey
-   naa aalochana saphala...parachithive                 (2)
-   nee sevakai naa jeevitham nenu arpinthunu
-   naa pranatma dehamunu neekai arpinthunu     ||na pada||`
+    naa aalochana saphala...parachithive                 (2)
+    nee sevakai naa jeevitham nenu arpinthunu
+    naa pranatma dehamunu neekai arpinthunu     ||na pada||`
     },
     {
         number: 5,
-        teluguTitle: "యెహోవా రూహ్",
-        englishTitle: "Yehova Ruah",
+        teluguTitle: "యెహోవా రాఫా",
+        englishTitle: "Yehova Rapha",
         lyrics: `యెహోవా రాఫా సౌఖ్యమిచ్చువాడు - వ్యాధులింక నాకు లేదే 
 యెహోవా రాఫా నా బలమాయెను - తెగులు రోగము నాకు లేదే 
 
@@ -165,11 +165,11 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
 నిన్ను నమ్మువారికి భయము లేదే - నిన్ను వెదకు వారికి కొరత లేదే    (2)
 
 1. యెహోవా షాలోం సమాధానమిచ్చువాడు - చేయి పట్టి నన్ను నడిపించును
-   యెహోవా రూహ్ నా మంచి కాపరి - శాంతి జలముల చెంత నడిపించును 
-   యెహోవా యిరే అన్నియు ఇచ్చువాడు - పొషించుటకు శక్తుడాయనే 
-   ఇస్సాకు పంటను ఆశీర్వదించువాడు - నూరంతలుగా నింపి వేయునే        ||నిన్ను నమ్ము||
+    యెహోవా రూహ్ నా మంచి కాపరి - శాంతి జలముల చెంత నడిపించును 
+    యెహోవా యిరే అన్నియు ఇచ్చువాడు - పొషించుటకు శక్తుడాయనే 
+    ఇస్సాకు పంటను ఆశీర్వదించువాడు - నూరంతలుగా నింపి వేయునే        ||నిన్ను నమ్ము||
 
-   యేసయ్యా నా నమ్మకము నీవే -  యేసయ్యా నా ఆశ్రయము నీవే  (2)   ||సిలువలో నాకై||
+    యేసయ్యా నా నమ్మకము నీవే -  యేసయ్యా నా ఆశ్రయము నీవే  (2)   ||సిలువలో నాకై||
 
 Yehova rapha soukhyamicchuvadu - Vyadhul Inka Naku ledhe
 Yehova rapha na balamayenu - Thegulu rogamu Naku ledhe
@@ -180,15 +180,15 @@ Maranamun jayinchi jeevamutho lechenu - Marana bhayamu Naku ledhe
 Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
 
 1. Yehova shalom samadhanamicchuvadu
-   Cheyi Patti nannu nadipinchunu
-   Yehova ruah na manchi kapari
-   Shanthi jalamula chentha nadipinchunh
-   Yehova yireh anniyu icchuvadu
-   poshinchutaku shakthudayane
-   Issaaku pantanu ashirvadinchinavadu 
-   Nooranthaluga nimpi veyune             ||Ninnu||  
+    Cheyi Patti nannu nadipinchunu
+    Yehova ruah na manchi kapari
+    Shanthi jalamula chentha nadipinchunh
+    Yehova yireh anniyu icchuvadu
+    poshinchutaku shakthudayane
+    Issaaku pantanu ashirvadinchinavadu 
+    Nooranthaluga nimpi veyune             ||Ninnu||  
 
-   Yesayya na nammakamu neeve - Yesayya na ashrayamu neeve   (2) ||Siluvalo||`
+    Yesayya na nammakamu neeve - Yesayya na ashrayamu neeve   (2) ||Siluvalo||`
     },
     {
         number: 6,
@@ -198,25 +198,25 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
 అర్హుడా నా యేసయ్య - పూజ్యనీయుడా నా యేసయ్య   (2) ||స్తోత్రాలకు||
 
 1. వేవేల దూతలతో - నాలుగు జీవులతో - కొనియాడబడుతున్నవాడ (2)
-   పరిశుద్ధుడు..పరిశుద్ధుడు.. పరలోకపు ప్రియపుత్రుడు 
-   నా రక్షణ కారకుడు యేసయ్య    (2)  ||స్తోత్రాలకు||
+    పరిశుద్ధుడు..పరిశుద్ధుడు.. పరలోకపు ప్రియపుత్రుడు 
+    నా రక్షణ కారకుడు యేసయ్య    (2)  ||స్తోత్రాలకు||
 
-   అర్హుడవు నీవే... యోగ్యుడవు నీవే...
-   పూజ్యుడవు నీవే నా యేసయ్య..(2)
-   నా నీరీక్షణ నివే యేసయ్య
-   నా ఆరాధనా నీకే ఏసయ్య  (2)    ||స్తోత్రాలకు||
+    అర్హుడవు నీవే... యోగ్యుడవు నీవే...
+    పూజ్యుడవు నీవే నా యేసయ్య..(2)
+    నా నీరీక్షణ నివే యేసయ్య
+    నా ఆరాధనా నీకే ఏసయ్య  (2)    ||స్తోత్రాలకు||
 
-   sthotralaku stuti sthotralaku  (2)
-   arhuda naa yesayya - pujyaniyuda naa yesayya   (2) ||sthotralaku||
+   Sthotralaku stuti sthotralaku  (2)
+   Arhuda naa yesayya - pujyaniyuda naa yesayya   (2) ||sthotralaku||
 
-1. vevela doothalato - nalugu jeevulatho - koniyaada badutunnavada (2)
-   parisudhudu..parisudhudu.. paralookapu priyaputhrudu 
-   naa rakshana kaarakudu yesayya    (2)  ||sthotralaku||
+1. Vevela doothalato - nalugu jeevulatho - koniyaada badutunnavada (2)
+    Parisudhudu..parisudhudu.. paralookapu priyaputhrudu 
+    Naa rakshana kaarakudu yesayya    (2)  ||sthotralaku||
 
-   arhoodavu neeve... yogyudavu neeve...
-   pujyudavu neeve naa yesayya..(2)
-   naa neeriksana nive yesayya
-   naa aaraadhanaa nike esayya  (2)    ||sthotralaku||`
+    Arhoodavu neeve... yogyudavu neeve...
+    Pujyudavu neeve naa yesayya..(2)
+    Naa neeriksana nive yesayya
+    Naa aaraadhanaa nike esayya  (2)    ||sthotralaku||`
     },
     {
         number: 7,
@@ -228,13 +228,13 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
 నాట్యము చేయుచు – ఉత్సాహ ధ్వనులతో - స్తోత్రార్పణ చేసెదం    ||హల్లెలూయా||
 
 1. రూపింప బడక ముందే - నన్ను ఎరిగితివి
-   నా పాదములు జారకుండా - రక్షించి నడిపితివి        (2)        ||చప్పట్లు||
+    నా పాదములు జారకుండా - రక్షించి నడిపితివి        (2)        ||చప్పట్లు||
 
 2. అభిషేక వస్త్రము నిచ్చి - వీరులుగా చేసితివి
-   అపవాది క్రియలను జయించే - ప్రార్థన శక్తినిచ్చితివి   (2)        ||చప్పట్లు||
+    అపవాది క్రియలను జయించే - ప్రార్థన శక్తినిచ్చితివి   (2)        ||చప్పట్లు||
 
 3. నీ సోతైన జనముగా -ప్రత్యేక పరచితివి
-   యుగ యుగములు నీతో నివసించె - భాగ్యము నిచ్చితివి (2)        ||చప్పట్లు||
+    యుగ యుగములు నీతో నివసించె - భాగ్యము నిచ్చితివి (2)        ||చప్పట్లు||
 
 Hallelujah Aaradhana - Raajaadhi Raaju Yesunake
 Mahimayu Ghanathayu - Sarvaadhikaari Kreesthunake (2)
@@ -244,13 +244,13 @@ Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
 Sthothraarpana Chesedam                            || Hallelujah ||
 
 1. Roopimpa Badaka Munde - Nannu Erigithivi
-   Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                     ||Chappatlu||
+    Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                     ||Chappatlu||
 
 2. Abhisheka Vasthramu Nichchi - Veerulugaa Chesithivi
-   Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)          ||Chappatlu||
+    Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)          ||Chappatlu||
 
 3. Nee sothaina janamuga - prathyeka parachitivi
-   yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
+    yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
     },
     {
         number: 8,
@@ -263,40 +263,40 @@ Sthothraarpana Chesedam                            || Hallelujah ||
 నాకై మరణించినా రక్షకుడా                 (2)
 
 1. నా బలము నీవె - నా గానం నీవె దేవ - నా గమ్యం నీవె యేసు
-   నా కోట నీవె - నా దుర్గం నీవె దేవ - నా ఆశ నీవె యేసు                         
-   నన్ను నడిపించె మంచి కాపరవి
-   నాకై మరణించినా రక్షకుడా               (2)
+    నా కోట నీవె - నా దుర్గం నీవె దేవ - నా ఆశ నీవె యేసు                         
+    నన్ను నడిపించె మంచి కాపరవి
+    నాకై మరణించినా రక్షకుడా               (2)
 
-   కన్న తల్లివై నను హత్తు కున్నావు
-   కన్న తండ్రివై నను ఎత్తు కున్నావు 
-   మంచి స్నెహితుడై నా తోడు ఉన్నావు
-   ప్రాణ ప్రియుడై నను విడువ నన్నావు
+    కన్న తల్లివై నను హత్తు కున్నావు
+    కన్న తండ్రివై నను ఎత్తు కున్నావు 
+    మంచి స్నెహితుడై నా తోడు ఉన్నావు
+    ప్రాణ ప్రియుడై నను విడువ నన్నావు
 
-   నన్ను నడిపించె మంచి కాపరవి
-   నాకై మరణించినా రక్షకుడా               (2)
+    నన్ను నడిపించె మంచి కాపరవి
+    నాకై మరణించినా రక్షకుడా               (2)
 
-NA JEEVAM NEEVE - NA PRANAM NEEVE DEVA 
-NA SARVAM NEEVE YESU
-NA DHYANAM NEEVE - NA SNEHAM NEEVE DEVA
-NA DAIVAM NEEVE YESU
+Na Jeevam Neeve - Na Pranam Neeve Deva 
+Na Sarvam Neeve Yesu
+Na Dhyanam Neeve - Na Sneham Neeve Deva
+Na Daivam Neeve Yesu
 
-NANNU NADIPINCHE MANCHI KAAPARIVI
-NAAKAI MARANINCHINA RAKSHAKUDA             (2)
+Nannu Nadipinche Manchi Kaaparivi
+Naakai Maraninchina Rakshakuda             (2)
 
-1. NA BALAMU NEEVE - NA GANAM NEEVE DEVA
-   NA GAMYAM NEEVE YESU
-   NA KOTA NEEVE - NA DURGAM NEEVE DEVA
-   NA ASHA NEEVE YESU
-   NANNU NADIPINCHE MANCHI KAAPARIVI
-   NAAKAI MARANINCHINA RAKSHAKUDA          (2)
+1. Na Balamu Neeve - Na Ganam Neeve Deva
+   Na Gamyam Neeve Yesu
+   Na Kota Neeve - Na Durgam Neeve Deva
+   Na Asha Neeve Yesu
+   Nannu Nadipinche Manchi Kaaparivi
+   Naakai Maraninchina Rakshakuda          (2)
 
-   KANNA THALLIVAI NANU HATHU KUNNAVU
-   KANNA THANDRIVAI NANU YETHU KUNNAVU
-   MANCHI SNEHITHUDAI NA THODU UNNAVU
-   PRANA PRIYUDAI NANU VIDUVA NANNAVU
+   Kanna Thallivai Nanu Hathu Kunnavu
+   Kanna Thandrivai Nanu Yethu Kunnavu
+   Manchi Snehithudai Na Thodu Unnavu
+   Prana Priyudai Nanu Viduva Nannavu
 
-   NANNU NADIPINCHE MANCHI KAAPARIVI
-   NAAKAI MARANINCHINA RAKSHAKUDA          (2)`
+   Nannu Nadipinche Manchi Kaaparivi
+   Naakai Maraninchina Rakshakuda          (2)`
     },
     {
         number: 9,
