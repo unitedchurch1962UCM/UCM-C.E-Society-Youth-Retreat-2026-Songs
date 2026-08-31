@@ -11,32 +11,32 @@ const songs = [
 హల్లెలూయ... హల్లెలూయ...  (4)
 
 1. పాపినైనా నన్ను నీవు నీ బిడ్డగా మార్చావే    (2)
-   మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు   (2)
-   హల్లెలూయ... హల్లెలూయ...  (4)
+    మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు   (2)
+    హల్లెలూయ... హల్లెలూయ...  (4)
 
 2. నన్ను పిలిచిన దేవా నా నమ్మదగిన దేవా    (2)
-   మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు   (2)
-   హల్లెలూయ... హల్లెలూయ...  (4)
+    మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు   (2)
+    హల్లెలూయ... హల్లెలూయ...  (4)
 
 3. నీ పరిశుద్ధ ఆత్మతో నన్ను నింపుమా        (2)
-   మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు   (2)
-   హల్లెలూయ... హల్లెలూయ...  (4)
-
+    మహా మంచివాడు - చాలా గొప్పవాడు - నిన్ను పోలిన వారెవరు   (2)
+    హల్లెలూయ... హల్లెలూయ...  (4)
+ 
 
 Ninne aaradhintunu Yesayya Ninne aaradhintunu (2) 
 maha manchivadu - chala goppavadu - ninnu polina varevaru(2) 
 Hallelujah... hallelujah...   (4)
 
-1. papinainaa nannu neevu nee biddagaa marchave   (2)
-   maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
-   Hallelujah... hallelujah...   (4)
-2. nannu pilichina deva naa nammadagina devaa     (2)
-   maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
-   Hallelujah... hallelujah...   (4)
+1. Papinainaa nannu neevu nee biddagaa marchave   (2)
+    Maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
+    Hallelujah... hallelujah...   (4)
+2. Nannu pilichina deva naa nammadagina devaa     (2)
+    Maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
+    Hallelujah... hallelujah...   (4)
 
-3. nee parishudha aatmato nannu nimpuma           (2) 
-   maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
-   Hallelujah... hallelujah...   (4)`
+3. Nee parishudha aatmato nannu nimpuma           (2) 
+    Maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
+    Hallelujah... hallelujah...   (4)`
     },
     {
         number: 2,
