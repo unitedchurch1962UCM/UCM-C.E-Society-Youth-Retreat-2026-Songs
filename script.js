@@ -24,19 +24,20 @@ const songs = [
  
 
 Ninne aaradhintunu Yesayya Ninne aaradhintunu (2) 
-maha manchivadu - chala goppavadu - ninnu polina varevaru(2) 
-Hallelujah... hallelujah...   (4)
+Maha manchivadu - Chala goppavadu - Ninnu polina varevaru(2) 
+Hallelujah... Hallelujah...   (4)
 
 1. Papinainaa nannu neevu nee biddagaa marchave   (2)
-    Maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
-    Hallelujah... hallelujah...   (4)
+    Maha manchivadu - Chala goppavadu - Ninnu polina varevaru(2) 
+    Hallelujah... Hallelujah...   (4)
+   
 2. Nannu pilichina deva naa nammadagina devaa     (2)
-    Maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
-    Hallelujah... hallelujah...   (4)
+    Maha manchivadu - Chala goppavadu - Ninnu polina varevaru(2) 
+    Hallelujah... Hallelujah...   (4)
 
-3. Nee parishudha aatmato nannu nimpuma           (2) 
-    Maha manchivaaru chala goppavaaru ninnu polina varevaru    (2)
-    Hallelujah... hallelujah...   (4)`
+3. Nee parishudha aatmatho nannu nimpuma           (2) 
+    Maha manchivadu - Chala goppavadu - Ninnu polina varevaru(2) 
+    Hallelujah... Hallelujah...   (4)`
     },
     {
         number: 2,
@@ -78,8 +79,8 @@ Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
     Priyamaina Yesayya - Nadipinchu Nannila         ||Nannenthagano||
 
 2. Oohinchalenu Deva - Neevu Leni Jeevithaanni
-    O Nimushamiana Nenu Manalenugaa
-    Naaloni Aasa Neeve - Yedhaloni Dhyaasa Neeve
+    O Nimishamiana Nenu Manalenugaa
+    Naaloni Aasha Neeve - Yedhaloni Dhyaasa Neeve
     Nee Paadhasevakega - Ee Jeevitham
     Anuvanuvu Neevani - Ihamandhu Paadani
     Kadavaraku Saakshigaa - Kalakaalam Saagani
@@ -118,7 +119,7 @@ Satyaswarupudavu… Tara Taramulaku Neevu (2)   ||Neevanti||
     Kalamulannitini Yeluchunnavadavu Neeve (2)  ||Neevanti||
 
 2. Nee Simhasanamu Sthiramu - O Yesu Devaa...
-    Nee Rajyamu Saswatame... (2)
+    Nee Rajyamu Saswathame... (2)
     Paramapaavanudavu… Parisudhudavu Neevu (2)
     Papulanu Preminchi – Pranamunu Arpinchina Deva ||Neevanti||`
     },
@@ -130,27 +131,27 @@ Satyaswarupudavu… Tara Taramulaku Neevu (2)   ||Neevanti||
 నా ప్రాణమునకు జీవం - నా యేసయ్య నీ వాక్యం                 (2) ||నా పాద||
 
 1. భూమికంటే ఆకాశం - ఎంతో ఉన్నతం 
-    నా ధోషములను అంత దూ..రపరచితివే           (2)
+    నా ధోషములను అంత దూరపరచితివే           (2)
     నీవిచ్చిన రక్షణ కొరకై నేనేమీ చెల్లింతును 
     రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
 
 2. నాలో ఉన్న ఆశలను నెరవేర్చితివే 
-    నా ఆలోచన సఫల...పరచితివే                     (2)
+    నా ఆలోచన సఫలపరచితివే                     (2)
     నీ సేవకై నా జీవితం నేను అర్పింతును
     నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
 
-Naa paadamulaku deepam - naa trovalaku velugu       (2)
-Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
+Naa paadamulaku deepam - naa throvalaku velugu       (2)
+Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||naa paada||
 
 1. Bhumikante aakasam - entho vunnatham 
-    naa dhoshamulanu antha duu..raparachithivey               (2)
+    naa dhoshamulanu antha dhuraparachithivey               (2)
     neevicchina rakshana korakai neynemii chellinthunu 
-    rakshana paatra chethapattukoni stotramu chesedan     ||na pada||
+    rakshana paathra chethapattukoni sthothramu chesedan     ||naa paada||
 
-2. Naalo unna aasalanu neraverchithivey
-    naa aalochana saphala...parachithive                 (2)
+2. Naalo unna aashalanu neraverchithivey
+    naa aalochana saphala parachithive                 (2)
     nee sevakai naa jeevitham nenu arpinthunu
-    naa pranatma dehamunu neekai arpinthunu     ||na pada||`
+    naa pranathma dehamunu neekai arpinthunu     ||na pada||`
     },
     {
         number: 5,
@@ -171,18 +172,18 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||na pada||
 
     యేసయ్యా నా నమ్మకము నీవే -  యేసయ్యా నా ఆశ్రయము నీవే  (2)   ||సిలువలో నాకై||
 
-Yehova rapha soukhyamicchuvadu - Vyadhul Inka Naku ledhe
-Yehova rapha na balamayenu - Thegulu rogamu Naku ledhe
+Yehova rapha soukhyamicchuvadu - Vyadhulinka Naku ledhe
+Yehova rapha naa balamayenu - Thegulu rogamu Naku ledhe
 
-Siluvalo nakai pranamu icchenu - Aigupthu rogamu Naku ledhe
-Maranamun jayinchi jeevamutho lechenu - Marana bhayamu Naku ledhe
+Siluvalo nakai pranamunicchenu - Aigupthu rogamu Naku ledhe
+Maranamun jayinchi jeevamtho lechenu - Marana bhayamu Naku ledhe
 
 Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
 
 1. Yehova shalom samadhanamicchuvadu
     Cheyi Patti nannu nadipinchunu
     Yehova ruah na manchi kapari
-    Shanthi jalamula chentha nadipinchunh
+    Shanthi jalamula chentha nadipinchunu
     Yehova yireh anniyu icchuvadu
     poshinchutaku shakthudayane
     Issaaku pantanu ashirvadinchinavadu 
@@ -197,7 +198,7 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
         lyrics: `స్తోత్రాలకు స్తుతి స్తోత్రాలకు  (2)
 అర్హుడా నా యేసయ్య - పూజ్యనీయుడా నా యేసయ్య   (2) ||స్తోత్రాలకు||
 
-1. వేవేల దూతలతో - నాలుగు జీవులతో - కొనియాడబడుతున్నవాడ (2)
+1. వేవేల దూతలతో - నాలుగు జీవులతో - కొనియాడబడుచున్నవాడ (2)
     పరిశుద్ధుడు..పరిశుద్ధుడు.. పరలోకపు ప్రియపుత్రుడు 
     నా రక్షణ కారకుడు యేసయ్య    (2)  ||స్తోత్రాలకు||
 
@@ -206,17 +207,17 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
     నా నీరీక్షణ నివే యేసయ్య
     నా ఆరాధనా నీకే ఏసయ్య  (2)    ||స్తోత్రాలకు||
 
-   Sthotralaku stuti sthotralaku  (2)
+   Sthotralaku stuthi sthotralaku  (2)
    Arhuda naa yesayya - pujyaniyuda naa yesayya   (2) ||sthotralaku||
 
-1. Vevela doothalato - nalugu jeevulatho - koniyaada badutunnavada (2)
-    Parisudhudu..parisudhudu.. paralookapu priyaputhrudu 
+1. Vevela doothalato - nalugu jeevulatho - koniyaada baduchunnavada (2)
+    Parisudhudu..parisudhudu.. paralokapu priyaputhrudu 
     Naa rakshana kaarakudu yesayya    (2)  ||sthotralaku||
 
     Arhoodavu neeve... yogyudavu neeve...
     Pujyudavu neeve naa yesayya..(2)
-    Naa neeriksana nive yesayya
-    Naa aaraadhanaa nike esayya  (2)    ||sthotralaku||`
+    Naa neerikshana neeve yesayya
+    Naa aaraadhanaa neeke yesayya  (2)    ||sthotralaku||`
     },
     {
         number: 7,
