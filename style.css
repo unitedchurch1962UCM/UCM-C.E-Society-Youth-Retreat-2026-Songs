@@ -578,6 +578,99 @@ pre {
     font-weight: 600;
 }
 
+/* ================= EXECUTIVE & SOCIETY SECTION ================= */
+.executive-section {
+    margin-bottom: 25px;
+}
+
+.exec-group {
+    margin-bottom: 20px;
+}
+
+.exec-heading {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffd700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.25);
+    position: relative;
+    display: inline-block;
+}
+
+.exec-heading::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #ffd700, transparent);
+    margin: 4px auto 0;
+}
+
+.exec-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    justify-content: center;
+}
+
+.exec-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 14px;
+    padding: 12px 10px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.exec-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 215, 0, 0.6);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.15);
+}
+
+.exec-name {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.exec-role {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffd700;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Scaling for Mobile */
+@media (max-width: 768px) {
+    .exec-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+    }
+
+    .exec-heading {
+        font-size: 17px;
+    }
+
+    .exec-name {
+        font-size: 12.5px;
+    }
+
+    .exec-role {
+        font-size: 11px;
+    }
+}
+
 /* ================= CHOIR & MUSICIANS SECTION ================= */
 .credits-section {
     margin-top: 40px;
