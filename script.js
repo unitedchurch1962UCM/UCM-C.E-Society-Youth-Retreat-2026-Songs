@@ -244,34 +244,34 @@ Aa Prabhuni Keerthinchedam
 Naatyamu Cheyuchu – Uthsaaha Dhwanulatho
 Sthothraarpana Chesedam                            || Hallelujah ||
 
-1. Roopimpa Badaka Munde - Nannu Erigithivi
+1. Roopimpa Badaka Munde - Nannu Yerigithivi
     Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                     ||Chappatlu||
 
-2. Abhisheka Vasthramu Nichchi - Veerulugaa Chesithivi
+2. Abhisheka Vasthramu Nichhi - Veerulugaa Chesithivi
     Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)          ||Chappatlu||
 
 3. Nee sothaina janamuga - prathyeka parachitivi
-    yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
+    Yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
     },
     {
         number: 8,
         teluguTitle: "నా జీవం నీవే",
         englishTitle: "Naa Jeevam Neeve",
-        lyrics: `నా జీవం నీవె - నా ప్రాణం నీవె దేవ - నా సర్వం నీవె యేసు
-నా ధ్యానం నీవె - నా స్నేహం నీవె దేవ - నా దైవం నీవె యేసు 
+        lyrics: `నా జీవం నీవే - నా ప్రాణం నీవే దేవ - నా సర్వం నీవే యేసు
+నా ధ్యానం నీవే - నా స్నేహం నీవే దేవ - నా దైవం నీవే యేసు 
 
 నన్ను నడిపించె మంచి కాపరవి
 నాకై మరణించినా రక్షకుడా                 (2)
 
-1. నా బలము నీవె - నా గానం నీవె దేవ - నా గమ్యం నీవె యేసు
-    నా కోట నీవె - నా దుర్గం నీవె దేవ - నా ఆశ నీవె యేసు                         
+1. నా బలము నీవే - నా గానం నీవే దేవ - నా గమ్యం నీవే యేసు
+    నా కోట నీవే - నా దుర్గం నీవే దేవ - నా ఆశ నీవే యేసు                         
     నన్ను నడిపించె మంచి కాపరవి
     నాకై మరణించినా రక్షకుడా               (2)
 
     కన్న తల్లివై నను హత్తు కున్నావు
     కన్న తండ్రివై నను ఎత్తు కున్నావు 
-    మంచి స్నెహితుడై నా తోడు ఉన్నావు
-    ప్రాణ ప్రియుడై నను విడువ నన్నావు
+    మంచి స్నేహితుడై నా తోడు ఉన్నావు
+    ప్రాణ ప్రియుడై నను విడువనన్నావు
 
     నన్ను నడిపించె మంచి కాపరవి
     నాకై మరణించినా రక్షకుడా               (2)
@@ -291,8 +291,8 @@ Naakai Maraninchina Rakshakuda             (2)
     Nannu Nadipinche Manchi Kaaparivi
     Naakai Maraninchina Rakshakuda          (2)
 
-    Kanna Thallivai Nanu Hathu Kunnavu
-    Kanna Thandrivai Nanu Yethu Kunnavu
+    Kanna Thallivai Nanu Hatthu Kunnavu
+    Kanna Thandrivai Nanu Yetthu Kunnavu
     Manchi Snehithudai Na Thodu Unnavu
     Prana Priyudai Nanu Viduva Nannavu
 
@@ -326,7 +326,7 @@ Manasu manasu milithamai - kudirina bhavama
 Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
 
 1. Nija sneham - kalakaalam
-    Nija sneham kalakaalam unte ney madhuryam
+    Nija sneham kalakaalam unte ney maadhuryam
     Thoduganu needaganu undaalannade dhyeyam
     Neethone untaanani neevente vasthaanani   - (2)
     Naa aashe nee ashayamu mitramaa…                  ||Viduvani||    
@@ -343,8 +343,8 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
         englishTitle: "El-Elohe",
         lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
 నీ దయ నన్ను చేయి విడువ లేదు (2)
-కాలి చేతితో వచ్చితిని
-రెండు పరివారాలనిచ్చితివే (2)
+కాలి చేతితో నే వచ్చితిని
+రెండు పరివారాల నిచ్చితివే (2)
 
 ఏల్‌-ఎలోహే ఏల్‌-ఎలోహే ఏల్‌-ఎలోహే
 నిన్నే స్తుతింతున్ (2)
@@ -354,14 +354,14 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
     నిబంధనను నాతో చేసితివే
     కోల్పోయినవన్నీ  ఇచ్చితివే.   (2)  ||ఎల్||
 
-2. ప్రియులందరు విడిచి పోయినా
+2. ప్రియులందరు విడచి పోయినా
     ప్రియమైన వన్నీ నాకిచ్చితివే   (2)
     పరదేశిగా  నేనున్న చోటే
     స్వాస్థ్యముగా నాకు మార్చితివే   (2) ||ఎల్||
 
 Ninnu nammi vachchi - ne sigguchendaledu 
 nee daya nannu cheyi viduva ledu (2)
-kali chetito vacchithini
+kaali chetitho vacchithini
 rendu parivaralanicchithive (2)
 
 El-Elohe El-Elohe El-Elohe
