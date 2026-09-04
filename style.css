@@ -585,14 +585,15 @@ pre {
 
 .exec-group {
     margin-bottom: 20px;
-    /* Main container background made darker than choir container */
-    background: rgba(10, 16, 28, 0.92);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    /* Adjusted opacity to 0.70 for subtle background visibility */
+    background: rgba(15, 23, 38, 0.70);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 215, 0, 0.25);
     border-radius: 20px;
     padding: 22px 18px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
 
 .exec-heading {
@@ -617,28 +618,32 @@ pre {
     margin: 6px auto 0;
 }
 
+/* Flexbox layout ensures the single last card (Deevena) centers on the bottom row */
 .exec-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 12px;
 }
 
-/* Individual card styling inside the dark container */
+/* Individual card sizing inside flex layout */
 .exec-card {
-    background: rgba(15, 25, 42, 0.85);
+    flex: 1 1 calc(33.333% - 12px);
+    min-width: 180px;
+    max-width: 280px;
+    background: rgba(10, 18, 30, 0.65);
     border: 1px solid rgba(255, 215, 0, 0.2);
     border-radius: 14px;
     padding: 14px 10px;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .exec-card:hover {
     transform: translateY(-2px);
     border-color: rgba(255, 215, 0, 0.6);
-    background: rgba(22, 36, 58, 0.95);
+    background: rgba(22, 36, 58, 0.85);
     box-shadow: 0 6px 20px rgba(255, 215, 0, 0.2);
 }
 
@@ -667,9 +672,9 @@ pre {
         padding: 16px 12px;
     }
 
-    .exec-grid {
-        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-        gap: 10px;
+    .exec-card {
+        flex: 1 1 calc(50% - 10px);
+        min-width: 130px;
     }
 
     .exec-heading {
