@@ -386,16 +386,16 @@ ninne sthuthinthun (2)
 రాజులకే మహారాజువు – కృప చూపే దేవుడవు
 నడిపించే నజరేయుడా – కాపాడే కాపరివి  || నా నీతి ||
 
-1. శ్రమలలో బహుశ్రమలలో – ఆదరణ కలిగించేను
-    వాక్యమే కృపావక్యమే – నను వీడని అనుబంధమై  (2)
-    నీ మాటలే జలదారలై – సంతృప్తి నిచ్చెను
+1. శ్రమలలో బహుశ్రమలలో – ఆదరణ కలిగించెను
+    వాక్యమే కృపావాక్యమే – నను వీడని అనుబంధమై  (2)
+    నీ మాటలే జలధారలై – సంతృప్తి నిచ్చెను
     నీ మాటలే ఔషదమై – గాయములు కట్టెను..  నీ మాటే మధురం … || రాజులకే ||
 
 2. మేలుకై సమస్తమును జరిగించుచున్నావు నీవు
-    ఏదియు కోదువచేయవు – నిన్నాశ్రయించినా వారికి (2)
+    ఏదియు కొదువచేయవు – నిన్నాశ్రయించినా వారికి (2)
     భీకరమైన కార్యములు చేయుచున్నవాడా
-    సజీవుడావై అధికస్తోత్రము పొందుచున్నవాడా... ఘనపరతును నిన్నే …..
-    ప్రేమించే యేసయ్యా – నీవుంటే చాలునయ్యా
+    సజీవుడవై అధికస్తోత్రము పొందుచున్నవాడా... ఘనపరతును నిన్నే …..
+    ప్రేమించే యేసయ్యా – నీవుంటే చాలునయా
     నడిపించే నజరేయుడా – కాపాడే కాపరివి      || నా నీతి ||
 
 
@@ -404,12 +404,12 @@ Saripolchalenu Neetho – Ghanulaina Vaarini  (2)
 Rajulake Maharajuvu – Krupa Chupe Devudavu
 Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
 
-1. Sramalalo Bahusramalalo – Aadarana Kaliginchenu
+1. Shramalalo Bahushramalalo – Aadarana Kaliginchenu
     Vaakyame Krupaavakyame – Nanu Viidani Anubandhamai  (2)
     Ni Maatale Jaladaralai – Santhrupthi Nicchenu
     Ni Maatale Aushadamai – Gayamulu Kattenu..  Nee Maate Madhuram … || Rajulake ||
    
-2. Melukai Samastamunu Jariginchuchunnavu Neevu
+2. Melukai Samasthamunu Jariginchuchunnavu Neevu
     Yediyu Koduvacheyavu – Ninnasrayinchinaa Variki (2)
     Bhikaramaina Kaaryamulu Cheyuchunnavada
     Sajivudaavai Adhikasthotramu Ponduchunnavada... Ghanaparathunu Ninne …..
@@ -421,7 +421,7 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
         teluguTitle: "పరిశుద్దుడ నీ సన్నిధిలో",
         englishTitle: "Parishudhuda Nee Sannidhilo",
         lyrics: `పరిశుద్దుడ నీ సన్నిధిలో - పరిపూర్ణుడ నీ గుడారములో (2)
-నీ అతిధిగా నన్ను నిలవని - నీ అతిధిగా దేవా నీలో నన్ను నిలవని
+నీ అతిధిగా నను నిలవని - నీ అతిధిగా దేవా నీలో నను నిలవని
 నీ నీడలో నన్ను నివసించని
 
 1.  కపటము లేని హృదయమును - కాళ్ళలాడని నాలుక నిమ్ము (2)
@@ -431,8 +431,8 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
      వాగ్ధానమిచ్చి వెనుకాడను - నష్టమైన మాట తప్పను   (2) ||పరిశుద్దుడ||
 
 
-Parisudduda nee sannidhilo - paripurnuda nee gudaramulo (2)
-Ni atidhiga nannu nilavani - nee atidhiga deva neelo nannu nilavani
+Parisuddhuda nee sannidhilo - paripurnuda nee gudaramulo (2)
+Ni athidhiga nanu nilavani - nee atidhiga deva neelo nanu nilavani
 Ni needalo nannu nivasinchani
 
 1.  Kapatamu leni hrudayamunu - kallalaadani naaluka nimmu (2)
@@ -459,20 +459,20 @@ Ni needalo nannu nivasinchani
     ఓ ఇశ్రాయేలు దైవమా - మాతో కూడా ఉన్నవడా (2) ||మండే||
 
 
-Antyakaala Abhishekam Sarva Janula Kosam 
+Anthyakaala Abhishekam Sarva Janula Kosam 
 Kotakaala Dinamulivi Thandri Nee Aatmatho Ninpumaa (2)
 Mande Agnalle raa Deva - Anya Bhaashalatho Abhishekinchu 
 Yegase Gaalalle Nanu Taakumaa
 Jeevanadi Valene Pravahinchumaa (2)
 
-1. Yemukala Loyalona - Goppa Sainyamu Ne Choodagaa 
+1. Yemukala Loyalona - Goppa Sainyamu Ney Choodagaa 
     Nee Adhikaaram Dayacheyumaa 
     Jeevamaa Rammani Pravachchinchedaa (2) ||Mande||
 
 2. Karmelu Konda Paina - Goppa Meghamai Aavarinchagaa 
     Aahabu Bhayapadina - Agni Varshamu Kummarinchumaa (2) 
 
-3. Sinaayi Parvatamandu Agni Poda Vale Ninu Choodagaa 
+3. Sinaayi Parvathamandu Agni Poda Vale Ninu Choodagaa 
     O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
        },
 {
@@ -528,7 +528,7 @@ Aadarana aashrayamu neevegaa naakilalo (2) ||manchivaadull
     Deenulanu paiki levanetthi simhaasanamekkinchunu (2) ||Aadarana||
 
 2. Aahaa aahaa aanandame yesayyatho jeevitham 
-    Santhoshame samaadhaaname ellappudu aayanalo (2) ||Aadarana||`
+    Santhoshame samaadhaaname yellappudu aayanalo (2) ||Aadarana||`
     
  }
 
