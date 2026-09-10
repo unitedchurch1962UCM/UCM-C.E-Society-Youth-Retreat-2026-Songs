@@ -216,10 +216,7 @@ Sthothraarpana Chesedam                            || Hallelujah ||
 1. Roopimpa Badaka Munde - Nannu Yerigithivi
     Naa Paadamulu Jaarakundaa - Rakshinchi Nadipithivi (2)                     ||Chappatlu||
 
-2. Abhisheka Vasthramu Nichhi - Veerulugaa Chesithivi
-    Apavaadi Kriyalanu Jayinche - Praarthana Shakthinichchithivi (2)          ||Chappatlu||
-
-3. Nee sothaina janamuga - prathyeka parachitivi
+2. Nee sothaina janamuga - prathyeka parachitivi
     Yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
     },
     {
