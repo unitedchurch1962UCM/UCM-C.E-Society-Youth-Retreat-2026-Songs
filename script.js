@@ -193,34 +193,6 @@ Ninnu nammuvariki bhayame ledhe - Ninnu vedhaku variki koratha ledhe  (2)
     },
     {
         number: 6,
-        teluguTitle: "స్తోత్రాలకు స్తుతి స్తోత్రాలకు",
-        englishTitle: "Sthothralaku Stuthi Sthothralaku",
-        lyrics: `స్తోత్రాలకు స్తుతి స్తోత్రాలకు  (2)
-అర్హుడా నా యేసయ్య - పూజ్యనీయుడా నా యేసయ్య   (2) ||స్తోత్రాలకు||
-
-1. వేవేల దూతలతో - నాలుగు జీవులతో - కొనియాడబడుచున్నవాడ (2)
-    పరిశుద్ధుడు..పరిశుద్ధుడు.. పరలోకపు ప్రియపుత్రుడు 
-    నా రక్షణ కారకుడు యేసయ్య    (2)  ||స్తోత్రాలకు||
-
-    అర్హుడవు నీవే... యోగ్యుడవు నీవే...
-    పూజ్యుడవు నీవే నా యేసయ్య..(2)
-    నా నీరీక్షణ నివే యేసయ్య
-    నా ఆరాధనా నీకే ఏసయ్య  (2)    ||స్తోత్రాలకు||
-
-   Sthotralaku stuthi sthotralaku  (2)
-   Arhuda naa yesayya - pujyaniyuda naa yesayya   (2) ||sthotralaku||
-
-1. Vevela doothalato - nalugu jeevulatho - koniyaada baduchunnavada (2)
-    Parisudhudu..parisudhudu.. paralokapu priyaputhrudu 
-    Naa rakshana kaarakudu yesayya    (2)  ||sthotralaku||
-
-    Arhoodavu neeve... yogyudavu neeve...
-    Pujyudavu neeve naa yesayya..(2)
-    Naa neerikshana neeve yesayya
-    Naa aaraadhanaa neeke yesayya  (2)    ||sthotralaku||`
-    },
-    {
-        number: 7,
         teluguTitle: "హల్లెలూయ ఆరాధన",
         englishTitle: "Hallelujah Aaradhana",
         lyrics: `హల్లెలూయా - ఆరాధన - రాజాధి రాజు యేసునకే
@@ -254,7 +226,7 @@ Sthothraarpana Chesedam                            || Hallelujah ||
     Yuga yugamulu neetho nivasinche - Bhagyamu nichitivi (2)                   ||Chappatlu||`
     },
     {
-        number: 8,
+        number: 7,
         teluguTitle: "నా జీవం నీవే",
         englishTitle: "Naa Jeevam Neeve",
         lyrics: `నా జీవం నీవే - నా ప్రాణం నీవే దేవ - నా సర్వం నీవే యేసు
@@ -300,7 +272,7 @@ Naakai Maraninchina Rakshakuda             (2)
     Naakai Maraninchina Rakshakuda          (2)`
     },
     {
-        number: 9,
+        number: 8,
         teluguTitle: "విడువని నేస్తమా",
         englishTitle: "Viduvani Nesthama",
         lyrics: `విడువని నేస్తమా - చెరగని భాష్యామా
@@ -338,7 +310,7 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
     Nee chelime naa kalimiye - Yesuvaa…!!               ||Viduvani||`
     },
     {
-        number: 10,
+        number: 9,
         teluguTitle: "ఏల్‌ ఎలోహే",
         englishTitle: "El-Elohe",
         lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
@@ -378,7 +350,7 @@ ninne sthuthinthun (2)
     Swaasthyamugaa naaku marchithive (2) ||El||`
     },
      {
-        number: 11,
+        number: 10,
         teluguTitle: "నా నీతి సూర్యుడా",
         englishTitle: "Naa Neethi Suryuda",
         lyrics: `నా నీతి సూర్యుడా – భూవినేలు యేసయ్యా - (2)
@@ -417,7 +389,7 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
     Nadipinche Najareyuda – Kapade Kaparivi      || Naa Neethi ||`
      },
 {
-        number: 12,
+        number: 11,
         teluguTitle: "పరిశుద్దుడ నీ సన్నిధిలో",
         englishTitle: "Parishudhuda Nee Sannidhilo",
         lyrics: `పరిశుద్దుడ నీ సన్నిధిలో - పరిపూర్ణుడ నీ గుడారములో (2)
@@ -441,7 +413,7 @@ Ni needalo nannu nivasinchani
      Vaagdhanamichi venukaadanu - nastamaina maata tappanu   (2) ||parisudduda||`
     },
 {
-        number: 13,
+        number: 12,
         teluguTitle: "అంత్యకాల అభిషేకం",
         englishTitle: "Anthyakala Abhishekam",
         lyrics: `అంత్యకాల అభిషేకం - సర్వ జనుల కోసం 
@@ -476,7 +448,7 @@ Jeevanadi Valene Pravahinchumaa (2)
     O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
        },
 {
-        number: 14,
+        number: 13,
         teluguTitle: "ఆషిక్ తేరా ",
         englishTitle: "Aashiq tera",
         lyrics: `Arey Aaya hu... mai yahaan YESHU tere darbar me 
@@ -506,7 +478,7 @@ Mai aashiq tera YESHU Mai aashiq tera
     Mai jhoomoonga YESHU Mai jhoomoonga (2)    ||Arey Aaya hu||`
     },
 {
-        number: 15,
+        number: 14,
         teluguTitle: "మంచివాడు గొప్పవాడు",
         englishTitle: "Manchivaadu Goppa vaadu",
         lyrics: `మంచివాడు గొప్పవాడు నా యేసు పరిశుద్ధుడు 
