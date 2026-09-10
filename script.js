@@ -45,7 +45,7 @@ Hallelujah... Hallelujah...   (4)
         englishTitle: "Nannenthagano Neevu",
         lyrics: `నన్నెంతగానో నీవు కోరావుగా - బ్రతుకంత నాకు తోడై ఉన్నావుగా
 రచించావు నన్ను నీవు - క్షమించావు నన్ను నీవు
-నీ ప్రేమ చాలు నాకు...నా యేసయ్య...    (2)
+నీ ప్రేమ చాలు నాకు...నా యేసయ్య...    (2)       ||నన్నెంతగానో||
 
 1. ఏముంది ఈ జగాన - ఎదురీత సాగరాన  
     నా జీవ నావ నీవే నా యేసయ్య
@@ -68,7 +68,7 @@ Nannenthagano Neevu Koraavuga
 Brathukantha Naaku Thodai Unnaavuga
 Rachinchaavu Nannu Neevu 
 Kshaminchaavu Nannu Neevu
-Nee Prema Chaalu Naaku... Naa Yesayya...    (2)
+Nee Prema Chaalu Naaku... Naa Yesayya...    (2)     ||Nannenthagano||
 
 1. Emundhi Ee Jagaana - Yedhureetha Saagaraana 
     Naa Jeeva Naava Neeve Naa Yesayya
