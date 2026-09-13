@@ -1212,17 +1212,68 @@ footer small {
     text-transform: uppercase;
 }
 
-/* Brush Style Badge for "Word of God by" */
+/* ================= THEME & SPEAKER HEADER STYLES (DARK TEXT FIX) ================= */
+.theme-speaker-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Script "Theme" Label */
+.script-label {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    color: #0d3b66;
+    display: block;
+    margin-bottom: -4px;
+    font-weight: 700;
+}
+
+/* Bold Navy Blue "FIND YOUR FREEDOM" Title */
+.theme-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #0b2545;
+    background: linear-gradient(180deg, #0b2545 0%, #134074 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+}
+
+.theme-underline {
+    width: 140px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #1684ff, #0b2545, #1684ff, transparent);
+    margin: 6px auto;
+    border-radius: 2px;
+}
+
+/* Scripture Reference */
+.theme-verse {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #0b2545;
+    text-transform: uppercase;
+}
+
+/* Dark Blue Brush Style Badge for "Word of God by" */
 .brush-badge {
     display: inline-block;
     font-family: 'Great Vibes', cursive;
     font-size: 22px;
     color: #ffffff;
-    background: linear-gradient(135deg, #0f4c81, #1684ff);
+    background: linear-gradient(135deg, #0b2545, #134074);
     padding: 3px 22px;
     border-radius: 20px 4px 20px 4px;
-    border: 1px solid rgba(255, 215, 0, 0.4);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(11, 37, 69, 0.3);
     margin-bottom: 6px;
 }
 
@@ -1231,9 +1282,8 @@ footer small {
     font-family: 'Cinzel', Georgia, serif;
     font-size: 20px;
     font-weight: 800;
-    color: #ffffff;
+    color: #0b2545;
     letter-spacing: 1px;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 /* Speaker Details */
@@ -1241,7 +1291,7 @@ footer small {
     font-family: 'Poppins', sans-serif;
     font-size: 10.5px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.8);
+    color: #1d3557;
     letter-spacing: 0.8px;
     margin-top: 2px;
 }
