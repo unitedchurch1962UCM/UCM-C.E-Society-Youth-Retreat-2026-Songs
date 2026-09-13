@@ -1212,7 +1212,7 @@ footer small {
     text-transform: uppercase;
 }
 
-/* ================= THEME & SPEAKER HEADER STYLES (DARK TEXT FIX) ================= */
+/* ================= THEME & SPEAKER HEADER STYLES (BRIGHT COLOR SCHEME) ================= */
 .theme-speaker-container {
     margin-top: 15px;
     display: flex;
@@ -1221,77 +1221,81 @@ footer small {
     gap: 12px;
 }
 
-/* Script "Theme" Label */
+/* Script "Theme" Label - Radiant Sky Blue */
 .script-label {
     font-family: 'Great Vibes', cursive;
-    font-size: 28px;
-    color: #0d3b66;
+    font-size: 30px;
+    color: #38bdf8;
     display: block;
     margin-bottom: -4px;
-    font-weight: 700;
+    font-weight: 500;
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
 }
 
-/* Bold Navy Blue "FIND YOUR FREEDOM" Title */
+/* Bold Metallic Bright Gold "FIND YOUR FREEDOM" Title */
 .theme-title {
     font-family: 'Cinzel', Georgia, serif;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: 2px;
-    color: #0b2545;
-    background: linear-gradient(180deg, #0b2545 0%, #134074 100%);
+    color: #ffd700;
+    background: linear-gradient(180deg, #ffffff 0%, #ffd700 50%, #ffae00 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 4px 20px rgba(255, 215, 0, 0.4);
     text-transform: uppercase;
 }
 
 .theme-underline {
-    width: 140px;
+    width: 150px;
     height: 3px;
-    background: linear-gradient(90deg, transparent, #1684ff, #0b2545, #1684ff, transparent);
+    background: linear-gradient(90deg, transparent, #38bdf8, #ffd700, #38bdf8, transparent);
     margin: 6px auto;
     border-radius: 2px;
 }
 
-/* Scripture Reference */
+/* Scripture Reference - Bright Cyan */
 .theme-verse {
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 700;
     letter-spacing: 3px;
-    color: #0b2545;
+    color: #7dd3fc;
     text-transform: uppercase;
+    text-shadow: 0 2px 8px rgba(56, 189, 248, 0.4);
 }
 
-/* Dark Blue Brush Style Badge for "Word of God by" */
+/* Bright Gold Gradient Brush Badge for "Word of God by" */
 .brush-badge {
     display: inline-block;
     font-family: 'Great Vibes', cursive;
-    font-size: 22px;
-    color: #ffffff;
-    background: linear-gradient(135deg, #0b2545, #134074);
-    padding: 3px 22px;
+    font-size: 23px;
+    color: #04080f; /* Dark crisp text inside bright badge */
+    font-weight: 700;
+    background: linear-gradient(135deg, #ffe066, #ffd700, #f59e0b);
+    padding: 3px 24px;
     border-radius: 20px 4px 20px 4px;
-    box-shadow: 0 4px 12px rgba(11, 37, 69, 0.3);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
     margin-bottom: 6px;
 }
 
-/* Speaker Name */
+/* Speaker Name - Pure Crisp White with Gold Glow */
 .speaker-name {
     font-family: 'Cinzel', Georgia, serif;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 800;
-    color: #0b2545;
-    letter-spacing: 1px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-shadow: 0 2px 12px rgba(255, 255, 255, 0.3), 0 0 8px rgba(255, 215, 0, 0.2);
 }
 
-/* Speaker Details */
+/* Speaker Details - Soft Warm Gold */
 .speaker-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 10.5px;
+    font-size: 11px;
     font-weight: 600;
-    color: #1d3557;
+    color: #fde68a;
     letter-spacing: 0.8px;
     margin-top: 2px;
 }
@@ -1299,25 +1303,25 @@ footer small {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .script-label {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .theme-title {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .theme-verse {
-        font-size: 11px;
+        font-size: 11.5px;
         letter-spacing: 2px;
     }
 
     .brush-badge {
-        font-size: 18px;
-        padding: 2px 16px;
+        font-size: 19px;
+        padding: 2px 18px;
     }
 
     .speaker-name {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .speaker-title {
