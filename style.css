@@ -1156,3 +1156,121 @@ footer small {
         font-size: 14px;
     }
 }
+
+/* Import Brush / Script Font for Theme & Word of God headers */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@700;800;900&display=swap');
+
+/* ================= THEME & SPEAKER HEADER STYLES ================= */
+.theme-speaker-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Script "Theme" Label */
+.script-label {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    color: #ffd700;
+    display: block;
+    margin-bottom: -4px;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.4);
+}
+
+/* Bold Metallic "FIND YOUR FREEDOM" Title */
+.theme-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #ffffff 0%, #b0c4de 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+}
+
+.theme-underline {
+    width: 140px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #1684ff, #ffd700, #1684ff, transparent);
+    margin: 6px auto;
+    border-radius: 2px;
+}
+
+/* Scripture Reference */
+.theme-verse {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #ffd700;
+    text-transform: uppercase;
+}
+
+/* Brush Style Badge for "Word of God by" */
+.brush-badge {
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 22px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #0f4c81, #1684ff);
+    padding: 3px 22px;
+    border-radius: 20px 4px 20px 4px;
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    margin-bottom: 6px;
+}
+
+/* Speaker Name */
+.speaker-name {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Speaker Details */
+.speaker-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.8px;
+    margin-top: 2px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .script-label {
+        font-size: 24px;
+    }
+
+    .theme-title {
+        font-size: 24px;
+    }
+
+    .theme-verse {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .brush-badge {
+        font-size: 18px;
+        padding: 2px 16px;
+    }
+
+    .speaker-name {
+        font-size: 16px;
+    }
+
+    .speaker-title {
+        font-size: 9.5px;
+    }
+}
