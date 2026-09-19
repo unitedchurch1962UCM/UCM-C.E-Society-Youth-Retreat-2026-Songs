@@ -1,5 +1,5 @@
 // ==========================================
-// SONG DATABASE
+// SONG DATABASE (11 Songs)
 // ==========================================
 const songs = [
     {
@@ -291,8 +291,8 @@ Naakai Maraninchina Rakshakuda             (2)
     ప్రాణ స్నేహమే - సిలువ త్యాగమై నీవే నను కన్నావు 
     రక్తమిచ్చి రక్షణిచ్చి నీకై నను కొన్నావు 
     నాతోనే ఉండాలని నీకోసమే బ్రతకాలని - (2)
-    నీ చెలిమే నా కలిమియే -  యేసువా...                ||విడువని||
-
+    నీ చెలిమే నా కలిమియే -  యేసువా...                ||విడువని||     
+                
 Viduvani Nesthama - cheragani bhashyama
 Sashwatha snehama - maruvani bandhama
 Manasu manasu milithamai - kudirina bhavama
@@ -313,8 +313,8 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
 
     {
         number: 9,
-        teluguTitle: "నిన్ను నమ్మి వచ్చి",
-        englishTitle: "Ninnu Nammi Vacchi",
+        teluguTitle: "ఏల్‌ ఎలోహే",
+        englishTitle: "El-Elohe",
         lyrics: `నిన్ను నమ్మి వచ్చి - నే సిగ్గుచెందలేదు 
 నీ దయ నన్ను చేయి విడువ లేదు (2)
 కాలి చేతితో నే వచ్చితిని
@@ -323,166 +323,132 @@ Cheyi cheyi pattinadai cheragani vasthavama          ||Viduvani||
 ఏల్‌-ఎలోహే ఏల్‌-ఎలోహే ఏల్‌-ఎలోహే
 నిన్నే స్తుతింతున్ (2)
 
-1. దారిద్ర్యములో నన్ను ఆదరించితివి
-    కన్నీటిలో నన్ను ఓదార్చితివి
-    కష్టములో నన్ను బలపరచితివి
-    నిత్యము నీ దయలో నన్ను దాచితివి (2)
+1. గాయపడ్డాను - కన్నీళ్లు కార్చాను
+    కలతచెందిన నాకై దిగివచ్చావు (2)
+    నిబంధనను నాతో చేసితివే
+    కోల్పోయినవన్నీ  ఇచ్చితివే.   (2)  ||ఎల్||
 
-2. నిన్ను నమ్మి జీవించెదను
-    నీ వాక్యములో నడిచెదను
-    నీ ప్రేమలో నిలిచెదను
-    నీ సేవలో సాగెదను (2)
+2. ప్రియులందరు విడచి పోయినా
+    ప్రియమైన వన్నీ నాకిచ్చితివే   (2)
+    పరదేశిగా  నేనున్న చోటే
+    స్వాస్థ్యముగా నాకు మార్చితివే   (2) ||ఎల్||
 
-Ninnu nammi vacchi - ne sigguchendhaledu
-Nee daya nannu cheyi viduva ledu (2)
-Kaali chethitho ne vachithini
-Rendu parivaarala nichithive (2)
+Ninnu nammi vachchi - ne sigguchendaledu 
+nee daya nannu cheyi viduva ledu (2)
+kaali chethitho ne vachithini
+rendu parivaarala nichithive (2)
 
 El-Elohe El-Elohe El-Elohe
 Ninne sthuthinthun (2)
 
-1. Daaridryamulo nannu aadharinchithivi
-    Kanneetilo nannu odhaarchithivi
-    Kashtamulo nannu balaparachithivi
-    Nithyamu nee dayalo nannu daachithivi (2)
+1. Gaayapaddanu - Kanneerlu kaarchaanu
+    Kalathachendina Naakai dhigivachavu (2)
+    Nibandhananu naatho chesithive
+    Kolpoyinavanni ichithive (2) ||El||
 
-2. Ninnu nammi jeevinchedanu
-    Nee vaakyamulo nadichedanu
-    Nee premalo nilichedanu
-    Nee sevalo saagedanu (2)`
+2. Priyulandharu vidachi poyina
+    Priyamaina vannii naakichithive (2)
+    Paradeishigaa nenunna chote
+    Swaasthyamagaa naaku maarchithive (2) ||El||`
     },
 
     {
         number: 10,
-        teluguTitle: "యేసయ్యా నీ ప్రేమ",
-        englishTitle: "Yesayya Nee Prema",
-        lyrics: `యేసయ్యా నీ ప్రేమ - నా జీవితమంతా
-నన్ను విడువదు - నన్ను మరువదు (2)
+        teluguTitle: "పరిశుద్ధుడా",
+        englishTitle: "Parisuddhuda",
+        lyrics: `పరిశుద్ధుడా పరిశుద్ధుడా పరిశుద్ధుడా
+నీ సన్నిధిలో నన్ను నిలువని - నీ అతిధిగా దేవా నాలో నన్ను నిలువని
+నీ నీడలో నన్ను నివసించని
 
-నీ కృపయే నాకు చాలయ్యా
-నీ ప్రేమయే నా బలమయ్యా (2)
+1. కపటము లేని హృదయమును - కల్లలాడని నాలుక నిమ్ము (2)
+    చెలికానికి కీడెంచను - పొరుగువారిని నిందించను (2)   ||పరిశుద్ధుడా||
 
-1. నా కన్నీటిని తుడిచేవాడవు
-    నా బాధలను మోసేవాడవు
-    నా ప్రతి అడుగును నడిపేవాడవు
-    నా తోడుగా నిలిచేవాడవు (2)
+2. సన్మానింతును భక్తులను - నీచులను సహించను (2)
+    వాగ్దానమిచ్చి వెనుకాడను - నష్టమైన మాట తప్పను   (2) ||పరిశుద్ధుడా||
 
-2. చీకటిలో వెలుగువై
-    ఒంటరిలో తోడువై
-    బలహీనతలో బలమై
-    నా జీవితానికి ఆశవై (2)
+Parisuddhuda Parisuddhuda Parisuddhuda
+Nee Sannidhilo Nannu Nilavani - Nee Athidhiga Deva Nelo Nannu Nilavani
+Nee Needalo Nannu Nivasinchani
 
-Yesayya nee prema - naa jeevithamantha
-Nannu viduvadu - nannu maruvadu (2)
-
-Nee krupaye naaku chaalayya
-Nee premaye naa balamayaa (2)
-
-1. Naa kanneetini thudichevaadavu
-    Naa baadhalanu mosevaadavu
-    Naa prathi adugunu nadipinchevaadavu
-    Naa thodugaa nilichevaadavu (2)
-
-2. Cheekatilo veluguvai
-    Ontarilo thoduvai
-    Balahinathalo balamai
-    Naa jeevithaaniki aashavai (2)`
+1.  Kapatamu Leni Hrudayamunu - Kallalaadani Naaluka Nimmu (2)
+     Chelikaaniki Keedenchanu - Poruguvarini Nindinchanu (2)   ||Parisuddhuda||   
+2.  Sanmanintunu Bhaktulanu - Nichulanu Sahinchanu (2)
+     Vaagdhanamichi Venukaadanu - Nastamaina Maata Tappanu   (2) ||Parisuddhuda||`
     },
 
     {
         number: 11,
-        teluguTitle: "ఆరాధన స్తుతి",
-        englishTitle: "Aaradhana Sthuthi",
-        lyrics: `ఆరాధన స్తుతి నీకే యేసయ్యా
-ఆరాధన ఘనత నీకే ప్రభువా (2)
+        teluguTitle: "అంత్యకాల అభిషేకం",
+        englishTitle: "Anthyakala Abhishekam",
+        lyrics: `అంత్యకాల అభిషేకం - సర్వ జనుల కోసం 
+కోతకాల దినములివి తండ్రి నీ ఆత్మతో నింపుమా (2) 
+మండే అగ్నల్లే రా దేవా- అన్య భాషలతో అభిషేకించు 
+ఎగసే గాలల్లే నను తాకుమా - జీవనది వలెనే ప్రవహించుమా (2) 
 
-నీ నామమే నా ఆశ్రయం
-నీ సన్నిధియే నా ఆనందం (2)
+1. ఎముకల లోయలోన గొప్ప సైన్యము నే చూడగా
+    నీ అధికారం దయచేయుమా – జీవమా రమ్మని ప్రవచించేదా (2) ||మండే||
 
-1. ఉదయాన నీ నామం స్తుతింతును
-    రాత్రియందు నీ కృపను తలచెదను
-    ప్రతి నిమిషం నిన్నే స్తుతించెదను
-    నా జీవితమంతా నీకే అర్పింతును (2)
+2. కర్మెలు కొండా పైన గొప్ప మేఘమై ఆవరించగా
+    ఆహబు భయపడిన - అగ్ని వర్షము కుమ్మరించుమా (2) ||మండే||
 
-2. నీ ప్రేమలో నేను నిలిచెదను
-    నీ వాక్యంలో నేను నడిచెదను
-    నీ చిత్తమే నేను చేసెదను
-    నీ మహిమకై జీవించెదను (2)
+3. సీనాయి పర్వతమందు అగ్ని పొద వలె నిను చూడగా
+    ఓ ఇశ్రాయేలు దైవమా - మాతో కూడా ఉన్నవడా (2) ||మండే||
 
-Aaradhana sthuthi neeke Yesayya
-Aaradhana ghanatha neeke Prabhuvaa (2)
+Anthyakaala Abhishekam Sarva Janula Kosam 
+Kotakaala Dinamulivi Thandri Nee Aatmatho Ninpumaa (2)
+Mande Agnalle raa Deva - Anya Bhaashalatho Abhishekinchu 
+Yegase Gaalalle Nanu Taakumaa
+Jeevanadi Valene Pravahinchumaa (2)
 
-Nee naamame naa aashrayam
-Nee sannidhye naa aanandham (2)
+1. Yemukala Loyalona - Goppa Sainyamu Ney Choodagaa 
+    Nee Adhikaaram Dayacheyumaa 
+    Jeevamaa Rammani Pravachchinchedaa (2) ||Mande||
 
-1. Udayaana nee naamam sthuthinthunu
-    Raathriyandhu nee krupanu thalachedanu
-    Prathi nimisham ninne sthuthinchedanu
-    Naa jeevithamantha neeke arpinthunu (2)
+2. Karmelu Konda Paina - Goppa Meghamai Aavarinchagaa 
+    Aahabu Bhayapadina - Agni Varshamu Kummarinchumaa (2)
 
-2. Nee premalo nenu nilichedanu
-    Nee vaakyamlo nenu nadichedanu
-    Nee chittame nenu cheyedanu
-    Nee mahimakai jeevinchedanu (2)`
+3. Sinaayi Parvathamandu Agni Poda Vale Ninu Choodagaa 
+    O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
     },
 
     {
         number: 12,
-        teluguTitle: "ఆదరణ",
-        englishTitle: "Aadarana",
-        lyrics: `ఆదరణ - ఆశ్రయము నీవే
-నా యేసయ్యా - నా బలము నీవే (2)
+        teluguTitle: "ఆషిక్ తేరా ",
+        englishTitle: "Aashiq tera",
+        lyrics: `Arey Aaya hu... mai yahaan YESHU tere darbar me 
+Aaya hu mai yahaan YESHU tere darbar me
+Darbar me ho teri stuthi
+Darbar me ho aaradhana    (2)
+Arey Aaya hu mai yahaan
+Mai aashiq tera YESHU Mai aashiq tera 
+Mai aashiq tera YESHU Mai aashiq tera
 
-కష్టకాలములో నీవే నాకు తోడుగా
-కన్నీటి లోయలో నీవే నా ఆశగా (2)
-
-1. ఒంటరి వారిని వ్యవస్థగా వృద్ధి చేసే దేవుడవు
-    దీనులను పైకి లేవనెత్తి సింహాసనమెక్కించును (2) ||ఆదరణ||
-
-2. ఆహా ఆహా ఆనందమే యేసయ్యతో జీవితం 
-    సంతోషమే సమాధానమే ఎల్లప్పుడు ఆయనలో (2) ||ఆదరణ||
-
-Aadarana - Aashrayamu Neeve
-Naa Yesayya - Naa Balamu Neeve (2)
-
-Kashtakaalamulo Neeve Naaku Thodugaa
-Kanneeti Loyalo Neeve Naa Aashagaa (2)
-
-1. Ontari vaarini vyavasthagaa vruddhi chese devudavu
-    Deenulanu paiki levanetthi simhaasanamekkinchunu (2) ||Aadarana||
-
-2. Aahaa aahaa aanandame yesayyatho jeevitham 
-    Santhoshame samaadhaaname yellappudu aayanalo (2) ||Aadarana||`
+1. Arey Aashiq hu mai tera Mai naa sharmaaoonga 
+    Aashiq hu mai tera Mai naa ghabraaoonga
+    Aashiq hu mai tera Mai naa sharmaaoonga
+    Aashiq hu mai tera - Mai naa ghabraaoonga
+    Arey YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
+    YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
+    "Arey daud ki tarah"
+    Mai nachoonga YESHU Mai nachoonga (2)
+   
+2. Arey Aaj to mai YESHU Kuch aisa gaoonga 
+    Aaj to mai YESHU Kuch aisa nachoonga
+    Aaj to mai YESHU Kuch aisa gaaoonga
+    Aaj to mai YESHU Kuch aisa nachoonga
+    Arey Shaanti ka raja thu badhshaah - Maut ko tune hara diya 
+    Shaanti ka raja thu badhshaah - Mout ko tune hara diya
+    "Arey Tu jo zinda hai"
+    Mai jhoomoonga YESHU Mai jhoomoonga (2)    ||Arey Aaya hu||`
     },
 
     {
         number: 13,
-        teluguTitle: "Arey Aaya hu... mai yahaan",
-        englishTitle: "Yeshu Tere Darbar Mein",
-        lyrics: `Arey Aaya hu... mai yahaan YESHU tere darbar me 
-Teri mahima gaane ko... 
-Teri stuthi gaane ko...
-Tere charno me aaya hu...
-Tere charno me aaya hu...
-
-Tu hi hai mera raja
-Tu hi hai mera maalik
-Tu hi hai mera data
-Tu hi hai mera rakshak
-
-Teri mahima gaane ko...
-Teri stuthi gaane ko...
-Tere charno me aaya hu...
-Tere charno me aaya hu...`
-    },
-
-    {
-        number: 14,
-        teluguTitle: "మంచివాడు గొప్పవాడు నా యేసు పరిశుద్ధుడు",
-        englishTitle: "Manchivaadu Goppavaadu",
+        teluguTitle: "మంచివాడు గొప్పవాడు",
+        englishTitle: "Manchivaadu Goppa vaadu",
         lyrics: `మంచివాడు గొప్పవాడు నా యేసు పరిశుద్ధుడు 
-మెలులెన్నో చేయువాడు నా యేసు అందరికి (2) 
-ఆదరణ ఆశ్రయము నీవేగా నాకిలలో (2) ||మంచివాడుల్ల||
+మేలులెన్నో చేయువాడు నా యేసు అందరికి (2) 
+ఆదరణ ఆశ్రయము నీవేగా నాకిలలో (2) ||మంచివాడు || 
 
 1. ఒంటరి వారిని వ్యవస్థగా వృద్ధి చేసే దేవుడవు
     దీనులను పైకి లేవనెత్తి సింహాసనమెక్కించును (2) ||ఆదరణ||
@@ -625,14 +591,23 @@ function formatSongNumber(num) {
 
 // ==========================================
 // ALBUMS & SONG RENDERING
+// SEARCH REMOVED
 // ==========================================
 function renderAlbums() {
     currentAlbum = null;
     activeSongs = [];
 
-    if (albumView) albumView.style.display = "block";
-    if (songView) songView.style.display = "none";
-    if (lyricsBox) lyricsBox.style.display = "none";
+    if (albumView) {
+        albumView.style.display = "block";
+    }
+
+    if (songView) {
+        songView.style.display = "none";
+    }
+
+    if (lyricsBox) {
+        lyricsBox.style.display = "none";
+    }
 
     if (!albumList) return;
 
@@ -640,22 +615,29 @@ function renderAlbums() {
 
     albums.forEach(album => {
         const card = document.createElement("div");
+
         card.className = "album-card";
 
         card.innerHTML = `
             <div class="album-icon">${album.icon}</div>
+
             <div class="album-info">
                 <h3>${album.title}</h3>
                 <p>${album.description}</p>
+
                 <span class="album-count">
                     ${album.songs.length}
                     ${album.songs.length === 1 ? "Song" : "Songs"}
                 </span>
             </div>
+
             <div class="album-arrow">❯</div>
         `;
 
-        card.addEventListener("click", () => openAlbum(album.id));
+        card.addEventListener("click", () => {
+            openAlbum(album.id);
+        });
+
         albumList.appendChild(card);
     });
 }
@@ -668,9 +650,17 @@ function openAlbum(albumId) {
     currentAlbum = album;
     activeSongs = album.songs;
 
-    if (albumView) albumView.style.display = "none";
-    if (songView) songView.style.display = "block";
-    if (lyricsBox) lyricsBox.style.display = "none";
+    if (albumView) {
+        albumView.style.display = "none";
+    }
+
+    if (songView) {
+        songView.style.display = "block";
+    }
+
+    if (lyricsBox) {
+        lyricsBox.style.display = "none";
+    }
 
     if (currentAlbumKicker) {
         currentAlbumKicker.textContent = "Album";
@@ -680,9 +670,15 @@ function openAlbum(albumId) {
         currentAlbumTitle.textContent = album.title;
     }
 
+    renderSongs(album.songs);
+}
+
+function renderSongs(songsToDisplay) {
     if (!list) return;
 
-    if (album.songs.length === 0) {
+    list.innerHTML = "";
+
+    if (songsToDisplay.length === 0) {
 
         list.innerHTML = `
             <div class="empty-album">
@@ -692,16 +688,8 @@ function openAlbum(albumId) {
             </div>
         `;
 
-    } else {
-        renderSongs(album.songs);
+        return;
     }
-}
-
-function renderSongs(songsToDisplay) {
-
-    if (!list) return;
-
-    list.innerHTML = "";
 
     songsToDisplay.forEach(song => {
 
@@ -1142,10 +1130,10 @@ document.addEventListener(
     "DOMContentLoaded",
     () => {
 
-        // Initial Render
+        // Show Albums on startup
         renderAlbums();
 
-        // Back to Albums
+        // Existing Back to Albums button
         if (backToAlbums) {
 
             backToAlbums.addEventListener(
