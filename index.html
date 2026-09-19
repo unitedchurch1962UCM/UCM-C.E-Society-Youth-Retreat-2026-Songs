@@ -11,7 +11,7 @@
 <body>
 
     <header>
-       <p class="tagline">W e &nbsp; P r e a c h &nbsp; J e s u s &nbsp; T h e &nbsp; L i v i n g &nbsp; S a v i o u r</p>
+        <p class="tagline">W e &nbsp; P r e a c h &nbsp; J e s u s &nbsp; T h e &nbsp; L i v i n g &nbsp; S a v i o u r</p>
 
         <div class="hero">
             <div class="logo-wrapper">
@@ -31,97 +31,131 @@
                 <img src="ce-logo.png" class="logo right-logo" alt="CE Logo">
             </div>
         </div>
+
         <!-- THEME & WORD OF GOD SECTION -->
-    <div class="theme-speaker-container">
-        <!-- Theme Section -->
-        <div class="theme-wrapper">
-            <span class="script-label">— Theme —</span>
-            <h2 class="theme-title">FIND YOUR FREEDOM</h2>
-            <div class="theme-underline"></div>
-            <span class="theme-verse">GALATIANS 5:1</span>
-        </div>
+        <div class="theme-speaker-container">
+            <!-- Theme Section -->
+            <div class="theme-wrapper">
+                <span class="script-label">— Theme —</span>
+                <h2 class="theme-title">FIND YOUR FREEDOM</h2>
+                <div class="theme-underline"></div>
+                <span class="theme-verse">GALATIANS 5:1</span>
+            </div>
 
-        <div class="gold-divider small"></div>
+            <div class="gold-divider small"></div>
 
-        <!-- Speaker Section -->
-        <div class="speaker-wrapper">
-            <div class="brush-badge">Word of God by</div>
-            <h3 class="speaker-name">BRO. JOHN CHRISTOPHER</h3>
-            <p class="speaker-title">DIRECTOR, RIGHT THEOLOGY FORUM (RTF), HYDERABAD</p>
+            <!-- Speaker Section -->
+            <div class="speaker-wrapper">
+                <div class="brush-badge">Word of God by</div>
+                <h3 class="speaker-name">BRO. JOHN CHRISTOPHER</h3>
+                <p class="speaker-title">DIRECTOR, RIGHT THEOLOGY FORUM (RTF), HYDERABAD</p>
+            </div>
         </div>
-    </div>
-</div>
     </header>
 
     <main class="content">
 
-        <!-- Song List -->
-        <div id="song-list"></div>
+        <!-- ================= ALBUM CATEGORIES SELECTION ================= -->
+        <div id="category-selection" class="category-grid">
+            <!-- Youth Retreat Album Card -->
+            <div class="category-card" onclick="openCategory('youth-retreat')">
+                <div class="category-icon">🎵</div>
+                <div class="category-info">
+                    <h3>Youth Retreat 2026 Songs</h3>
+                    <p>Digital Songbook & Praise Songs</p>
+                </div>
+                <span class="category-arrow">➔</span>
+            </div>
 
-        <!-- Lyrics Box -->
+            <!-- Sunday Service Album Card -->
+            <div class="category-card" onclick="openCategory('sunday-service')">
+                <div class="category-icon">⛪</div>
+                <div class="category-info">
+                    <h3>Sunday Service Songs</h3>
+                    <p>Worship & Congregational Hymns</p>
+                </div>
+                <span class="category-arrow">➔</span>
+            </div>
+        </div>
+
+        <!-- ================= YOUTH RETREAT SONGS CONTAINER ================= -->
+        <div id="youth-retreat-container" class="album-container" style="display: none;">
+            <button class="back-btn" onclick="showCategories()">← Back to Albums</button>
+            <h2 class="album-header-title">Youth Retreat 2026 Songs</h2>
+            <div id="youth-retreat-song-list"></div>
+        </div>
+
+        <!-- ================= SUNDAY SERVICE SONGS CONTAINER ================= -->
+        <div id="sunday-service-container" class="album-container" style="display: none;">
+            <button class="back-btn" onclick="showCategories()">← Back to Albums</button>
+            <h2 class="album-header-title">Sunday Service Songs</h2>
+            <div id="sunday-service-song-list"></div>
+        </div>
+
+        <!-- Lyrics Box Container -->
         <div id="lyrics-box" style="display: none;"></div>
 
-        <!-- C.E SOCIETY & EXECUTIVE BODY SECTION -->
-<div class="executive-section">
-    <!-- C.E Society -->
-    <div class="exec-group">
-        <h3 class="exec-heading">C.E SOCIETY</h3>
-        <div class="exec-grid">
-            <div class="exec-card">
-                <span class="exec-name">K. P. SRINUVASA RAO</span>
-                <span class="exec-role">C.E Convenor</span>
+        <!-- ================= C.E SOCIETY & EXECUTIVE BODY SECTION ================= -->
+        <div class="executive-section">
+            <!-- C.E Society -->
+            <div class="exec-group">
+                <h3 class="exec-heading">C.E SOCIETY</h3>
+                <div class="exec-grid">
+                    <div class="exec-card">
+                        <span class="exec-name">K. P. SRINUVASA RAO</span>
+                        <span class="exec-role">C.E Convenor</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">P. NAVEEN RAJ</span>
+                        <span class="exec-role">Choir - in - Charge</span>
+                    </div>
+                </div>
             </div>
-            <div class="exec-card">
-                <span class="exec-name">P. NAVEEN RAJ</span>
-                <span class="exec-role">Choir - in - Charge</span>
+
+            <div class="credits-divider"></div>
+
+            <!-- C.E Executive Body -->
+            <div class="exec-group">
+                <h3 class="exec-heading">C.E Executive Body</h3>
+                <div class="exec-grid">
+                    <div class="exec-card">
+                        <span class="exec-name">Mr. A. John Deeven</span>
+                        <span class="exec-role">President</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">Ms. M. Neelima</span>
+                        <span class="exec-role">Vice President</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">Mr. Ch. Charles Finny</span>
+                        <span class="exec-role">Secretary</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">Mr. G. Vamsi</span>
+                        <span class="exec-role">Joint Secretary</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">Mr. B. Asish Kumar</span>
+                        <span class="exec-role">Treasurer</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">Mr. M. Saroj Kumar</span>
+                        <span class="exec-role">Executive</span>
+                    </div>
+                    <div class="exec-card">
+                        <span class="exec-name">Ms. M. Deevena</span>
+                        <span class="exec-role">Executive</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="credits-divider"></div>
-
-    <!-- C.E Executive Body -->
-    <div class="exec-group">
-        <h3 class="exec-heading">C.E Executive Body</h3>
-        <div class="exec-grid">
-            <div class="exec-card">
-                <span class="exec-name">Mr. A. John Deeven</span>
-                <span class="exec-role">President</span>
-            </div>
-            <div class="exec-card">
-                <span class="exec-name">Ms. M. Neelima</span>
-                <span class="exec-role">Vice President</span>
-            </div>
-            <div class="exec-card">
-                <span class="exec-name">Mr. Ch. Charles Finny</span>
-                <span class="exec-role">Secretary</span>
-            </div>
-            <div class="exec-card">
-                <span class="exec-name">Mr. G. Vamsi</span>
-                <span class="exec-role">Joint Secretary</span>
-            </div>
-            <div class="exec-card">
-                <span class="exec-name">Mr. B. Asish Kumar</span>
-                <span class="exec-role">Treasurer</span>
-            </div>
-            <div class="exec-card">
-                <span class="exec-name">Mr. M. Saroj Kumar</span>
-                <span class="exec-role">Executive</span>
-            </div>
-            <div class="exec-card">
-                <span class="exec-name">Ms. M. Deevena</span>
-                <span class="exec-role">Executive</span>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="credits-divider"></div>
+        <div class="credits-divider"></div>
 
         <!-- ================= CHOIR & MUSICIANS SECTION ================= -->
         <section class="credits-section">
             
-             <h2 class="section-title">CHOIR MEMBERS</h2>
+            <h2 class="section-title">CHOIR MEMBERS</h2>
             <div class="choir-grid">
                 <!-- Girls Column -->
                 <div class="choir-column">
@@ -168,7 +202,7 @@
                         <li>V. Vincent</li>
                         <li>M. Manoj Kumar</li>
                         <li>B. Vandan Issac</li>
-                         <li>Janith Prakash</li>
+                        <li>Janith Prakash</li>
                         <li>K. Suni Raj</li>
                     </ul>
                 </div>
