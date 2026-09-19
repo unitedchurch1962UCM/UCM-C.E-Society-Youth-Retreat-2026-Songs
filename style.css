@@ -24,7 +24,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #04080f url("bg.png") center/cover no-repeat; background-color: #04080f;
+    background: #04080f url("bg.png") center/cover no-repeat;
     filter: blur(5px);
     transform: scale(1.05);
     z-index: -1;
@@ -1328,143 +1328,313 @@ footer small {
         font-size: 9.5px;
     }
 }
+/* =========================================================
+   DIGITAL SONGBOOK - ALBUM SYSTEM
+   Added for Youth Retreat 2026 / Sunday Service albums
+   ========================================================= */
 
-/* ================= SONG ALBUMS ================= */
 .album-view {
-    width: 100%;
-    margin: 10px auto 35px;
-}
-
-.album-heading {
-    text-align: center;
-    margin-bottom: 22px;
-}
-
-.album-kicker {
     display: block;
+    width: 100%;
+    max-width: 1100px;
+    margin: 35px auto 45px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.album-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.album-eyebrow {
+    display: block;
+    margin-bottom: 8px;
     color: #ffd700;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 3px;
 }
 
-.album-heading h2, .song-view-header h2 {
-    font-family: 'Cinzel', Georgia, serif;
-    color: #ffffff;
-    font-size: 28px;
-    letter-spacing: 1.5px;
+.album-header h2 {
     margin: 0;
+    color: #ffffff;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
 }
 
-.album-heading p {
-    color: rgba(255,255,255,0.7);
-    margin-top: 7px;
-    font-size: 14px;
+.album-header p {
+    margin: 10px 0 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 .album-grid {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
+    gap: 24px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .album-card {
-    position: relative;
-    min-height: 165px;
-    padding: 25px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    min-height: 190px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 215, 0, 0.20);
     border-radius: 24px;
-    border: 1px solid rgba(255,215,0,0.22);
-    background: linear-gradient(145deg, rgba(20,34,54,0.92), rgba(8,15,27,0.82));
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    box-shadow: 0 12px 35px rgba(0,0,0,0.32);
-    cursor: pointer;
-    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
-    overflow: hidden;
-}
-
-.album-card::after {
-    content: '';
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    right: -35px;
-    bottom: -45px;
-    border-radius: 50%;
-    background: rgba(255,215,0,0.08);
-}
-
-.album-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(255,215,0,0.65);
-    box-shadow: 0 16px 40px rgba(255,215,0,0.12);
-}
-
-.album-icon {
-    font-size: 38px;
-    margin-bottom: 13px;
-}
-
-.album-card h3 {
-    position: relative;
-    z-index: 1;
-    font-family: 'Cinzel', Georgia, serif;
-    color: #fff;
-    font-size: 20px;
-    margin-bottom: 7px;
-}
-
-.album-card p {
-    position: relative;
-    z-index: 1;
-    color: rgba(255,255,255,0.68);
-    font-size: 13px;
-    line-height: 1.5;
-}
-
-.album-count {
-    position: absolute;
-    z-index: 2;
-    right: 18px;
-    top: 18px;
-    background: rgba(255,215,0,0.14);
-    border: 1px solid rgba(255,215,0,0.3);
-    color: #ffd700;
-    padding: 5px 9px;
-    border-radius: 20px;
-    font-size: 11px;
-    font-weight: 700;
-}
-
-.song-view-header {
+    padding: 26px;
     display: flex;
     align-items: center;
+    gap: 20px;
+    text-align: left;
+    color: #ffffff;
+    background: linear-gradient(135deg, rgba(13, 39, 70, 0.96), rgba(5, 14, 28, 0.96));
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.38);
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.album-card:hover,
+.album-card:focus-visible {
+    transform: translateY(-5px);
+    border-color: rgba(255, 215, 0, 0.75);
+    background: linear-gradient(135deg, rgba(18, 53, 91, 0.98), rgba(6, 18, 35, 0.98));
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.48), 0 0 22px rgba(255, 215, 0, 0.10);
+}
+
+.album-card:active {
+    transform: translateY(-1px) scale(0.99);
+}
+
+.album-card-icon {
+    width: 78px;
+    height: 78px;
+    min-width: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ffe066, #ffd700, #f59e0b);
+    color: #0b2545;
+    font-size: 38px;
+    line-height: 1;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.32);
+}
+
+.album-card-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.album-card-title {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.album-card-description {
+    display: block;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.album-card-count {
+    display: inline-block;
+    padding: 5px 12px;
+    border: 1px solid rgba(255, 215, 0, 0.30);
+    border-radius: 999px;
+    background: rgba(255, 215, 0, 0.12);
+    color: #ffd700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.album-card-arrow {
+    flex-shrink: 0;
+    color: #ffd700;
+    font-size: 30px;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+}
+
+.album-card:hover .album-card-arrow,
+.album-card:focus-visible .album-card-arrow {
+    transform: translateX(6px);
+}
+
+.song-toolbar {
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto 14px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 15px;
-    margin-bottom: 18px;
 }
 
 .back-albums-btn {
-    flex-shrink: 0;
-    border: 1px solid rgba(255,215,0,0.35);
-    background: rgba(10,18,30,0.72);
-    color: #ffd700;
-    padding: 10px 15px;
-    border-radius: 22px;
-    cursor: pointer;
+    appearance: none;
+    border: 1px solid rgba(255, 215, 0, 0.22);
+    border-radius: 12px;
+    padding: 10px 17px;
+    background: rgba(10, 25, 43, 0.78);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
     font-weight: 700;
-    transition: all .2s ease;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .back-albums-btn:hover {
-    background: #ffd700;
     color: #0b2545;
+    background: #ffd700;
+    border-color: #ffd700;
 }
 
-@media (max-width: 600px) {
-    .album-grid { grid-template-columns: 1fr; }
-    .album-heading h2, .song-view-header h2 { font-size: 22px; }
-    .album-card { min-height: 145px; padding: 21px; }
-    .song-view-header { align-items: flex-start; }
+.selected-album-title {
+    color: #ffd700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.song-search-wrap {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto 24px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    pointer-events: none;
+    font-size: 17px;
+}
+
+#search {
+    box-sizing: border-box;
+}
+
+.empty-album {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 45px 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 22px;
+    background: rgba(5, 14, 28, 0.68);
+    text-align: center;
+}
+
+.empty-album-icon {
+    margin-bottom: 12px;
+    font-size: 50px;
+}
+
+.empty-album h3 {
+    margin: 0 0 8px;
+    color: #ffd700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.empty-album p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 700px) {
+    .album-view {
+        margin-top: 25px;
+        padding: 0 14px;
+    }
+
+    .album-header h2 {
+        font-size: 31px;
+    }
+
+    .album-header p {
+        font-size: 14px;
+    }
+
+    .album-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .album-card {
+        min-height: 145px;
+        padding: 19px;
+        gap: 15px;
+        border-radius: 19px;
+    }
+
+    .album-card-icon {
+        width: 62px;
+        height: 62px;
+        min-width: 62px;
+        border-radius: 16px;
+        font-size: 30px;
+    }
+
+    .album-card-title {
+        font-size: 18px;
+    }
+
+    .album-card-description {
+        font-size: 12px;
+    }
+
+    .album-card-arrow {
+        font-size: 24px;
+    }
+
+    .song-toolbar {
+        padding: 0 14px;
+        align-items: flex-start;
+    }
+
+    .selected-album-title {
+        font-size: 15px;
+    }
+
+    .song-search-wrap {
+        padding: 0 14px;
+    }
 }
