@@ -55,8 +55,33 @@
 
     <main class="content">
 
-        <!-- Song List -->
-        <div id="song-list"></div>
+        <!-- ================= SONG ALBUMS ================= -->
+        <section id="album-view" class="album-view">
+            <div class="album-heading">
+                <span class="album-kicker">Digital Songbook</span>
+                <h2>SONG ALBUMS</h2>
+                <p>Select an album to view its songs</p>
+            </div>
+            <div id="album-list" class="album-grid"></div>
+        </section>
+
+        <!-- ================= SONG LIST ================= -->
+        <section id="song-view" class="song-view" style="display:none;">
+            <div class="song-view-header">
+                <button id="back-to-albums" class="back-albums-btn" type="button">← Albums</button>
+                <div>
+                    <span id="current-album-kicker" class="album-kicker">Album</span>
+                    <h2 id="current-album-title">Songs</h2>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input id="search" type="search" placeholder="Search songs..." autocomplete="off">
+            </div>
+
+            <div id="song-list"></div>
+        </section>
 
         <!-- Lyrics Box -->
         <div id="lyrics-box" style="display: none;"></div>
