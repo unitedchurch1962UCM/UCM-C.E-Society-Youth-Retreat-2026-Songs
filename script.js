@@ -1,5 +1,5 @@
 // ==========================================
-// SONG DATABASE (11 Songs)
+// SONG DATABASE (14 Songs)
 // ==========================================
 const songs = [
     {
@@ -30,7 +30,7 @@ Hallelujah... Hallelujah...   (4)
 1. Papinainaa nannu neevu nee biddagaa marchave   (2)
     Maha manchivadu - Chala goppavadu - Ninnu polina varevaru(2) 
     Hallelujah... Hallelujah...   (4)
-   
+    
 2. Nannu pilichina deva naa nammadagina devaa     (2)
     Maha manchivadu - Chala goppavadu - Ninnu polina varevaru(2) 
     Hallelujah... Hallelujah...   (4)
@@ -45,7 +45,7 @@ Hallelujah... Hallelujah...   (4)
         englishTitle: "Nannenthagano Neevu",
         lyrics: `నన్నెంతగానో నీవు కోరావుగా - బ్రతుకంత నాకు తోడై ఉన్నావుగా
 రచించావు నన్ను నీవు - క్షమించావు నన్ను నీవు
-నీ ప్రేమ చాలు నాకు...నా యేసయ్య...    (2)       ||నన్నెంతగానో||
+నీ ప్రేమ చాలు నాకు...నా యేసయ్య...    (2)        ||నన్నెంతగానో||
 
 1. ఏముంది ఈ జగాన - ఎదురీత సాగరాన  
     నా జీవ నావ నీవే నా యేసయ్య
@@ -68,7 +68,7 @@ Nannenthagano Neevu Koraavuga
 Brathukantha Naaku Thodai Unnaavuga
 Rachinchaavu Nannu Neevu 
 Kshaminchaavu Nannu Neevu
-Nee Prema Chaalu Naaku... Naa Yesayya...    (2)     ||Nannenthagano||
+Nee Prema Chaalu Naaku... Naa Yesayya...    (2)      ||Nannenthagano||
 
 1. Emundhi Ee Jagaana - Yedhureetha Saagaraana 
     Naa Jeeva Naava Neeve Naa Yesayya
@@ -136,7 +136,7 @@ Satyaswarupudavu… Tara Taramulaku Neevu (2)   ||Neevanti||
     రక్షణ పాత్ర చేతపట్టుకొని స్తోత్రము చేసేదన్     ||నా పాద||
 
 2. నాలో ఉన్న ఆశలను నెరవేర్చితివే 
-    నా ఆలోచన సఫలపరచితివే                     (2)
+    నా ఆలోచన సఫలపరచితివే                   (2)
     నీ సేవకై నా జీవితం నేను అర్పింతును
     నా ప్రాణాత్మ దేహమును నీకై అర్పింతును     ||నా పాద||
 
@@ -149,7 +149,7 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||naa paada||
     rakshana paathra chethapattukoni sthothramu chesedan     ||naa paada||
 
 2. Naalo unna aashalanu neraverchithivey
-    naa aalochana saphala parachithive                 (2)
+    naa aalochana saphala parachithive                  (2)
     nee sevakai naa jeevitham nenu arpinthunu
     naa pranathma dehamunu neekai arpinthunu     ||na pada||`
     },
@@ -170,7 +170,7 @@ Naa pranamunaku jeevam - naa yesayya nee vaakyam     (2) ||naa paada||
     యెహోవా యిరే అన్నియు ఇచ్చువాడు - పొషించుటకు శక్తుడాయనే 
     ఇస్సాకు పంటను ఆశీర్వదించువాడు - నూరంతలుగా నింపి వేయునే        ||నిన్ను నమ్ము||
 
-    యేసయ్యా నా నమ్మకము నీవే -  యేసయ్యా నా ఆశ్రయము నీవే  (2)   ||సిలువలో నాకై||
+    యేసయ్యా నా నమ్మకము నీవే -  యేసయ్యా నా ఆశ్రయము నీవే  (2)    ||సిలువలో నాకై||
 
 Yehova rapha soukhyamicchuvadu - Vyadhulinka Naku ledhe
 Yehova rapha naa balamayenu - Thegulu rogamu Naku ledhe
@@ -343,7 +343,7 @@ ninne sthuthinthun (2)
     Paradeshiga neenunna chote
     Swaasthyamugaa naaku marchithive (2) ||El||`
     },
-     {
+    {
         number: 10,
         teluguTitle: "నా నీతి సూర్యుడా",
         englishTitle: "Naa Neethi Suryuda",
@@ -374,15 +374,15 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
     Vaakyame Krupaavakyame – Nanu Viidani Anubandhamai  (2)
     Ni Maatale Jaladaralai – Santhrupthi Nicchenu
     Ni Maatale Aushadamai – Gayamulu Kattenu..  Nee Maate Madhuram … || Rajulake ||
-   
+    
 2. Melukai Samasthamunu Jariginchuchunnavu Neevu
     Yediyu Koduvacheyavu – Ninnasrayinchinaa Variki (2)
     Bhikaramaina Kaaryamulu Cheyuchunnavada
     Sajivudaavai Adhikasthotramu Ponduchunnavada... Ghanaparathunu Ninne …..
     Preminche Yesayyaa – Neevunte Chalunayya
     Nadipinche Najareyuda – Kapade Kaparivi      || Naa Neethi ||`
-     },
-{
+    },
+    {
         number: 11,
         teluguTitle: "పరిశుద్దుడ నీ సన్నిధిలో",
         englishTitle: "Parishudhuda Nee Sannidhilo",
@@ -391,7 +391,7 @@ Nadipinche Najareyuda – Kapade Kaparivi  || Naa Neethi ||
 నీ నీడలో నన్ను నివసించని
 
 1.  కపటము లేని హృదయమును - కాళ్ళలాడని నాలుక నిమ్ము (2)
-     చెలికానికి కీడెంచను - పొరుగువారిని నిందించను (2)   ||పరిశుద్దుడ||
+     చెలికానికి కీడెంచను - పొరుగువారిని నిందించను (2)    ||పరిశుద్దుడ||
     
 2.  సన్మానింతును భక్తులను - నిచులను సహించను (2)
      వాగ్ధానమిచ్చి వెనుకాడను - నష్టమైన మాట తప్పను   (2) ||పరిశుద్దుడ||
@@ -402,11 +402,11 @@ Ni athidhiga nanu nilavani - nee atidhiga deva neelo nanu nilavani
 Ni needalo nannu nivasinchani
 
 1.  Kapatamu leni hrudayamunu - kallalaadani naaluka nimmu (2)
-     Chelikaaniki keedenchanu - poruguvarini nindinchanu (2)   ||parisudduda||   
+     Chelikaaniki keedenchanu - poruguvarini nindinchanu (2)    ||parisudduda||   
 2.  Sanmanintunu bhaktulanu - nichulanu sahinchanu (2)
      Vaagdhanamichi venukaadanu - nastamaina maata tappanu   (2) ||parisudduda||`
     },
-{
+    {
         number: 12,
         teluguTitle: "అంత్యకాల అభిషేకం",
         englishTitle: "Anthyakala Abhishekam",
@@ -440,8 +440,8 @@ Jeevanadi Valene Pravahinchumaa (2)
 
 3. Sinaayi Parvathamandu Agni Poda Vale Ninu Choodagaa 
     O Israayelu Daivamaa - Maatho Koodaa Unnavadaa (2) ||Mande||`
-       },
-{
+    },
+    {
         number: 13,
         teluguTitle: "ఆషిక్ తేరా ",
         englishTitle: "Aashiq tera",
@@ -461,7 +461,7 @@ Mai aashiq tera YESHU Mai aashiq tera
     YESHU tu mera zinda KHUDA - Tu hi to mera hai MASIIHA
     "Arey daud ki tarah"
     Mai nachoonga YESHU Mai nachoonga (2)
-   
+    
 2. Arey Aaj to mai YESHU Kuch aisa gaoonga 
     Aaj to mai YESHU Kuch aisa nachoonga
     Aaj to mai YESHU Kuch aisa gaaoonga
@@ -471,7 +471,7 @@ Mai aashiq tera YESHU Mai aashiq tera
     "Arey Tu jo zinda hai"
     Mai jhoomoonga YESHU Mai jhoomoonga (2)    ||Arey Aaya hu||`
     },
-{
+    {
         number: 14,
         teluguTitle: "మంచివాడు గొప్పవాడు",
         englishTitle: "Manchivaadu Goppa vaadu",
@@ -495,9 +495,7 @@ Aadarana aashrayamu neevegaa naakilalo (2) ||manchivaadull
 
 2. Aahaa aahaa aanandame yesayyatho jeevitham 
     Santhoshame samaadhaaname yellappudu aayanalo (2) ||Aadarana||`
-    
- }
-
+    }
 ];
 
 // ==========================================
@@ -621,7 +619,8 @@ function renderSongs(songsToDisplay) {
 }
 
 function filterSongs() {
-    const input = document.getElementById("search") ? document.getElementById("search").value.toLowerCase().trim() : "";
+    const searchInput = document.getElementById("search");
+    const input = searchInput ? searchInput.value.toLowerCase().trim() : "";
     const filtered = songs.filter(song => 
         song.teluguTitle.toLowerCase().includes(input) || 
         song.englishTitle.toLowerCase().includes(input)
@@ -830,7 +829,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Keyboard Shortcuts for Presentation
-    document.addEventListener('keydown', (e) => {
+    document.addEventListener("keydown", (e) => {
         if (presOverlay && presOverlay.style.display === "flex") {
             if (e.key === "ArrowRight" || e.key === " ") nextSlide(e);
             if (e.key === "ArrowLeft") prevSlide(e);
