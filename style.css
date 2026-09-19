@@ -1638,3 +1638,18 @@ footer small {
         padding: 0 14px;
     }
 }
+
+/* ================= ALBUM / SONG VIEW CONTROL ================= */
+
+#album-view[hidden],
+#song-view[hidden] {
+    display: none !important;
+}
+
+#album-view:not([hidden]) {
+    display: block !important;
+}
+
+#song-view:not([hidden]) {
+    display: block !important;
+}
