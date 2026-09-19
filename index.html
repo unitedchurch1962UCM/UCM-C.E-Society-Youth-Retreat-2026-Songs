@@ -1,170 +1,354 @@
 <!DOCTYPE html>
-<html lang="te">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>United Church - Digital Songbook 2026</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&family=Ramabhadra&display=swap" rel="stylesheet">
+    <title>UCM Digital Songbook</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header Section -->
-    <header class="main-header">
-        <div class="tagline">WE PREACH JESUS THE LIVING SAVIOUR</div>
+    <header>
+       <p class="tagline">W e &nbsp; P r e a c h &nbsp; J e s u s &nbsp; T h e &nbsp; L i v i n g &nbsp; S a v i o u r</p>
+
         <div class="hero">
-            <h1>UNITED CHURCH</h1>
-            <h2>MALKAPURAM, VISAKHAPATNAM - 11</h2>
-            <div class="gold-divider"></div>
-            <h3 class="gold-heading">CHRISTIAN ENDEAVOUR SOCIETY</h3>
-            <h4>Youth Retreat 2026</h4>
+            <div class="logo-wrapper">
+                <img src="church-logo-bg.png" class="logo left-logo" alt="Church Logo">
+            </div>
+
+            <div class="hero-text">
+                <h1>UNITED CHURCH</h1>
+                <h2>MALKAPURAM, VISAKHAPATNAM - 11</h2>
+                <div class="gold-divider"></div>
+                <h3 class="gold-heading">Christian Endeavour Society</h3>
+                <div class="gold-divider small"></div>
+                <h4>Youth Retreat 2026</h4>
+            </div>
+
+            <div class="logo-wrapper">
+                <img src="ce-logo.png" class="logo right-logo" alt="CE Logo">
+            </div>
         </div>
-        <div class="theme-box">
-            <span class="theme-label">Theme:</span> 
-            <span class="theme-text">FIND YOUR FREEDOM (GALATIANS 5:1)</span>
+        <!-- THEME & WORD OF GOD SECTION -->
+    <div class="theme-speaker-container">
+        <!-- Theme Section -->
+        <div class="theme-wrapper">
+            <span class="script-label">— Theme —</span>
+            <h2 class="theme-title">FIND YOUR FREEDOM</h2>
+            <div class="theme-underline"></div>
+            <span class="theme-verse">GALATIANS 5:1</span>
         </div>
+
+        <div class="gold-divider small"></div>
+
+        <!-- Speaker Section -->
+        <div class="speaker-wrapper">
+            <div class="brush-badge">Word of God by</div>
+            <h3 class="speaker-name">BRO. JOHN CHRISTOPHER</h3>
+            <p class="speaker-title">DIRECTOR, RIGHT THEOLOGY FORUM (RTF), HYDERABAD</p>
+        </div>
+    </div>
+</div>
     </header>
 
-    <main class="content-container">
+    <main class="content">
 
-        <!-- ALBUMS CONTAINER (Glassmorphism Layout) -->
-        <div class="albums-grid">
+        <!-- Song List -->
+        <div id="song-list"></div>
+
+        <!-- Lyrics Box -->
+        <div id="lyrics-box" style="display: none;"></div>
+
+        <!-- C.E SOCIETY & EXECUTIVE BODY SECTION -->
+<div class="executive-section">
+    <!-- C.E Society -->
+    <div class="exec-group">
+        <h3 class="exec-heading">C.E SOCIETY</h3>
+        <div class="exec-grid">
+            <div class="exec-card">
+                <span class="exec-name">K. P. SRINUVASA RAO</span>
+                <span class="exec-role">C.E Convenor</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">P. NAVEEN RAJ</span>
+                <span class="exec-role">Choir - in - Charge</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="credits-divider"></div>
+
+    <!-- C.E Executive Body -->
+    <div class="exec-group">
+        <h3 class="exec-heading">C.E Executive Body</h3>
+        <div class="exec-grid">
+            <div class="exec-card">
+                <span class="exec-name">Mr. A. John Deeven</span>
+                <span class="exec-role">President</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">Ms. M. Neelima</span>
+                <span class="exec-role">Vice President</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">Mr. Ch. Charles Finny</span>
+                <span class="exec-role">Secretary</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">Mr. G. Vamsi</span>
+                <span class="exec-role">Joint Secretary</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">Mr. B. Asish Kumar</span>
+                <span class="exec-role">Treasurer</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">Mr. M. Saroj Kumar</span>
+                <span class="exec-role">Executive</span>
+            </div>
+            <div class="exec-card">
+                <span class="exec-name">Ms. M. Deevena</span>
+                <span class="exec-role">Executive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="credits-divider"></div>
+
+        <!-- ================= CHOIR & MUSICIANS SECTION ================= -->
+        <section class="credits-section">
             
-            <!-- All Songs Album -->
-            <div class="glass-album active" id="album-all" onclick="selectAlbum('all', this)">
-                <div class="album-icon">🎶</div>
-                <div class="album-details">
-                    <h3>All Songs</h3>
-                    <p>అన్ని పాటల వివరాలు</p>
+             <h2 class="section-title">CHOIR MEMBERS</h2>
+            <div class="choir-grid">
+                <!-- Girls Column -->
+                <div class="choir-column">
+                    <h3 class="category-title">Girls</h3>
+                    <ul>
+                        <li>N. Asha</li>
+                        <li>G. Lavanya</li>
+                        <li>M. Neelima</li>
+                        <li>M. Deevena</li>
+                        <li>A. Divya</li>
+                        <li>G. Deevena</li>
+                        <li>B. Nithya</li>
+                        <li>K. Merina</li>
+                        <li>K. Divya</li>
+                        <li>D. Jasmine</li>
+                        <li>Ashitha Brighty</li>
+                        <li>T. Shanthi Leela</li>
+                        <li>P. Yochana</li>
+                        <li>T. Meghana</li>
+                        <li>P. Angelina Joy</li>
+                        <li>Ch. Srihitha</li>
+                    </ul>
                 </div>
-                <span class="song-count-badge" id="count-all">0</span>
-            </div>
 
-            <!-- Youth Retreat 2026 Album -->
-            <div class="glass-album" id="album-youth" onclick="selectAlbum('youth', this)">
-                <div class="album-icon">🎵</div>
-                <div class="album-details">
-                    <h3>Youth Retreat 2026</h3>
-                    <p>యూత్ రిట్రీట్ ప్రత్యేక పాటలు</p>
-                </div>
-                <span class="song-count-badge" id="count-youth">0</span>
-            </div>
-
-            <!-- Sunday Service Album -->
-            <div class="glass-album" id="album-sunday" onclick="selectAlbum('sunday', this)">
-                <div class="album-icon">⛪</div>
-                <div class="album-details">
-                    <h3>Sunday Service</h3>
-                    <p>ఆదివారం ఆరాధన పాటలు</p>
-                </div>
-                <span class="song-count-badge" id="count-sunday">0</span>
-            </div>
-
-        </div>
-
-        <!-- Search Container -->
-        <div class="search-container">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="searchInput" placeholder="పాట పేరు లేదా నంబర్ ద్వారా వెతకండి..." onkeyup="searchSongs()">
-        </div>
-
-        <!-- Active Album Heading -->
-        <h2 class="section-title" id="active-album-title">All Songs</h2>
-
-        <!-- SONG LIST CONTAINER -->
-        <div id="song-list" class="song-list-wrapper">
-
-            <!-- Song 1 (Youth Retreat) -->
-            <div class="song-card glass-card" data-category="youth" onclick="openLyrics('01', 'పరిశుద్ధుడా పరమ తండ్రి', 'Parishuddhuda Parama Thandri', '1. పరిశుద్ధుడా పరమ తండ్రి నీకే నా స్తుతి స్తోత్రములు\nనా జీవితాంతము వరకు నిన్నే కీర్తింతును\n\nపల్లవి:\nహల్లెలూయా హల్లెలూయా\nఆమేన్ హల్లెలూయా')">
-                <div class="song-left">
-                    <span class="song-badge">Song 01</span>
-                    <div class="song-titles">
-                        <span class="song-telugu">పరిశుద్ధుడా పరమ తండ్రి</span>
-                        <span class="song-english">Parishuddhuda Parama Thandri</span>
-                    </div>
-                </div>
-                <span class="song-arrow">➔</span>
-            </div>
-
-            <!-- Song 2 (Youth Retreat) -->
-            <div class="song-card glass-card" data-category="youth" onclick="openLyrics('02', 'నా జీవితంలో నీవే చాలు', 'Naa Jeevithamlo Neeve Chaalu', '1. నా జీవితంలో నీవే చాలు యేసయ్యా\nఏ కష్టమొచ్చినా నీ వైపే చూసెదన్\n\nపల్లవి:\nయేసే నా మార్గము యేసే నా సత్యము')">
-                <div class="song-left">
-                    <span class="song-badge">Song 02</span>
-                    <div class="song-titles">
-                        <span class="song-telugu">నా జీవితంలో నీవే చాలు</span>
-                        <span class="song-english">Naa Jeevithamlo Neeve Chaalu</span>
-                    </div>
-                </div>
-                <span class="song-arrow">➔</span>
-            </div>
-
-            <!-- Song 3 (Sunday Service) -->
-            <div class="song-card glass-card" data-category="sunday" onclick="openLyrics('01', 'స్తుతించుడి యెహోవాను', 'Stuthinchudi Yehovaanu', '1. స్తుతించుడి యెహోవాను ఆయన పరిశుద్ధ ఆలయమందు\nఆయన ప్రభావమును ప్రసిద్ధి చేయుడి\n\nపల్లవి:\nస్తుతియు ఘనత మహిమ యుగయుగములు నీకే')">
-                <div class="song-left">
-                    <span class="song-badge">Song 01</span>
-                    <div class="song-titles">
-                        <span class="song-telugu">స్తుతించుడి యెహోవాను</span>
-                        <span class="song-english">Stuthinchudi Yehovaanu</span>
-                    </div>
-                </div>
-                <span class="song-arrow">➔</span>
-            </div>
-
-            <!-- Empty Album Message -->
-            <div id="no-songs-msg" class="glass-card no-songs" style="display: none;">
-                ఈ ఆల్బమ్‌లో ఇంకా పాటలు ఏవీ చేర్చబడలేదు.
-            </div>
-
-        </div>
-
-        <!-- LYRICS DISPLAY BOX -->
-        <div id="lyrics-box" class="glass-card lyrics-container" style="display: none;">
-            <div class="lyrics-header">
-                <div class="font-controls">
-                    <button onclick="changeFontSize(-2)">A-</button>
-                    <span id="font-size-val">20px</span>
-                    <button onclick="changeFontSize(2)">A+</button>
-                </div>
-                <div class="header-actions">
-                    <button class="present-btn" onclick="startPresentation()" title="Presentation Mode">📺 ప్రెజెంటేషన్</button>
-                    <button class="close-btn" onclick="closeLyrics()">✕</button>
+                <!-- Boys Column -->
+                <div class="choir-column">
+                    <h3 class="category-title">Boys</h3>
+                    <ul>
+                        <li>A. John Deeven</li>
+                        <li>Ch. Charles Finny</li>
+                        <li>G. Vamsi</li>
+                        <li>M. Saroj Kumar</li>
+                        <li>M. Anil Kumar</li>
+                        <li>G. Stephen Anand</li>
+                        <li>P. Josh Welson</li>
+                        <li>I. Ravi Teja</li>
+                        <li>G. Ashish</li>
+                        <li>T. Prem</li>
+                        <li>D. Karthik</li>
+                        <li>D. Vedanta Kumar</li>
+                        <li>D. Abhishek</li>
+                        <li>R. Noah</li>
+                        <li>Ch. Pradeep Kumar</li>
+                        <li>V. Vincent</li>
+                        <li>M. Manoj Kumar</li>
+                        <li>B. Vandan Issac</li>
+                         <li>Janith Prakash</li>
+                        <li>K. Suni Raj</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="lyrics-title-area">
-                <span class="lyrics-badge" id="lyrics-num">Song 01</span>
-                <h2 id="lyrics-telugu-heading">పరిశుద్ధుడా పరమ తండ్రి</h2>
-                <div id="lyrics-english-sub">Parishuddhuda Parama Thandri</div>
-            </div>
+            <div class="credits-divider"></div>
 
-            <div class="gold-divider"></div>
-            <pre id="lyrics-text-content"></pre>
-        </div>
+            <h2 class="section-title">MUSICIANS</h2>
+            
+            <div class="musicians-grid">
+                <div class="musician-card">
+                    <span class="role">KEYS</span>
+                    <p class="name">P. NAVEEN RAJ</p>
+                    <p class="name">B. ASISH KUMAR</p>
+                </div>
 
-        <!-- PRESENTATION MODE OVERLAY -->
-        <div id="pres-overlay" class="pres-overlay" style="display: none;">
-            <div class="pres-header">
-                <span id="pres-slide-counter">Slide 1 / 1</span>
-                <button class="close-pres-btn" onclick="exitPresentation()">✕ నిష్క్రమించు</button>
-            </div>
-            <div class="pres-body" onclick="nextSlide()">
-                <div id="pres-slide-content" class="pres-content">
-                    <div id="pres-telugu-text" class="pres-telugu"></div>
-                    <div id="pres-english-text" class="pres-english"></div>
+                <div class="musician-card">
+                    <span class="role">GUITARS</span>
+                    <p class="name">B. AKASH</p>
+                    <p class="name">D. SUNIL KUMAR</p>
+                </div>
+
+                <div class="musician-card">
+                    <span class="role">RHYTHMS</span>
+                    <p class="name">A. ANVESH</p>
+                    <p class="name">P. SHANNON HAZO</p>
+                </div>
+
+                <div class="musician-card">
+                    <span class="role">BASS GUITAR</span>
+                    <p class="name">K. JAYANTH CHARLES</p>
                 </div>
             </div>
-            <div class="pres-footer">
-                <button class="pres-nav" onclick="prevSlide(event)">❮ వెనుకకు</button>
-                <span id="pres-song-heading">Song Title</span>
-                <button class="pres-nav" onclick="nextSlide(event)">ముందుకు ❯</button>
-            </div>
+        </section>
+
+        <!-- FEEDBACK BUTTON -->
+        <div class="feedback-section">
+            <a href="feedback.html" class="feedback-btn">
+                📝 Feedback
+            </a>
         </div>
 
     </main>
 
+    <!-- PRESENTATION OVERLAY -->
+    <div id="presentation-overlay" class="pres-overlay" style="display: none;">
+
+        <div class="pres-header">
+            <div class="pres-controls">
+
+                <button id="pres-eye-btn"
+                        class="pres-icon-btn"
+                        onclick="toggleTransliteration()"
+                        title="Toggle English Transliteration">
+                    👁️
+                </button>
+
+                <button id="pres-play-btn"
+                        class="pres-icon-btn"
+                        onclick="togglePlayPause()"
+                        title="Pause (Blank Screen)">
+                    ⏸️
+                </button>
+
+                <button id="pres-fullscreen-btn"
+                        class="pres-icon-btn"
+                        onclick="toggleFullscreen()"
+                        title="Toggle Fullscreen">
+                    ⛶
+                </button>
+
+            </div>
+
+            <button class="pres-icon-btn close-pres-btn"
+                    onclick="exitPresentation()"
+                    title="Close Presentation">
+                ✕
+            </button>
+        </div>
+
+        <div class="pres-slide-body" onclick="nextSlide(event)">
+
+            <div id="pres-content"
+                 class="pres-content slide-fade-in">
+                <!-- Lyrics render here -->
+            </div>
+
+        </div>
+
+        <div class="pres-footer">
+
+            <button class="pres-nav-btn"
+                    onclick="prevSlide(event)">
+                ❮
+            </button>
+
+            <div class="pres-info">
+
+                <div id="pres-title"
+                     class="pres-song-title">
+                    Song Title
+                </div>
+
+                <div id="pres-upnext"
+                     class="pres-upnext">
+                    Up next: verse 2
+                </div>
+
+            </div>
+
+            <span id="pres-counter"
+                  class="pres-counter">
+                1 / 1
+            </span>
+
+            <button class="pres-nav-btn"
+                    onclick="nextSlide(event)">
+                ❯
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>United Church, Malkapuram</p>
+        <p>Christian Endeavour Society — Youth Retreat 2026</p>
+
+        <!-- Social Media Handles -->
+        <div class="social-links">
+
+            <a href="https://www.instagram.com/unitedchurch_malkapuram?igsi=bjFhb3k3cmFxbjFi"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="social-btn instagram"
+               title="Follow on Instagram">
+
+                <svg viewBox="0 0 24 24"
+                     width="18"
+                     height="18"
+                     fill="currentColor">
+
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+
+                </svg>
+
+                <span>Instagram</span>
+
+            </a>
+
+
+            <a href="https://youtube.com/@unitedchurch3828?si=6hCxeKMm9TRsQOn7"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="social-btn youtube"
+               title="Watch on YouTube">
+
+                <svg viewBox="0 0 24 24"
+                     width="18"
+                     height="18"
+                     fill="currentColor">
+
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+
+                </svg>
+
+                <span>YouTube</span>
+
+            </a>
+
+        </div>
+
+        <small>Made with ❤️ for God's Glory</small>
+
+    </footer>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
