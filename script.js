@@ -598,10 +598,12 @@ function renderAlbums() {
     activeSongs = [];
 
     if (albumView) {
-        albumView.style.display = "block";
+        albumView.removeAttribute("hidden");
+        albumView.style.display = "";
     }
 
     if (songView) {
+        songView.setAttribute("hidden", "");
         songView.style.display = "none";
     }
 
@@ -615,7 +617,6 @@ function renderAlbums() {
 
     albums.forEach(album => {
         const card = document.createElement("div");
-
         card.className = "album-card";
 
         card.innerHTML = `
@@ -634,7 +635,7 @@ function renderAlbums() {
             <div class="album-arrow">❯</div>
         `;
 
-        card.addEventListener("click", () => {
+        card.addEventListener("click", function () {
             openAlbum(album.id);
         });
 
@@ -642,19 +643,32 @@ function renderAlbums() {
     });
 }
 
+
 function openAlbum(albumId) {
     const album = albums.find(item => item.id === albumId);
 
-    if (!album) return;
+    if (!album) {
+        console.error("Album not found:", albumId);
+        return;
+    }
 
     currentAlbum = album;
     activeSongs = album.songs;
 
+    /*
+     * IMPORTANT:
+     * Do NOT remove or replace albumList.
+     * Do NOT put songs inside album-view.
+     * Simply switch visibility between the two existing sections.
+     */
+
     if (albumView) {
+        albumView.setAttribute("hidden", "");
         albumView.style.display = "none";
     }
 
     if (songView) {
+        songView.removeAttribute("hidden");
         songView.style.display = "block";
     }
 
@@ -671,15 +685,23 @@ function openAlbum(albumId) {
     }
 
     renderSongs(album.songs);
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }
 
+
 function renderSongs(songsToDisplay) {
-    if (!list) return;
+    if (!list) {
+        console.error("song-list element not found");
+        return;
+    }
 
     list.innerHTML = "";
 
-    if (songsToDisplay.length === 0) {
-
+    if (!songsToDisplay || songsToDisplay.length === 0) {
         list.innerHTML = `
             <div class="empty-album">
                 <div class="empty-album-icon">🎶</div>
@@ -687,7 +709,6 @@ function renderSongs(songsToDisplay) {
                 <p>Sunday Service songs can be added here in the future.</p>
             </div>
         `;
-
         return;
     }
 
@@ -726,12 +747,13 @@ function renderSongs(songsToDisplay) {
             <span class="song-arrow">❯</span>
         `;
 
-        div.onclick = () => showLyrics(song);
+        div.addEventListener("click", function () {
+            showLyrics(song);
+        });
 
         list.appendChild(div);
     });
 }
-
 // ==========================================
 // DISPLAY LYRICS & FONT RESIZING
 // ==========================================
