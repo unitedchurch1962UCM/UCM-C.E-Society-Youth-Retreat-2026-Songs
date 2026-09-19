@@ -1,351 +1,1330 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cinzel:wght@700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Ramabhadra&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
+    position: relative;
+    font-family: 'Poppins', 'Ramabhadra', sans-serif;
     min-height: 100vh;
-    background: #060b19 url('bg.png') center/cover no-repeat fixed;
-    color: #ffffff;
-    padding: 20px 10px;
+    padding: 20px 15px;
+    color: white;
+    overflow-x: hidden;
 }
 
-/* Header Styling */
-.main-header {
+/* Blurred Background Layer */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #04080f url("bg.png") center/cover no-repeat;
+    filter: blur(5px);
+    transform: scale(1.05);
+    z-index: -1;
+}
+
+/* ================= HEADER ================= */
+header {
+    max-width: 1100px;
+    margin: 0 auto 30px;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .tagline {
+    color: rgba(255, 255, 255, 0.85);
     font-size: 11px;
-    letter-spacing: 2px;
-    color: #ffd700;
-    margin-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 6px;
+    display: inline-block;
 }
 
-.hero h1 {
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo-wrapper {
+    flex-shrink: 0;
+}
+
+/* Base logo styling */
+.logo {
+    width: 115px;
+    height: 115px;
+    border-radius: 0;
+    object-fit: contain;
+    box-shadow: none;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+/* Left logo: Configured for transparent church-logo-bg.png */
+.left-logo {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    clip-path: none;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.6));
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.hero-text {
+    flex-grow: 1;
+}
+
+.hero-text h1 {
     font-family: 'Cinzel', serif;
-    font-size: 26px;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: 3.5px;
     color: #ffffff;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    line-height: 1.0;
+    margin-top: 0;
 }
 
-.hero h2 {
-    font-size: 13px;
-    color: #cbd5e1;
-    font-weight: 400;
-}
-
-.gold-divider {
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #ffd700, transparent);
-    margin: 10px auto;
-    width: 60%;
+.hero-text h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f0f0f0;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
 }
 
 .gold-heading {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
     color: #ffd700;
-    font-size: 16px;
+    background: linear-gradient(180deg, #fff3a1 0%, #ffd700 50%, #cca010 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 15px rgba(255, 215, 0, 0.3);
+    margin: 2px 0 0px 0;
 }
 
-.hero h4 {
-    font-size: 14px;
-    color: #e2e8f0;
+.hero-text h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
-.theme-box {
+.gold-divider {
+    width: 100%;
+    max-width: 380px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.8), transparent);
+    margin: 4px auto;
+}
+
+.gold-divider.small {
+    max-width: 220px;
+    margin: 4px auto;
+}
+
+/* ================= HEADER THEME & SPEAKER STYLES ================= */
+
+/* Theme Container */
+.theme-container {
     margin-top: 10px;
-    font-size: 12px;
-    color: #ffd700;
-    background: rgba(255, 215, 0, 0.1);
-    display: inline-block;
-    padding: 5px 15px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 215, 0, 0.3);
+    margin-bottom: 14px;
+    text-align: center;
 }
 
-.content-container {
-    max-width: 800px;
+.theme-script-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 2px;
+}
+
+.theme-script-line .line-left,
+.theme-script-line .line-right {
+    height: 1px;
+    width: 60px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.script-text {
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+    color: #ffd700;
+    line-height: 1;
+}
+
+.theme-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.3);
+    margin-top: 2px;
+}
+
+.theme-scripture {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #64b5f6;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+/* Speaker Container */
+.speaker-container {
+    margin-top: 12px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.speaker-badge-script {
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    color: #ffd700;
+    line-height: 1.1;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.speaker-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.speaker-subtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .script-text {
+        font-size: 22px;
+    }
+    
+    .theme-title {
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+
+    .theme-scripture {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+
+    .speaker-badge-script {
+        font-size: 19px;
+    }
+
+    .speaker-name {
+        font-size: 14px;
+    }
+
+    .speaker-subtext {
+        font-size: 9px;
+    }
+}
+/* ================= CONTENT & SEARCH ================= */
+.content {
+    max-width: 780px;
     margin: 0 auto;
 }
 
-/* Glassmorphism Styles */
-.glass-card {
-    background: rgba(15, 23, 42, 0.65);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 215, 0, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
-}
-
-/* Albums Grid Layout */
-.albums-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.glass-album {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 16px;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-.glass-album:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: #ffd700;
-    transform: translateY(-3px);
-}
-
-.glass-album.active {
-    background: rgba(255, 215, 0, 0.15);
-    border-color: #ffd700;
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
-}
-
-.album-icon {
-    font-size: 26px;
-}
-
-.album-details h3 {
-    font-size: 15px;
-    color: #ffffff;
-}
-
-.album-details p {
-    font-size: 11px;
-    color: #94a3b8;
-}
-
-.song-count-badge {
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    background: #ffd700;
-    color: #000;
-    font-size: 10px;
-    font-weight: bold;
-    padding: 2px 7px;
-    border-radius: 10px;
-}
-
-/* Search Bar */
 .search-container {
     position: relative;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 22px;
 }
 
 .search-icon {
     position: absolute;
-    left: 15px;
+    left: 22px;
     top: 50%;
     transform: translateY(-50%);
-    color: #94a3b8;
-}
-
-#searchInput {
-    width: 100%;
-    padding: 12px 15px 12px 42px;
-    background: rgba(15, 23, 42, 0.6);
-    border: 1px solid rgba(255, 215, 0, 0.25);
-    border-radius: 25px;
-    color: white;
-    outline: none;
-    font-size: 14px;
-}
-
-.section-title {
     font-size: 18px;
-    color: #ffd700;
-    margin-bottom: 12px;
+    opacity: 0.8;
 }
 
-/* Songs List */
-.song-list-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 25px;
+#search {
+    width: 100%;
+    padding: 14px 20px 14px 55px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(10, 18, 30, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
 }
 
-.song-card {
-    padding: 14px 18px;
+#search::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#search:focus {
+    border-color: #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.25),
+                inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    background: rgba(10, 18, 30, 0.8);
+}
+
+/* ================= SONG CARDS ================= */
+.song {
+    position: relative;
+    overflow: hidden;
+    margin: 12px 0;
+    padding: 14px 22px;
+    border-radius: 30px;
+    background: rgba(15, 23, 38, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
     cursor: pointer;
-    transition: transform 0.2s, background 0.2s;
+    transition: all 0.25s ease;
 }
 
-.song-card:hover {
-    background: rgba(255, 255, 255, 0.1);
-    transform: translateX(4px);
+.song:hover {
+    background: rgba(22, 36, 58, 0.85);
+    border-color: rgba(255, 215, 0, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255, 215, 0, 0.15);
 }
 
 .song-left {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
 }
 
 .song-badge {
-    background: #ffd700;
-    color: #000;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 4px 8px;
-    border-radius: 6px;
+    background: linear-gradient(135deg, #ffd700, #c8960c);
+    color: #0b2545;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+    flex-shrink: 0;
 }
 
 .song-titles {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 
-.song-telugu {
+.song-title-telugu {
     font-family: 'Ramabhadra', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
     color: #ffffff;
+    line-height: 1.3;
 }
 
-.song-english {
-    font-size: 12px;
+.song-title-english {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     color: #ffd700;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
 }
 
 .song-arrow {
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0.8;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.song:hover .song-arrow {
+    transform: translateX(5px);
     color: #ffd700;
+    opacity: 1;
 }
 
-.no-songs {
-    text-align: center;
-    padding: 20px;
-    color: #94a3b8;
-    font-size: 14px;
+/* ================= LYRICS CARD & CONTROLS ================= */
+#lyrics-box {
+    position: relative;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 24px;
+    background: #f8f6f0;
+    color: #0d2137;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    animation: slideUp 0.35s ease;
 }
 
-/* Lyrics Box */
-.lyrics-container {
-    padding: 20px;
-    margin-top: 15px;
-}
-
-.lyrics-header {
+.lyrics-header-controls {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(11, 37, 69, 0.1);
+    padding-bottom: 12px;
 }
 
-.font-controls button, .header-actions button {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 215, 0, 0.4);
-    color: #ffd700;
+.font-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(11, 37, 69, 0.08);
     padding: 4px 10px;
-    border-radius: 6px;
+    border-radius: 20px;
+}
+
+.font-btn {
+    background: #0b2545;
+    color: #ffffff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    transition: all 0.2s;
 }
 
-.font-controls span {
+.font-btn:hover {
+    background: #ffd700;
+    color: #0b2545;
+}
+
+#font-size-indicator {
     font-size: 12px;
-    margin: 0 5px;
-}
-
-.close-btn {
-    color: #ff5555 !important;
-    border-color: #ff5555 !important;
-}
-
-.lyrics-title-area {
+    font-weight: 600;
+    color: #0b2545;
+    min-width: 35px;
     text-align: center;
 }
 
-.lyrics-badge {
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.present-btn {
     background: #ffd700;
-    color: #000;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 2px 8px;
-    border-radius: 6px;
+    color: #0b2545;
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
 }
 
-.lyrics-title-area h2 {
-    font-family: 'Ramabhadra', sans-serif;
+.present-btn:hover {
+    background: #e6c200;
+    transform: scale(1.1);
+}
+
+.close-btn {
+    background: #102a45;
     color: #ffffff;
-    margin-top: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-#lyrics-english-sub {
+.close-btn:hover {
+    background: #d93838;
+}
+
+.lyrics-title-wrapper {
+    text-align: center;
+}
+
+.lyrics-song-badge {
+    display: inline-block;
+    background: #0b2545;
     color: #ffd700;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+}
+
+#lyrics-box h2 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 32px;
+    color: #0b2545;
+    font-weight: 700;
+}
+
+#lyrics-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #c8960c;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.lyrics-divider {
+    text-align: center;
+    color: #cca010;
+    font-size: 16px;
+    margin: 10px 0 20px;
 }
 
 pre {
     white-space: pre-wrap;
+    word-break: break-word;
     font-family: 'Ramabhadra', sans-serif;
-    line-height: 1.6;
-    color: #f1f5f9;
-    text-align: center;
-    margin-top: 15px;
+    font-size: 21px;
+    line-height: 1.8;
+    color: #1a1a1a;
 }
 
-/* Presentation Mode */
+/* ================= PRESENTATION OVERLAY ================= */
 .pres-overlay {
     position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: #020617;
-    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    z-index: 9999;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
 
-.pres-header, .pres-footer {
+.pres-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    padding-bottom: 10px;
+    z-index: 10;
 }
 
-.close-pres-btn, .pres-nav {
-    background: rgba(255, 215, 0, 0.2);
-    border: 1px solid #ffd700;
-    color: #ffd700;
-    padding: 8px 16px;
-    border-radius: 8px;
+.pres-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.pres-icon-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 18px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
 }
 
-.pres-body {
+.pres-icon-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.05);
+}
+
+.close-pres-btn {
+    background: rgba(217, 56, 56, 0.8);
+}
+
+.close-pres-btn:hover {
+    background: #d93838;
+}
+
+.pres-slide-body {
     flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     cursor: pointer;
+    user-select: none;
+    padding: 20px 10px;
+    width: 100%;
+    min-height: min-content;
+}
+
+.pres-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto 0;
+    transition: opacity 0.3s ease;
+}
+
+.slide-fade-in {
+    animation: fadeTransition 0.45s ease-out forwards;
 }
 
 .pres-telugu {
     font-family: 'Ramabhadra', sans-serif;
-    font-size: 28px;
+    font-size: clamp(24px, 3.8vw, 42px);
+    font-weight: 700;
     color: #ffffff;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+}
+
+.pres-english-trans {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(16px, 2.6vw, 26px);
+    font-weight: 600;
+    color: #ffd700;
+    margin-top: 15px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
+}
+
+.pres-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 12px 25px;
+    border-radius: 35px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+.pres-nav-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pres-nav-btn:hover {
+    background: #ffd700;
+    color: #0b2545;
+}
+
+.pres-info {
+    text-align: center;
+}
+
+.pres-song-title {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.pres-upnext {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 2px;
+}
+
+.pres-counter {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+/* ================= EXECUTIVE & SOCIETY SECTION ================= */
+.executive-section {
+    margin-bottom: 25px;
+}
+
+.exec-group {
+    margin-bottom: 20px;
+    /* Adjusted opacity to 0.70 for subtle background visibility */
+    background: rgba(15, 23, 38, 0.70);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    border-radius: 20px;
+    padding: 22px 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.exec-heading {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffd700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.25);
+    position: relative;
+    display: inline-block;
+}
+
+.exec-heading::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #ffd700, transparent);
+    margin: 6px auto 0;
+}
+
+/* Flexbox layout ensures the single last card (Deevena) centers on the bottom row */
+.exec-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Individual card sizing inside flex layout */
+.exec-card {
+    flex: 1 1 calc(33.333% - 12px);
+    min-width: 180px;
+    max-width: 280px;
+    background: rgba(10, 18, 30, 0.65);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 14px;
+    padding: 14px 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.exec-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 215, 0, 0.6);
+    background: rgba(22, 36, 58, 0.85);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.2);
+}
+
+.exec-name {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.exec-role {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffd700;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Scaling for Mobile */
+@media (max-width: 768px) {
+    .exec-group {
+        padding: 16px 12px;
+    }
+
+    .exec-card {
+        flex: 1 1 calc(50% - 10px);
+        min-width: 130px;
+    }
+
+    .exec-heading {
+        font-size: 17px;
+    }
+
+    .exec-name {
+        font-size: 12.5px;
+    }
+
+    .exec-role {
+        font-size: 11px;
+    }
+}
+
+/* ================= CHOIR & MUSICIANS SECTION ================= */
+.credits-section {
+    margin-top: 40px;
+    padding: 30px 25px;
+    border-radius: 24px;
+    background: rgba(15, 23, 38, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffd700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.25);
+    text-transform: uppercase;
+}
+
+/* Side-by-Side 2-Column Grid layout for Girls and Boys */
+.choir-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    text-align: left;
+}
+
+.choir-column {
+    width: 100%;
+}
+
+.category-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.choir-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.choir-column li {
+    font-size: 13.5px;
+    color: #e0e6ed;
+    padding: 3px 0;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+}
+
+.choir-column li:hover {
+    color: #ffd700;
+}
+
+.credits-divider {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.4), transparent);
+    margin: 30px auto;
+}
+
+.musicians-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.musician-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.musician-card .role {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffd700;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.musician-card .name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 2px 0;
+}
+
+/* ================= FEEDBACK BUTTON ================= */
+.feedback-section {
+    display: flex;
+    justify-content: center;
+    margin: 35px auto 20px;
+}
+
+.feedback-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #1684ff, #625cff);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 15px rgba(22, 132, 255, 0.45), 0 8px 25px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.feedback-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(22, 132, 255, 0.7), 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.feedback-btn:active {
+    transform: translateY(0);
+}
+
+/* ================= FOOTER ================= */
+footer {
+    max-width: 780px;
+    margin: 40px auto 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
     line-height: 1.6;
 }
 
-.pres-english {
-    font-size: 16px;
+footer small {
+    display: block;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ================= SOCIAL MEDIA BUTTONS ================= */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0 10px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.social-btn.instagram:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.social-btn.youtube:hover {
+    background: #ff0000;
+    border-color: #ff0000;
+    color: #ffffff;
+}
+
+/* ================= ANIMATIONS & RESPONSIVE ================= */
+@keyframes fadeTransition {
+    0% {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================= MOBILE OPTIMIZATIONS ================= */
+@media (max-width: 768px) {
+
+    .tagline {
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .left-logo {
+        width: 110px;
+        height: 110px;
+        object-fit: contain;
+        clip-path: none;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    .hero-text h2 {
+        font-size: 12px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .gold-heading {
+        font-size: 26px;
+    }
+
+    .hero-text h4 {
+        font-size: 22px;
+        margin-top: 2px;
+    }
+
+    .song {
+        padding: 12px 16px;
+    }
+
+    .song-title-telugu {
+        font-size: 17px;
+    }
+
+    .song-title-english {
+        font-size: 12px;
+    }
+
+    #lyrics-box {
+        padding: 16px 14px;
+        margin-top: 15px;
+        border-radius: 18px;
+    }
+
+    #lyrics-box h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    #lyrics-subtitle {
+        font-size: 15px;
+    }
+
+    pre {
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+    }
+
+    .lyrics-header-controls {
+        margin-bottom: 12px;
+        padding-bottom: 8px;
+    }
+
+    .font-controls {
+        padding: 2px 8px;
+    }
+
+    .font-btn {
+        width: 26px;
+        height: 26px;
+        font-size: 11px;
+    }
+
+    #font-size-indicator {
+        font-size: 11px;
+        min-width: 30px;
+    }
+
+    .pres-overlay {
+        padding: 12px;
+    }
+
+    .pres-telugu {
+        font-size: 22px;
+    }
+
+    .pres-english-trans {
+        font-size: 16px;
+    }
+
+    .credits-section {
+        padding: 20px 12px;
+    }
+
+    .choir-column li {
+        font-size: 12.5px;
+    }
+
+    .feedback-section {
+        margin: 28px auto 15px;
+    }
+
+    .feedback-btn {
+        width: 90%;
+        max-width: 330px;
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Import Brush / Script Font for Theme & Word of God headers */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@700;800;900&display=swap');
+
+/* ================= THEME & SPEAKER HEADER STYLES ================= */
+.theme-speaker-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Script "Theme" Label */
+.script-label {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
     color: #ffd700;
-    margin-top: 10px;
+    display: block;
+    margin-bottom: -4px;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.4);
+}
+
+/* Bold Metallic "FIND YOUR FREEDOM" Title */
+.theme-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #ffffff 0%, #b0c4de 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+}
+
+.theme-underline {
+    width: 140px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #1684ff, #ffd700, #1684ff, transparent);
+    margin: 6px auto;
+    border-radius: 2px;
+}
+
+/* Scripture Reference */
+.theme-verse {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #ffd700;
+    text-transform: uppercase;
+}
+
+/* ================= THEME & SPEAKER HEADER STYLES (BRIGHT COLOR SCHEME) ================= */
+.theme-speaker-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Script "Theme" Label - Radiant Sky Blue */
+.script-label {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #38bdf8;
+    display: block;
+    margin-bottom: -4px;
+    font-weight: 500;
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+}
+
+/* Bold Metallic Bright Gold "FIND YOUR FREEDOM" Title */
+.theme-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #ffd700;
+    background: linear-gradient(180deg, #ffffff 0%, #ffd700 50%, #ffae00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 20px rgba(255, 215, 0, 0.4);
+    text-transform: uppercase;
+}
+
+.theme-underline {
+    width: 150px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #38bdf8, #ffd700, #38bdf8, transparent);
+    margin: 6px auto;
+    border-radius: 2px;
+}
+
+/* Scripture Reference - Bright Cyan */
+.theme-verse {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #7dd3fc;
+    text-transform: uppercase;
+    text-shadow: 0 2px 8px rgba(56, 189, 248, 0.4);
+}
+
+/* Bright Gold Gradient Brush Badge for "Word of God by" */
+.brush-badge {
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 23px;
+    color: #04080f; /* Dark crisp text inside bright badge */
+    font-weight: 700;
+    background: linear-gradient(135deg, #ffe066, #ffd700, #f59e0b);
+    padding: 3px 24px;
+    border-radius: 20px 4px 20px 4px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+    margin-bottom: 6px;
+}
+
+/* Speaker Name - Pure Crisp White with Gold Glow */
+.speaker-name {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 21px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-shadow: 0 2px 12px rgba(255, 255, 255, 0.3), 0 0 8px rgba(255, 215, 0, 0.2);
+}
+
+/* Speaker Details - Soft Warm Gold */
+.speaker-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fde68a;
+    letter-spacing: 0.8px;
+    margin-top: 2px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .script-label {
+        font-size: 25px;
+    }
+
+    .theme-title {
+        font-size: 25px;
+    }
+
+    .theme-verse {
+        font-size: 11.5px;
+        letter-spacing: 2px;
+    }
+
+    .brush-badge {
+        font-size: 19px;
+        padding: 2px 18px;
+    }
+
+    .speaker-name {
+        font-size: 17px;
+    }
+
+    .speaker-title {
+        font-size: 9.5px;
+    }
 }
