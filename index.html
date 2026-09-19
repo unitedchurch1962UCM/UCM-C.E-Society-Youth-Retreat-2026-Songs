@@ -1,391 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="te">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youth Retreat 2026 | Digital Songbook</title>
-    <!-- Font Imports -->
+    <title>United Church - Digital Songbook 2026</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cinzel:wght@600;700;800;900&family=Great+Vibes&family=Poppins:wght@300;400;500;600;700;800&family=Ramabhadra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&family=Ramabhadra&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ================= HEADER ================= -->
-    <header>
+    <!-- Header Section -->
+    <header class="main-header">
         <div class="tagline">WE PREACH JESUS THE LIVING SAVIOUR</div>
         <div class="hero">
-            <div class="logo-wrapper">
-                <img src="church_logo.png" alt="United Church Logo" class="logo left-logo">
-            </div>
-            <div class="hero-text">
-                <h1>UNITED CHURCH</h1>
-                <h2>MALKAPURAM, VISAKHAPATNAM - 11</h2>
-                <div class="gold-divider"></div>
-                <h3 class="gold-heading">CHRISTIAN ENDEAVOUR SOCIETY</h3>
-                <h4>Youth Retreat 2026</h4>
-            </div>
-            <div class="logo-wrapper">
-                <img src="ce_logo.png" alt="CE Logo" class="logo">
-            </div>
+            <h1>UNITED CHURCH</h1>
+            <h2>MALKAPURAM, VISAKHAPATNAM - 11</h2>
+            <div class="gold-divider"></div>
+            <h3 class="gold-heading">CHRISTIAN ENDEAVOUR SOCIETY</h3>
+            <h4>Youth Retreat 2026</h4>
         </div>
-
-        <!-- Theme & Speaker Container -->
-        <div class="theme-speaker-container">
-            <div>
-                <span class="script-label">Theme</span>
-                <div class="theme-title">FIND YOUR FREEDOM</div>
-                <div class="theme-underline"></div>
-                <div class="theme-verse">GALATIANS 5:1</div>
-            </div>
-
-            <div>
-                <span class="brush-badge">Word of God by</span>
-                <div class="speaker-name">BRO. JOHN CHRISTOPHER</div>
-                <div class="speaker-title">DIRECTOR, RIGHT THEOLOGY FORUM (RTF), HYDERABAD</div>
-            </div>
+        <div class="theme-box">
+            <span class="theme-label">Theme:</span> 
+            <span class="theme-text">FIND YOUR FREEDOM (GALATIANS 5:1)</span>
         </div>
     </header>
 
-    <!-- ================= MAIN CONTENT ================= -->
-    <main class="content">
+    <main class="content-container">
 
-        <!-- Functional Glassmorphism Album Cards -->
-        <div class="album-container">
-            <div class="album-card active" id="album-all" onclick="filterCategory('all', this)">
-                <div class="album-info">
-                    <span class="album-icon">🎶</span>
-                    <div class="album-title">All Songs</div>
-                    <div class="album-subtitle">Complete Song Library</div>
+        <!-- ALBUMS CONTAINER (Glassmorphism Layout) -->
+        <div class="albums-grid">
+            
+            <!-- All Songs Album -->
+            <div class="glass-album active" id="album-all" onclick="selectAlbum('all', this)">
+                <div class="album-icon">🎶</div>
+                <div class="album-details">
+                    <h3>All Songs</h3>
+                    <p>అన్ని పాటల వివరాలు</p>
                 </div>
-                <div class="album-arrow">➔</div>
+                <span class="song-count-badge" id="count-all">0</span>
             </div>
 
-            <div class="album-card" id="album-youth" onclick="filterCategory('youth', this)">
-                <div class="album-info">
-                    <span class="album-icon">🎵</span>
-                    <div class="album-title">Youth Retreat 2026 Songs</div>
-                    <div class="album-subtitle">Digital Songbook & Praise Songs</div>
+            <!-- Youth Retreat 2026 Album -->
+            <div class="glass-album" id="album-youth" onclick="selectAlbum('youth', this)">
+                <div class="album-icon">🎵</div>
+                <div class="album-details">
+                    <h3>Youth Retreat 2026</h3>
+                    <p>యూత్ రిట్రీట్ ప్రత్యేక పాటలు</p>
                 </div>
-                <div class="album-arrow">➔</div>
+                <span class="song-count-badge" id="count-youth">0</span>
             </div>
 
-            <div class="album-card" id="album-sunday" onclick="filterCategory('sunday', this)">
-                <div class="album-info">
-                    <span class="album-icon">⛪</span>
-                    <div class="album-title">Sunday Service Songs</div>
-                    <div class="album-subtitle">Worship & Congregational Hymns</div>
+            <!-- Sunday Service Album -->
+            <div class="glass-album" id="album-sunday" onclick="selectAlbum('sunday', this)">
+                <div class="album-icon">⛪</div>
+                <div class="album-details">
+                    <h3>Sunday Service</h3>
+                    <p>ఆదివారం ఆరాధన పాటలు</p>
                 </div>
-                <div class="album-arrow">➔</div>
+                <span class="song-count-badge" id="count-sunday">0</span>
             </div>
+
         </div>
 
-        <!-- Search Bar -->
+        <!-- Search Container -->
         <div class="search-container">
             <span class="search-icon">🔍</span>
-            <input type="text" id="search" placeholder="Search by song name or number..." onkeyup="searchSongs()">
+            <input type="text" id="searchInput" placeholder="పాట పేరు లేదా నంబర్ ద్వారా వెతకండి..." onkeyup="searchSongs()">
         </div>
 
-        <!-- Song List Container -->
-        <div id="song-list">
-            <!-- Song Card 1 -->
-            <div class="song" data-category="youth" onclick="openLyrics('1', 'పరిశుద్ధుడా పరమ తండ్రి', 'Parishuddhuda Parama Thandri', '1. పరిశుద్ధుడా పరమ తండ్రి నీకే నా స్తుతి స్తోత్రములు\nనా జీవితాంతము వరకు నిన్నే కీర్తింతును\n\nపల్లవి:\nహల్లెలూయా హల్లెలూయా\nఆమేన్ హల్లెలూయా')">
+        <!-- Active Album Heading -->
+        <h2 class="section-title" id="active-album-title">All Songs</h2>
+
+        <!-- SONG LIST CONTAINER -->
+        <div id="song-list" class="song-list-wrapper">
+
+            <!-- Song 1 (Youth Retreat) -->
+            <div class="song-card glass-card" data-category="youth" onclick="openLyrics('01', 'పరిశుద్ధుడా పరమ తండ్రి', 'Parishuddhuda Parama Thandri', '1. పరిశుద్ధుడా పరమ తండ్రి నీకే నా స్తుతి స్తోత్రములు\nనా జీవితాంతము వరకు నిన్నే కీర్తింతును\n\nపల్లవి:\nహల్లెలూయా హల్లెలూయా\nఆమేన్ హల్లెలూయా')">
                 <div class="song-left">
                     <span class="song-badge">Song 01</span>
                     <div class="song-titles">
-                        <span class="song-title-telugu">పరిశుద్ధుడా పరమ తండ్రి</span>
-                        <span class="song-title-english">Parishuddhuda Parama Thandri</span>
+                        <span class="song-telugu">పరిశుద్ధుడా పరమ తండ్రి</span>
+                        <span class="song-english">Parishuddhuda Parama Thandri</span>
                     </div>
                 </div>
                 <span class="song-arrow">➔</span>
             </div>
 
-            <!-- Song Card 2 -->
-            <div class="song" data-category="youth" onclick="openLyrics('2', 'నా జీవితంలో నీవే చాలు', 'Naa Jeevithamlo Neeve Chaalu', '1. నా జీవితంలో నీవే చాలు యేసయ్యా\nఏ కష్టమొచ్చినా నీ వైపే చూసెదన్\n\nపల్లవి:\nయేసే నా మార్గము యేసే నా సత్యము')">
+            <!-- Song 2 (Youth Retreat) -->
+            <div class="song-card glass-card" data-category="youth" onclick="openLyrics('02', 'నా జీవితంలో నీవే చాలు', 'Naa Jeevithamlo Neeve Chaalu', '1. నా జీవితంలో నీవే చాలు యేసయ్యా\nఏ కష్టమొచ్చినా నీ వైపే చూసెదన్\n\nపల్లవి:\nయేసే నా మార్గము యేసే నా సత్యము')">
                 <div class="song-left">
                     <span class="song-badge">Song 02</span>
                     <div class="song-titles">
-                        <span class="song-title-telugu">నా జీవితంలో నీవే చాలు</span>
-                        <span class="song-title-english">Naa Jeevithamlo Neeve Chaalu</span>
+                        <span class="song-telugu">నా జీవితంలో నీవే చాలు</span>
+                        <span class="song-english">Naa Jeevithamlo Neeve Chaalu</span>
                     </div>
                 </div>
                 <span class="song-arrow">➔</span>
             </div>
 
-            <!-- Song Card 3 -->
-            <div class="song" data-category="sunday" onclick="openLyrics('3', 'స్తుతించుడి యెహోవాను', 'Stuthinchudi Yehovaanu', '1. స్తుతించుడి యెహోవాను ఆయన పరిశుద్ధ ఆలయమందు\nఆయన ప్రభావమును ప్రసిద్ధి చేయుడి\n\nపల్లవి:\nస్తుతియు ఘనత మహిమ యుగయుగములు నీకే')">
+            <!-- Song 3 (Sunday Service) -->
+            <div class="song-card glass-card" data-category="sunday" onclick="openLyrics('01', 'స్తుతించుడి యెహోవాను', 'Stuthinchudi Yehovaanu', '1. స్తుతించుడి యెహోవాను ఆయన పరిశుద్ధ ఆలయమందు\nఆయన ప్రభావమును ప్రసిద్ధి చేయుడి\n\nపల్లవి:\nస్తుతియు ఘనత మహిమ యుగయుగములు నీకే')">
                 <div class="song-left">
-                    <span class="song-badge">Song 03</span>
+                    <span class="song-badge">Song 01</span>
                     <div class="song-titles">
-                        <span class="song-title-telugu">స్తుతించుడి యెహోవాను</span>
-                        <span class="song-title-english">Stuthinchudi Yehovaanu</span>
+                        <span class="song-telugu">స్తుతించుడి యెహోవాను</span>
+                        <span class="song-english">Stuthinchudi Yehovaanu</span>
                     </div>
                 </div>
                 <span class="song-arrow">➔</span>
             </div>
+
+            <!-- Empty Album Message -->
+            <div id="no-songs-msg" class="glass-card no-songs" style="display: none;">
+                ఈ ఆల్బమ్‌లో ఇంకా పాటలు ఏవీ చేర్చబడలేదు.
+            </div>
+
         </div>
 
-        <!-- Dynamic Lyrics Box Container -->
-        <div id="lyrics-box" style="display: none;">
-            <div class="lyrics-header-controls">
+        <!-- LYRICS DISPLAY BOX -->
+        <div id="lyrics-box" class="glass-card lyrics-container" style="display: none;">
+            <div class="lyrics-header">
                 <div class="font-controls">
-                    <button class="font-btn" onclick="changeFontSize(-2)">A-</button>
-                    <span id="font-size-indicator">21px</span>
-                    <button class="font-btn" onclick="changeFontSize(2)">A+</button>
+                    <button onclick="changeFontSize(-2)">A-</button>
+                    <span id="font-size-val">20px</span>
+                    <button onclick="changeFontSize(2)">A+</button>
                 </div>
-                <div class="action-buttons">
-                    <button class="present-btn" title="Presentation Mode" onclick="startPresentation()">📺</button>
+                <div class="header-actions">
+                    <button class="present-btn" onclick="startPresentation()" title="Presentation Mode">📺 ప్రెజెంటేషన్</button>
                     <button class="close-btn" onclick="closeLyrics()">✕</button>
                 </div>
             </div>
 
-            <div class="lyrics-title-wrapper">
-                <span class="lyrics-song-badge" id="lyrics-num">Song 01</span>
-                <h2 id="lyrics-title-telugu">పరిశుద్ధుడా పరమ తండ్రి</h2>
-                <div id="lyrics-subtitle">Parishuddhuda Parama Thandri</div>
+            <div class="lyrics-title-area">
+                <span class="lyrics-badge" id="lyrics-num">Song 01</span>
+                <h2 id="lyrics-telugu-heading">పరిశుద్ధుడా పరమ తండ్రి</h2>
+                <div id="lyrics-english-sub">Parishuddhuda Parama Thandri</div>
             </div>
 
-            <div class="lyrics-divider">✦ ✦ ✦</div>
-            <pre id="lyrics-text"></pre>
+            <div class="gold-divider"></div>
+            <pre id="lyrics-text-content"></pre>
         </div>
 
-        <!-- Presentation Mode Overlay -->
+        <!-- PRESENTATION MODE OVERLAY -->
         <div id="pres-overlay" class="pres-overlay" style="display: none;">
             <div class="pres-header">
-                <span class="pres-counter" id="pres-slide-counter">Slide 1 / 1</span>
-                <div class="pres-controls">
-                    <button class="pres-icon-btn close-pres-btn" onclick="exitPresentation()">✕</button>
+                <span id="pres-slide-counter">Slide 1 / 1</span>
+                <button class="close-pres-btn" onclick="exitPresentation()">✕ నిష్క్రమించు</button>
+            </div>
+            <div class="pres-body" onclick="nextSlide()">
+                <div id="pres-slide-content" class="pres-content">
+                    <div id="pres-telugu-text" class="pres-telugu"></div>
+                    <div id="pres-english-text" class="pres-english"></div>
                 </div>
             </div>
-
-            <div class="pres-slide-body" onclick="nextSlide()">
-                <div class="pres-content slide-fade-in" id="pres-slide-content">
-                    <div class="pres-telugu" id="pres-telugu-text"></div>
-                    <div class="pres-english-trans" id="pres-english-text"></div>
-                </div>
-            </div>
-
             <div class="pres-footer">
-                <button class="pres-nav-btn" onclick="prevSlide(event)">❮</button>
-                <div class="pres-info">
-                    <div class="pres-song-title" id="pres-song-heading">Song Title</div>
-                    <div class="pres-upnext" id="pres-upnext-text">Tap anywhere for next slide</div>
-                </div>
-                <button class="pres-nav-btn" onclick="nextSlide(event)">❯</button>
+                <button class="pres-nav" onclick="prevSlide(event)">❮ వెనుకకు</button>
+                <span id="pres-song-heading">Song Title</span>
+                <button class="pres-nav" onclick="nextSlide(event)">ముందుకు ❯</button>
             </div>
-        </div>
-
-        <!-- Executive Committee Section -->
-        <section class="executive-section">
-            <div class="exec-group">
-                <div class="exec-heading">Youth Executive Committee</div>
-                <div class="exec-grid">
-                    <div class="exec-card">
-                        <span class="exec-name">Convener</span>
-                        <span class="exec-role">Bro. Devadas</span>
-                    </div>
-                    <div class="exec-card">
-                        <span class="exec-name">Secretary</span>
-                        <span class="exec-role">Bro. Samson</span>
-                    </div>
-                    <div class="exec-card">
-                        <span class="exec-name">Treasurer</span>
-                        <span class="exec-role">Bro. Anand</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Credits Section -->
-        <section class="credits-section">
-            <div class="section-title">Retreat Choir & Musicians</div>
-            
-            <div class="choir-grid">
-                <div class="choir-column">
-                    <div class="category-title">Soprano & Alto</div>
-                    <ul>
-                        <li>Sister Mary</li>
-                        <li>Sister Grace</li>
-                        <li>Sister Rebecca</li>
-                    </ul>
-                </div>
-                <div class="choir-column">
-                    <div class="category-title">Tenor & Bass</div>
-                    <ul>
-                        <li>Brother David</li>
-                        <li>Brother John</li>
-                        <li>Brother Joshua</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="credits-divider"></div>
-
-            <div class="category-title" style="text-align: center;">Musicians</div>
-            <div class="musicians-grid">
-                <div class="musician-card">
-                    <span class="role">KEYBOARD</span>
-                    <div class="name">Bro. Alex</div>
-                </div>
-                <div class="musician-card">
-                    <span class="role">DRUMS</span>
-                    <div class="name">Bro. Daniel</div>
-                </div>
-                <div class="musician-card">
-                    <span class="role">GUITAR</span>
-                    <div class="name">Bro. Stephen</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Feedback Link -->
-        <div class="feedback-section">
-            <a href="#" class="feedback-btn">
-                <span>💬 Submit Feedback / Song Requests</span>
-            </a>
         </div>
 
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>United Church Christian Endeavour Society © 2026</p>
-        <div class="social-links">
-            <a href="#" class="social-btn instagram">Instagram</a>
-            <a href="#" class="social-btn youtube">YouTube</a>
-        </div>
-        <small>Designed for Youth Retreat 2026</small>
-    </footer>
-
-    <!-- ================= JAVASCRIPT ================= -->
-    <script>
-        let currentFontSize = 21;
-        let activeLyricsText = "";
-        let activeSongTitle = "";
-        let slides = [];
-        let currentSlideIndex = 0;
-
-        // Album Filtering Functionality
-        function filterCategory(category, element) {
-            const albumCards = document.querySelectorAll('.album-card');
-            albumCards.forEach(card => card.classList.remove('active'));
-            if(element) element.classList.add('active');
-
-            const songs = document.querySelectorAll('.song');
-            songs.forEach(song => {
-                const songCat = song.getAttribute('data-category');
-                if (category === 'all' || songCat === category) {
-                    song.style.display = 'flex';
-                } else {
-                    song.style.display = 'none';
-                }
-            });
-        }
-
-        // Live Search Functionality
-        function searchSongs() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const songs = document.querySelectorAll('.song');
-
-            songs.forEach(song => {
-                const text = song.innerText.toLowerCase();
-                if (text.includes(query)) {
-                    song.style.display = 'flex';
-                } else {
-                    song.style.display = 'none';
-                }
-            });
-        }
-
-        // Open Lyrics View
-        function openLyrics(num, titleTel, titleEng, lyrics) {
-            document.getElementById('lyrics-num').innerText = 'Song ' + num.padStart(2, '0');
-            document.getElementById('lyrics-title-telugu').innerText = titleTel;
-            document.getElementById('lyrics-subtitle').innerText = titleEng;
-            
-            const lyricsTextElement = document.getElementById('lyrics-text');
-            lyricsTextElement.innerText = lyrics;
-            lyricsTextElement.style.fontSize = currentFontSize + 'px';
-            
-            activeLyricsText = lyrics;
-            activeSongTitle = titleTel;
-
-            const box = document.getElementById('lyrics-box');
-            box.style.display = 'block';
-            box.scrollIntoView({ behavior: 'smooth' });
-        }
-
-        // Close Lyrics Box
-        function closeLyrics() {
-            document.getElementById('lyrics-box').style.display = 'none';
-        }
-
-        // Font Size Adjustment
-        function changeFontSize(delta) {
-            currentFontSize = Math.min(Math.max(14, currentFontSize + delta), 36);
-            document.getElementById('lyrics-text').style.fontSize = currentFontSize + 'px';
-            document.getElementById('font-size-indicator').innerText = currentFontSize + 'px';
-        }
-
-        // Presentation Mode Mechanics
-        function startPresentation() {
-            if (!activeLyricsText) return;
-
-            // Split lyrics into verse blocks
-            slides = activeLyricsText.split('\n\n').filter(block => block.trim() !== '');
-            currentSlideIndex = 0;
-
-            document.getElementById('pres-song-heading').innerText = activeSongTitle;
-            document.getElementById('pres-overlay').style.display = 'flex';
-            renderSlide();
-        }
-
-        function renderSlide() {
-            if (slides.length === 0) return;
-
-            const slideContent = document.getElementById('pres-slide-content');
-            slideContent.classList.remove('slide-fade-in');
-            void slideContent.offsetWidth; // Trigger reflow for animation reset
-            slideContent.classList.add('slide-fade-in');
-
-            document.getElementById('pres-telugu-text').innerText = slides[currentSlideIndex];
-            document.getElementById('pres-english-text').innerText = document.getElementById('lyrics-subtitle').innerText;
-            document.getElementById('pres-slide-counter').innerText = `Slide ${currentSlideIndex + 1} / ${slides.length}`;
-            
-            const nextIdx = currentSlideIndex + 1;
-            document.getElementById('pres-upnext-text').innerText = nextIdx < slides.length ? 'Tap for next verse' : 'End of song';
-        }
-
-        function nextSlide(e) {
-            if(e) e.stopPropagation();
-            if (currentSlideIndex < slides.length - 1) {
-                currentSlideIndex++;
-                renderSlide();
-            }
-        }
-
-        function prevSlide(e) {
-            if(e) e.stopPropagation();
-            if (currentSlideIndex > 0) {
-                currentSlideIndex--;
-                renderSlide();
-            }
-        }
-
-        function exitPresentation() {
-            document.getElementById('pres-overlay').style.display = 'none';
-        }
-
-        // Keyboard Shortcut Listener for Presentation
-        document.addEventListener('keydown', function(e) {
-            const pres = document.getElementById('pres-overlay');
-            if (pres.style.display === 'flex') {
-                if (e.key === 'ArrowRight' || e.key === 'Space') nextSlide();
-                if (e.key === 'ArrowLeft') prevSlide();
-                if (e.key === 'Escape') exitPresentation();
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
